@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Example Project111</title>
+      <title>Project0</title>
       <link>https://example.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/example/</guid>
@@ -26,7 +26,15 @@
     </item>
     
     <item>
-      <title>External Project</title>
+      <title>Project1</title>
+      <link>https://example.com/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project2</title>
       <link>https://example.com/project/external-project-copy/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy/</guid>
@@ -34,10 +42,10 @@
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://example.com/project/external-project/</link>
+      <title>Project3</title>
+      <link>https://example.com/project/external-project-copy-2/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project/</guid>
+      <guid>https://example.com/project/external-project-copy-2/</guid>
       <description></description>
     </item>
     
