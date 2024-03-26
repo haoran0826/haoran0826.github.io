@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Innovation &amp; Entrepreneurship Training Program for College Students</title>
+      <title>b) Innovation &amp; Entrepreneurship Training Program for College Students</title>
       <link>https://example.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project/</guid>
@@ -21,15 +21,7 @@
     </item>
     
     <item>
-      <title>Machine learning and visual perception</title>
-      <link>https://example.com/project/external-project-copy-8/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Master’s thesis project</title>
+      <title>c) Master’s thesis project</title>
       <link>https://example.com/project/external-project-copy-4/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-4/</guid>
@@ -37,10 +29,18 @@
     </item>
     
     <item>
-      <title>Undergraduate graduation project</title>
+      <title>d) Undergraduate graduation project</title>
       <link>https://example.com/project/external-project-copy-3/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>e) Machine learning and visual perception</title>
+      <link>https://example.com/project/external-project-copy-8/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-8/</guid>
       <description></description>
     </item>
     

@@ -13,31 +13,7 @@
     </image>
     
     <item>
-      <title>Communication Principle</title>
-      <link>https://example.com/project/external-project-copy-7/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronic circuit course design</title>
-      <link>https://example.com/project/external-project-copy-6/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronic system design</title>
-      <link>https://example.com/project/external-project-copy-5/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronic system design</title>
+      <title>f) Electronic system design</title>
       <link>https://example.com/project/external-project-copy/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy/</guid>
@@ -45,10 +21,34 @@
     </item>
     
     <item>
-      <title>Proteus electronic system design and simulation</title>
+      <title>g) Electronic system design</title>
+      <link>https://example.com/project/external-project-copy-5/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>h) Communication Principle</title>
+      <link>https://example.com/project/external-project-copy-7/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i) Proteus electronic system design and simulation</title>
       <link>https://example.com/project/external-project-copy-9/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>j) Electronic circuit course design</title>
+      <link>https://example.com/project/external-project-copy-6/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-6/</guid>
       <description></description>
     </item>
     

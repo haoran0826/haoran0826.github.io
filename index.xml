@@ -53,6 +53,15 @@
     </item>
     
     <item>
+      <title>Program about Artificial Intelligence and Machine Learning</title>
+      <link>https://example.com/publication/journal-article-copy/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article-copy/</guid>
+      <description>&lt;p&gt;Please view the PDF for Certificate.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>BSc in Electronic Information Engineering</title>
       <link>https://example.com/publication/journal-article/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
@@ -264,7 +273,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-217648539&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-678592413&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -274,7 +283,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-217648539&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-678592413&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -680,7 +689,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Chinese Academy of Sciences</title>
+      <title>a) Chinese Academy of Sciences</title>
       <link>https://example.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/example/</guid>
@@ -693,39 +702,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Communication Principle</title>
-      <link>https://example.com/project/external-project-copy-7/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronic circuit course design</title>
-      <link>https://example.com/project/external-project-copy-6/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronic system design</title>
-      <link>https://example.com/project/external-project-copy-5/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronic system design</title>
-      <link>https://example.com/project/external-project-copy/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Innovation &amp; Entrepreneurship Training Program for College Students</title>
+      <title>b) Innovation &amp; Entrepreneurship Training Program for College Students</title>
       <link>https://example.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project/</guid>
@@ -733,15 +710,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Machine learning and visual perception</title>
-      <link>https://example.com/project/external-project-copy-8/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Master’s thesis project</title>
+      <title>c) Master’s thesis project</title>
       <link>https://example.com/project/external-project-copy-4/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-4/</guid>
@@ -749,7 +718,47 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Proteus electronic system design and simulation</title>
+      <title>d) Undergraduate graduation project</title>
+      <link>https://example.com/project/external-project-copy-3/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>e) Machine learning and visual perception</title>
+      <link>https://example.com/project/external-project-copy-8/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>f) Electronic system design</title>
+      <link>https://example.com/project/external-project-copy/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>g) Electronic system design</title>
+      <link>https://example.com/project/external-project-copy-5/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>h) Communication Principle</title>
+      <link>https://example.com/project/external-project-copy-7/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>i) Proteus electronic system design and simulation</title>
       <link>https://example.com/project/external-project-copy-9/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-9/</guid>
@@ -757,10 +766,10 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Undergraduate graduation project</title>
-      <link>https://example.com/project/external-project-copy-3/</link>
+      <title>j) Electronic circuit course design</title>
+      <link>https://example.com/project/external-project-copy-6/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-3/</guid>
+      <guid>https://example.com/project/external-project-copy-6/</guid>
       <description></description>
     </item>
     
@@ -773,15 +782,6 @@ $$&lt;/p&gt;
 &lt;p&gt;Place the notebooks that you would like to publish in a &lt;code&gt;notebooks&lt;/code&gt; folder at the root of your website.&lt;/p&gt;
 &lt;h2 id=&#34;organize-your-notebooks-1&#34;&gt;Organize your notebooks&lt;/h2&gt;
 &lt;p&gt;The notebooks will be published to the folder you specify above. In this case, they will be published to your &lt;code&gt;content/post/&lt;/code&gt; folder.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Program about Artificial Intelligence and Machine Learning</title>
-      <link>https://example.com/publication/journal-article-copy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/journal-article-copy/</guid>
-      <description>&lt;p&gt;Please view the PDF for Certificate.&lt;/p&gt;
 </description>
     </item>
     
