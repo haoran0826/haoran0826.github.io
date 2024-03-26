@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Project0</title>
+      <title>Chinese Academy of Sciences</title>
       <link>https://example.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/example/</guid>
@@ -26,15 +26,31 @@
     </item>
     
     <item>
-      <title>Project1</title>
-      <link>https://example.com/project/external-project/</link>
+      <title>Communication Principle</title>
+      <link>https://example.com/project/external-project-copy-7/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project/</guid>
+      <guid>https://example.com/project/external-project-copy-7/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Project2</title>
+      <title>Electronic circuit course design</title>
+      <link>https://example.com/project/external-project-copy-6/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electronic system design</title>
+      <link>https://example.com/project/external-project-copy-5/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electronic system design</title>
       <link>https://example.com/project/external-project-copy/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy/</guid>
@@ -42,10 +58,42 @@
     </item>
     
     <item>
-      <title>Project3</title>
-      <link>https://example.com/project/external-project-copy-2/</link>
+      <title>Innovation &amp; Entrepreneurship Training Program for College Students</title>
+      <link>https://example.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-2/</guid>
+      <guid>https://example.com/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning and visual perception</title>
+      <link>https://example.com/project/external-project-copy-8/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Master’s thesis project</title>
+      <link>https://example.com/project/external-project-copy-4/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proteus electronic system design and simulation</title>
+      <link>https://example.com/project/external-project-copy-9/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Undergraduate graduation project</title>
+      <link>https://example.com/project/external-project-copy-3/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-3/</guid>
       <description></description>
     </item>
     
