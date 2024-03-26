@@ -1019,7 +1019,56 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.</p>
+      <h1 id="project-specification">Project Specification</h1>
+<p>Cardiovascular disease (CVD) is well recognized as the leading cause of death and a significant danger to global public health. In 2016, the World Health Organization reported that CVD was responsible for 31% of all annual deaths, totaling over 18 million individuals, with a continuous increase each year [1]. Recently, the medical field has consistently worked to decrease the death rate from heart illness and enhance the diagnosis of cardiac conditions.</p>
+<p>Mammalian models, including pigs, non-human primates, and rodents, have been primarily utilized to study the processes of heart disease. Conversely, there is a growing trend to decrease the utilization of mammals for research purposes and implement alternative models.
+Zebrafish have emerged as a robust model for investigating heart development and morphology based on recent advancements, because Zebrafish are tiny, easy to breed, reach sexual maturity early, and have external translucent embryo development for easy viewing [2]. The cardiovascular system of zebrafish is similar to that of mammals in terms of anatomy and physiological function. The heart of zebrafish is also composed of atria and ventricle, with the valve between the atria and the ventricle. The development and gene regulation mechanism of the heart are also similar to human [3]. Although the zebrafish heart is relatively simple compared to mammals, most specialized cell types and structures (e.g., pacemaker, atrioventricular valve, aortic valve, trabeculae, and coronary vessels) and contributing cell types (myocardium, endocardium, epicardium, cardiac neural crest, second heart field, and fibroblasts) are preserved [4].</p>
+<p>At the same time, more advanced imaging methods in medical image can also promote the advancement of cardiovascular diagnosis and research. For example, with the help of advanced technologies such as light-sheet fluorescence microscopy (LSFM) (as shown in Figure 1(a)), medical researchers can obtain higher quality and resolution cardiac images. Unlike traditional epifluorescence microscopy (as shown in Figure 1(b)), LSFM uses orthogonal independent excitation and detection light paths to thinly illuminate the sample from the side, excite only the fluorescence in the sample, and then detect the image in the orthogonal direction [5]. This method effectively avoids the impact of out-of-focus background on image quality, improves imaging contrast, and makes in-depth research and accurate diagnosis of heart disease possible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/yLUxDISadWnzYQK.jpg" alt="6.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+The application of LSFM mainly focuses on three aspects: cell biology [7]‌, developmental biology [8] and neuroscience [9]. As the first functional organ formed during mammalian embryonic development, the heart is a key driving force for the development of other tissues and organs. In order to better understand cardiac morphogenesis and to more effectively treat cardiovascular diseases, many researchers use this microscope to study the heart. Yue et al. used light-sheet imaging technology to reconstruct the whole cell lineage with single-cell resolution and temporal continuity [10]. They reported for the first time a panoramic view of the cell lineage during the early development of the mammalian heart, revealing the process from the origin of the heart tube to the establishment of the ventricle, and then to a new mechanism of cellular dynamics of myotrabecular formation; Lovelace et al. used the HYBRiD tissue clearing method and high-resolution light sheet microscopy to observe the distribution of a large number of NPY2R VSN fibers in the ventricular wall, providing an intuitive experimental model for in-depth exploration of cardiac sensory neurons in physiological and pathological states [11].</p>
+<p>Cardiac image segmentation is a critical step in processing cardiac images. With the continuous advancement of deep learning algorithms, it has become possible to divide images into anatomically meaningful regions and extract quantitative measurements from them. However, although deep learning has better feature recognition and extraction capabilities than traditional methods, medical image segmentation poses significant challenges due to the complexity of medical images, such as class imbalance, interference from neighboring organs, lack of high-quality annotations, and label noise. Over the years, segmentation algorithms based on models such as convolutional neural networks (CNN) [12] and fully convolutional networks (FCN) [13] have continued to advance.</p>
+<p>This project aims to develop a data analysis pipeline to segment normal and pathological hearts based on their 3D morphological changes. First, this project will develop an image analysis method to reconstruct 2D time series into 4D data and robustly quantify the 3D morphology of the heart using the large 2D imaging data set collected by the Vermot Laboratory. Subsequently, the project will develop and train a segmentation network based on deep learning to identify cell nuclei and track position based on time changes, thereby achieving 3D image segmentation of large image stacks.</p>
+<p>The project is based on several key assumptions:</p>
+<p>It is assumed that a 4D representation of the endocardium can be accurately reconstructed from the available 2D data and that this 4D representation allows us to perform an analysis of endocardial deformation.</p>
+<p>It is assumed that imaging conditions (e.g., light intensity, temperature, and sample handling) have been optimized and controlled not to affect the volume and movement of nuclei within cardiac tissue.</p>
+<p>These basic assumptions will serve as the basis for this project.</p>
+<h1 id="references">References</h1>
+<p>[1] <a href="https://www.who.int" target="_blank" rel="noopener">www.who.int</a>. (n.d.). Cardiovascular diseases (CVDs). [online] Available at: <a href="https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-%28cvds%29" target="_blank" rel="noopener">https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)</a>.‌</p>
+<p>[2] Kemmler, C.L., Riemslagh, F.W., Moran, H.R. and Mosimann, C. (2021). From Stripes to a Beating Heart: Early Cardiac Development in Zebrafish. Journal of Cardiovascular Development and Disease, [online] 8(2), p.17. doi:https://doi.org/10.3390/jcdd8020017.</p>
+<p>[3] Brown, D., Samsa, L., Qian, L. and Liu, J. (2016). Advances in the Study of Heart Development and Disease Using Zebrafish. Journal of Cardiovascular Development and Disease, [online] 3(2), p.13. doi:https://doi.org/10.3390/jcdd3020013.</p>
+<p>[4] Bowley, G., Kugler, E., Wilkinson, R., Lawrie, A., Eeden, F., Chico, T.J.A., Evans, P.C., Noël, E.S. and Serbanovic‐Canic, J. (2021). Zebrafish as a tractable model of human cardiovascular disease. British Journal of Pharmacology, 179(5), pp.900–917. doi:https://doi.org/10.1111/bph.15473.‌</p>
+<p>[5] Jianshu. (2017). Science Technology Review: Photoacoustic Imaging. [online] Available at: <a href="https://www.jianshu.com/p/a1fae8c482fa" target="_blank" rel="noopener">https://www.jianshu.com/p/a1fae8c482fa</a> [Accessed 28 Feb. 2024].</p>
+<p>[6] skltop.opt.ac.cn. (n.d.). [Cover] Yao Baoli: Long-term three-dimensional imaging of living samples—Light-sheet fluorescence microscopy—State Key Laboratory of Transient Optics and Photonics Technology. [online ] Available at: <a href="https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html" target="_blank" rel="noopener">https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html</a> [Accessed 24 Feb. 2024].‌</p>
+<p>[7] Chen, B.-C., Legant, W.R., Wang, K., Shao, L., Milkie, D.E., Davidson, M.W., Janetopoulos, C., Wu, X.S., Hammer, J.A., Liu, Z., English, B.P., Mimori-Kiyosue, Y., Romero, D.P., Ritter, A.T., Lippincott-Schwartz, J., Fritz-Laylin, L., Mullins, R.D., Mitchell, D.M., Bembenek, J.N. and Reymann, A.-C. (2014). Lattice light-sheet microscopy: Imaging molecules to embryos at high spatiotemporal resolution. Science, 346(6208), p.1257998. doi:https://doi.org/10.1126/science.1257998.</p>
+<p>[8] Stelzer, E.H.K. (2014). Light-sheet fluorescence microscopy for quantitative biology. Nature Methods, 12(1), pp.23–26. doi:https://doi.org/10.1038/nmeth.3219.</p>
+<p>[9] Gao, R., Asano, S.M., Upadhyayula, S., Pisarev, I., Milkie, D.E., Liu, T.-L., Singh, V., Graves, A., Huynh, G.H., Zhao, Y., Bogovic, J., Colonell, J., Ott, C.M., Zugates, C., Tappan, S., Rodriguez, A., Mosaliganti, K.R., Sheu, S.-H., Pasolli, H.A. and Pang, S. (2019). Cortical column and whole-brain imaging with molecular contrast and nanoscale resolution. Science, 363(6424), p.eaau8302. doi:https://doi.org/10.1126/science.aau8302.</p>
+<p>[10] Yue, Y., Zong, W., Li, X., Li, J., Zhang, Y., Wu, R., Liu, Y., Cui, J., Wang, Q., Bian, Y., Yu, X., Liu, Y., Tan, G., Zhang, Y., Zhao, G., Zhou, B., Chen, L., Xiao, W., Cheng, H. and He, A. (2020). Long-term, in toto live imaging of cardiomyocyte behaviour during mouse ventricle chamber formation at single-cell resolution. Nature Cell Biology, 22(3), pp.332–340. doi:https://doi.org/10.1038/s41556-020-0475-2.</p>
+<p>[11] Lovelace, J.W., Ma, J., Yadav, S., Chhabria, K., Shen, H., Pang, Z., Qi, T., Sehgal, R., Zhang, Y., Bali, T., Vaissiere, T., Tan, S., Liu, Y., Rumbaugh, G., Ye, L., Kleinfeld, D., Stringer, C. and Augustine, V. (2023). Vagal sensory neurons mediate the Bezold–Jarisch reflex and induce syncope. Nature, [online] pp.1–10. doi:https://doi.org/10.1038/s41586-023-06680-7.</p>
+<p>[12] Jaswal, D., V, S. and Soman, K.P. (2014). Image Classification Using Convolutional Neural Networks. International Journal of Scientific and Engineering Research, 5(6), pp.1661–1668. doi:https://doi.org/10.14299/ijser.2014.06.002‌</p>
+<p>[13] Long, J., Shelhamer, E. and Darrell, T. (2015). Fully convolutional networks for semantic segmentation. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). [online] doi:https://doi.org/10.1109/cvpr.2015.7298965.</p>
+<p>‌</p>
+<p>‌
+‌</p>
 
     </div>
 
@@ -1031,7 +1080,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/demo1/">Demo1</a>
+  <a class="badge badge-light" href="/tag/masters-thesis-project/">Master’s Thesis Project</a>
   
 </div>
 
