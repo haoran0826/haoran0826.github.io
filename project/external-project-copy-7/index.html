@@ -1019,15 +1019,15 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h1 id="i-functionality">I. Functionality</h1>
-<h2 id="transmitter-side">Transmitter Side:</h2>
+      <h3 id="i-functionality">I. Functionality</h3>
+<h4 id="transmitter-side">Transmitter Side:</h4>
 <p>The user inputs the mathematical expression to be calculated through buttons.  The expression can include basic operations such as addition, subtraction, multiplication, and division (complex calculations can be added similarly). Then, the process of Encoding → Modulating → Sending is executed. After sending, the device immediately enters a waiting mode, awaiting a response from the receiver side.</p>
-<h2 id="receiver-side">Receiver Side:</h2>
+<h4 id="receiver-side">Receiver Side:</h4>
 <p>The receiver side is in a waiting state from the start. Upon receiving a signal, it automatically performs demodulation, calculation, encoding, modulation, and then sends a response.</p>
-<h2 id="other-buttons">Other Buttons:</h2>
+<h4 id="other-buttons">Other Buttons:</h4>
 <p>The &ldquo;Carrier 1&rdquo; and &ldquo;Carrier 2&rdquo; buttons can display the waveform of the carrier on the right side of the image. The processes of encoding, modulation, and reception will be shown on the waveform graph on the right side, displaying the time-domain waveform. The introduction button provides a simple explanation of the principles. The &ldquo;stop&rdquo; button is used to interrupt detection, and the &ldquo;out&rdquo; button is used to exit this window.</p>
-<h1 id="ii-principle-and-implementation">II. Principle and implementation</h1>
-<h2 id="encoding">Encoding</h2>
+<h3 id="ii-principle-and-implementation">II. Principle and implementation</h3>
+<h5 id="encoding">Encoding</h5>
 <ol>
 <li>Source Encoding:</li>
 </ol>
@@ -1042,7 +1042,7 @@
 <p>The purpose of frame synchronization is to determine the sampling moments for each bit. The frame synchronization code here is used to inform the receiving end when the valid information begins and to establish the starting moment for sampling. Barker codes, with their sharp autocorrelation peak, facilitate identification and minimize the likelihood of false synchronization. The receiver&rsquo;s identification method is also simple, hence the choice of Barker codes as the true synchronization codes.</p>
 <p>Given the variable length of the information bits transmitted in this system, the receiver cannot determine when to end sampling, so a Barker code is also added at the end to accurately extract the middle information bits. The role of the protection code is to</p>
 <p>provide energy variation for the receiver to detect energy changes, and to prevent the delay in calculation from omitting useful information bits, offering the computer a buffer time.</p>
-<h2 id="modulation">Modulation</h2>
+<h4 id="modulation">Modulation</h4>
 <p>The modulation method is 2FSK.</p>
 <ol>
 <li>
@@ -1059,7 +1059,7 @@ fs=100Hz and each bit is expanded to 80 samples (8000/80 = 100Hz). The normalize
 <p>The modulation method involves modulating each bit (before expansion) into 80 points (corresponding to a sampling frequency of 8000, or 100Hz). If a bit is 1, then a 2000Hz sine wave repeating 20 times is used as the modulation waveform (2000/20=100Hz); if a bit is 0, then a 1000Hz sine wave repeating 10 times is used (1000/10=100Hz).</p>
 </li>
 </ol>
-<h2 id="reception-and-demodulation">Reception and Demodulation</h2>
+<h4 id="reception-and-demodulation">Reception and Demodulation</h4>
 <p>It is important to note that the steps for demodulation are the reverse of those for modulation and correspond one-to-one.</p>
 <ol>
 <li>The reception uses an energy detection method, which is simply a process of multiplying corresponding elements of matrices and summing them up to check if they reach a threshold value.</li>

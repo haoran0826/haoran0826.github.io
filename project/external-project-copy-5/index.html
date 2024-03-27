@@ -1019,12 +1019,12 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="1-design-description">1. Design description:</h2>
+      <h3 id="design-description">Design description:</h3>
 <p>The basic function of this design is to collect temperature and humidity, then collect light intensity (as the input signal part), and then display these three values on the digital tube (as the output signal part). Then set the upper limit value in the program, and the buzzer will alarm when the upper limit value is exceeded.</p>
 <p>In the simulation part, a light bulb and a photoresistor are used to simulate a light sensor. The voltage across the photoresistor is obtained to represent the light intensity. Then an operational amplifier is used to make the change in light intensity and voltage within a certain range have a linear relationship. At this time, the light obtained Strong is just an analog value, which is then input to the PF0 port of ATmega64 for the next step of analog-to-digital conversion; in addition, similar to the photosensitive part, the temperature sensitive part uses a light bulb plus a thermosensitive resistor to simulate the temperature sensor; the humidity part uses pulse voltage frequency simulation Humidity, the humidity value we obtain at this time is already a digital quantity, which can be directly input into the PD6 port of ATmega64. The quantities we input will be used for subsequent display on the LM016L and for alarming when the set threshold is exceeded.</p>
 <p>In addition, in the output part, we use LM016L for display, which displays digital quantities, and then switches the display and sets the alarm threshold through buttons.</p>
 <p>For the working voltage part, except the buzzer alarm which uses DC +12V voltage, the rest uses the DC +5V voltage output by LM7805. Then the working voltage of ATmega64 is 4.5V to 5.5V, the working voltage of temperature and humidity sensor is 5V, the maximum working voltage of photodiode is generally 10 to 50V, the best working voltage of LM016L module is 5V, whichever of the above devices can work The voltage is 5V as the supply voltage. And due to the limitations of the device LM016L, the operating current is 2mA.</p>
-<h2 id="2-electrical-schematic-diagram">2. Electrical schematic diagram:</h2>
+<h3 id="electrical-schematic-diagram">Electrical schematic diagram:</h3>
 <p>
 
 
@@ -1046,7 +1046,7 @@
     <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/1oRed6YiyKL5gED.jpg" alt="7.jpg" loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<h2 id="3-printed-board-diagram">3. Printed board diagram:</h2>
+<h3 id="printed-board-diagram">Printed board diagram:</h3>
 <p>
 
 

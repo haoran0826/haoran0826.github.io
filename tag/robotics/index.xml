@@ -17,7 +17,7 @@
       <link>https://example.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/example/</guid>
-      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&amp;rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.&lt;/p&gt;
 </description>
     </item>
