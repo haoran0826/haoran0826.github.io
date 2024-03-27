@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: March 26, 2024 --><html lang="en-us" >
+<!-- Last Published: March 27, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -279,7 +279,7 @@
 
   
 
-<meta name="description" content="Temperature and humidity alarm &amp; light intensity display" />
+<meta name="description" content="Digital Synthesizer" />
 
 
 
@@ -326,8 +326,8 @@
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Academic" />
 <meta property="og:url" content="https://example.com/project/external-project-copy-9/" />
-<meta property="og:title" content="i) Proteus electronic system design and simulation | Academic" />
-<meta property="og:description" content="Temperature and humidity alarm &amp; light intensity display" /><meta property="og:image" content="https://example.com/project/external-project-copy-9/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="i) Electronic system design and simulation | Academic" />
+<meta property="og:description" content="Digital Synthesizer" /><meta property="og:image" content="https://example.com/project/external-project-copy-9/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -362,7 +362,7 @@
     "@type": "WebPage",
     "@id": "https://example.com/project/external-project-copy-9/"
   },
-  "headline": "i) Proteus electronic system design and simulation",
+  "headline": "i) Electronic system design and simulation",
   
   "image": [
     "https://example.com/project/external-project-copy-9/featured.jpg"
@@ -384,7 +384,7 @@
       "url": "https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Temperature and humidity alarm \u0026 light intensity display"
+  "description": "Digital Synthesizer"
 }
 </script>
 
@@ -406,7 +406,7 @@
 
 
   
-  <title>i) Proteus electronic system design and simulation | Academic</title>
+  <title>i) Electronic system design and simulation | Academic</title>
 
   
   
@@ -923,7 +923,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>i) Proteus electronic system design and simulation</h1>
+  <h1>i) Electronic system design and simulation</h1>
 
   
 
@@ -1019,7 +1019,181 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.</p>
+      <p>I was particularly engaged by the electronic system design courses, since I could build up my practical capability and build on the theoretical. We also the used single chip microcomputer 80C51F020 to generate a digital sine wave that could control the amplitude and frequency changes via keyboard and output stable sine wave by 12-bit DAC. From the design and simulation of the hardware circuit, to the layout and welding of the circuit board, and then to the design and debugging of the software part of the MCU, we designed a digital synthesis signal device.</p>
+<h1 id="synopsis-of-digital-synthesizer-creation">Synopsis of Digital Synthesizer Creation</h1>
+<h2 id="objective-and-innovation">Objective and Innovation:</h2>
+<p>At the core of this endeavor was the ambition to construct a digital synthesizer capable of generating sine waves, with enhanced user control over amplitude and frequency modulation. The project&rsquo;s cornerstone was the adept use of the 80C51F020 microcontroller, showcasing an astute application of digital-to-analog conversion techniques to engineer precise and adjustable electronic signals.</p>
+<h1 id="technical-mastery-and-application">Technical Mastery and Application</h1>
+<h2 id="signal-range-and-modulation">Signal Range and Modulation:</h2>
+<p>The project&rsquo;s specification to adjust signal frequencies between 1Hz to 100Hz, alongside amplitude variations from 0.3V to 3Vp-p, demonstrates a rigorous and calculated approach to electronic signal manipulation. This precision underscores the team&rsquo;s dedication to creating adaptable and user-centric electronic solutions.</p>
+<h2 id="microcontroller-utilization">Microcontroller Utilization:</h2>
+<p>Employing the C8051F020&rsquo;s 12-bit DAC was a strategic choice, spotlighting the project&rsquo;s innovative use of microcontroller capabilities to ensure signal accuracy. This decision reflects a harmonious fusion of software-driven logic with the tangible dynamics of hardware execution.</p>
+<h1 id="convergence-of-hardware-and-software-design">Convergence of Hardware and Software Design</h1>
+<h2 id="comprehensive-system-development">Comprehensive System Development:</h2>
+<p>The project narrative delineates the transition from conceptual circuit design to the practical assembly and detailed microcontroller software debugging. This extensive process underscores the team&rsquo;s proficiency in electronic system realization, encompassing a broad spectrum of engineering skills.</p>
+<h2 id="advanced-signal-processing">Advanced Signal Processing:</h2>
+<p>Utilizing MATLAB for generating sine wave samples and their quantization for DAC implementation is indicative of an advanced approach to signal processing. This methodology bridges theoretical concepts with real-world technological applications, enriching the project&rsquo;s technical depth.</p>
+<h1 id="design-requirements-function-and-indicator-description">Design requirements (function and indicator description)</h1>
+<ol>
+<li>Signal frequency range: 1Hz-100Hz; step: 1Hz; accuracy: +/-5% (the above indicators are measured at room temperature)</li>
+<li>Signal amplitude: 0.3V-3Vp-p; step: 0.1V; accuracy: +/-10% (the above indicators are measured at room temperature)</li>
+<li>Load capacity: can drive 10 ohm pure group load</li>
+<li>Frequency and amplitude can be displayed through LED digital tube (can be displayed alternately through indicator lights)</li>
+<li>Effective when the keyboard is raised</li>
+</ol>
+<h1 id="system-hardware-schematic-diagram">System hardware schematic diagram</h1>
+<p>The following figure shows the simulation schematic diagram on Tina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/O4shf9ECuUZPRji.jpg" alt="9.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h1 id="key-technical-points-of-hardware-modules">Key technical points of hardware modules</h1>
+<h2 id="dac-module">DAC module</h2>
+<p>This experiment uses C8051F020 built-in 12-bit voltage output DAC, which has the following main features:</p>
+<pre><code>The voltage reference of each DAC is provided at the VREFD or VREF pin.
+
+Each DAC has a flexible output update mechanism that allows seamless full-scale changes and supports jitter-free output updates.
+
+The data and control interface between the MCU and each comparator and DAC are implemented through special registers
+</code></pre>
+<p>The main indicators of DAC: 12bit resolution:</p>
+<pre><code>Output setup time: 10us
+
+Output voltage range: 0~VREF-1LSB
+
+Output short circuit current: 15mA
+</code></pre>
+<p>And we tried to use Tina simulation software to build a DAC module that can output stepped sine waves, so that we can verify the feasibility of subsequent modules on the software, especially the quality of the filtering effect.</p>
+<h2 id="filter-module">Filter module</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/bzpsqN2tVjuGJAP.jpg" alt="10.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+Generate a second-order Bessel low-pass filter through filter pro, and the parameter settings are as shown in the figure below.</p>
+<p>This circuit module generates a clock signal, DACO generates a ladder signal, inputs an eighth-order ladder wave through DACO, and CLK inputs a clock signal of 100:1 (clock signal frequency: sinusoidal signal frequency) to achieve the function of the filter.</p>
+<p>(1) The signal frequency is adjustable.
+The signal frequency is controlled by changing the frequency of the ladder signal generated by DACO and changing the frequency of the signal in the CLK generation formula through program control. The highest frequency output that can be achieved is 2000Hz, and it has stable frequency output.</p>
+<p>(2) Signal phase modulation.</p>
+<p>By selecting the DACO phase to output, digital phase modulation is achieved. The 0 phase is used when the number is 0 and the T phase is used when the number is 1.</p>
+<h2 id="power-amplifier-module">Power amplifier module</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/hE6OuMApUNWHior.jpg" alt="11.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+A DC-blocking capacitor C4 is added before the power amplifier module to prevent the filter module and the power amplifier from affecting each other. , in order to prevent the base current from being too large and burning the transistor due to too small resistance, a 40k protection resistor is connected in series. The static operating current is determined by adjusting the resistance of this series resistor.</p>
+<p>The function of the C5 and C4 capacitors is to isolate the DC path and allow AC to pass. The signal amplified by the transistor is coupled to R5 and R7 through C5, where test points are set for output testing. Due to the presence of R5, there will be a certain emitter voltage.</p>
+<h2 id="single-power-supply">Single power supply</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/YRwd5IVh1yurUHq.jpg" alt="12.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+Dual power supply is suitable for AC signals to pass through, while single power supply is more suitable for unipolar (DC). However, considering the laboratory facilities and other reasons, the following processing can make it suitable for AC signals.</p>
+<p>R4 and R2 divide the voltage to obtain 1/2 V+. This voltage is added to the input terminal of the op amp. Since C1 is equivalent to an open circuit under DC conditions, this 1/2 V+ only obtains a single gain. The output terminal of the op amp That is, the same voltage is obtained. Capacitors are used at the output for AC coupling.</p>
+<p>When an AC signal is input, the output of the op amp forms a corresponding AC signal with 1/2 V+ as the baseline, and this AC signal can gain gain.
+Therefore, the single-supply power supply tries to establish 1/2 of V+ to obtain a single gain from the DC, and uses capacitors at the output for AC coupling so that it can also be suitable for AC signals.</p>
+<h1 id="system-software-block-diagram-and-overview">System software block diagram and overview</h1>
+<h2 id="software-flow-chart">Software flow chart:</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/thJS1DaUprzZ3my.jpg" alt="13.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="system-software-overview">System software overview:</h2>
+<p>This system is based on the signal waveform generator of the C8051F020 microcontroller. It uses the DAC0 of the microcontroller to control the output voltage. It uses timer 0, working mode 1, and a 16-bit timer. The count value of the timer is reloaded every time it is interrupted, and the timer is reloaded according to the advance settings. A certain sine wave sampling array is used to change the DAC0 output to obtain a sine waveform, and then the final waveform is obtained through hardware circuit filtering and power amplifier.</p>
+<p>①Generate sine wave sampling array</p>
+<p>We use MATLAB to obtain sine wave sampling data within a period. In order to normalize the amplitude, we first set the sine wave amplitude to 1V, sample 256 points, and then use MATLAB&rsquo;s quantizer function to map the value to 0~4096. In this way, when changing the amplitude of the sine wave, multiply the array value by the voltage value to get the corresponding voltage amplitude. To change the frequency, you only need to set the corresponding timer period and output the array value after changing the voltage amplitude in sequence.</p>
+<p>②System initialization</p>
+<p>③Frequency, amplitude addition and subtraction step control and display</p>
+<p>Since step control only requires 4 keys for frequency addition and subtraction and amplitude addition and subtraction, we only use the first row of the keyboard. The two on the left are for frequency addition and subtraction, and the two on the right are for amplitude addition and subtraction. The principle of changing the frequency and amplitude is to first change the flag bit, and then change the size according to the flag bit. This makes the code structure clearer, and can display the corresponding frequency amplitude according to the flag bit. The four-digit digital tube on the left displays the frequency, and the two on the right Bit display amplitude.</p>
+<p>The more important part is the frequency change. Because of the limitations of the clock frequency and DAC settling time, different numbers of sampling points need to be set. We set it to 256 sampling points when the frequency is less than 100Hz. When the frequency is greater than 100Hz and less than 500Hz, There are 64 sampling points. When the frequency is greater than 500Hz, there are 32 sampling points. The specific algorithm is: timer count value = 65536 - clock frequency ÷ (number of sampling points × frequency size). For example, 1KHz, clock frequency is 2M, timer count value = 65536-200000÷(32×1000).</p>
+<p>④Interrupt service routine</p>
+<p>The interrupt service program is used to reload the timer count value regularly, take out the next sine wave sample value according to the frequency step parameter, change the DAC output voltage, and then scan a digital tube every ten interrupts.</p>
+<h1 id="epilogue">Epilogue</h1>
+<p>The Digital Signal Generator project exemplifies the seamless integration of theoretical knowledge and practical expertise in electronic system design. By navigating the complexities of signal generation, modulation, and the synthesis of hardware with software, the team not only underscored their engineering acumen but also embraced a philosophy of lifelong learning and innovation. This project serves not just as a showcase of applied electronic principles but as a testament to the ongoing journey of knowledge acquisition and application in the engineering realm, paving the way for future advancements in the field.</p>
 
     </div>
 
@@ -1031,7 +1205,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/demo2/">Demo2</a>
+  <a class="badge badge-light" href="/tag/electronic/">Electronic</a>
   
 </div>
 
@@ -1054,7 +1228,7 @@
         
       
       <li>
-        <a href="mailto:?subject=i%29%20Proteus%20electronic%20system%20design%20and%20simulation&amp;body=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-9%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=i%29%20Electronic%20system%20design%20and%20simulation&amp;body=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-9%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1071,7 +1245,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-9%2F&amp;title=i%29&#43;Proteus&#43;electronic&#43;system&#43;design&#43;and&#43;simulation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-9%2F&amp;title=i%29&#43;Electronic&#43;system&#43;design&#43;and&#43;simulation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>

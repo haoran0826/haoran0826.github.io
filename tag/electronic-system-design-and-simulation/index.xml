@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronic System Design and Simulation | Academic</title>
+    <link>http://localhost:1313/tag/electronic-system-design-and-simulation/</link>
+      <atom:link href="http://localhost:1313/tag/electronic-system-design-and-simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Electronic System Design and Simulation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Electronic System Design and Simulation</title>
+      <link>http://localhost:1313/tag/electronic-system-design-and-simulation/</link>
+    </image>
+    
+    <item>
+      <title>i) Electronic system design and simulation</title>
+      <link>http://localhost:1313/project/external-project-copy-9/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/external-project-copy-9/</guid>
+      <description>&lt;p&gt;I was particularly engaged by the electronic system design courses, since I could build up my practical capability and build on the theoretical. We also the used single chip microcomputer 80C51F020 to generate a digital sine wave that could control the amplitude and frequency changes via keyboard and output stable sine wave by 12-bit DAC. From the design and simulation of the hardware circuit, to the layout and welding of the circuit board, and then to the design and debugging of the software part of the MCU, we designed a digital synthesis signal device.&lt;/p&gt;
+&lt;h1 id=&#34;synopsis-of-digital-synthesizer-creation&#34;&gt;Synopsis of Digital Synthesizer Creation&lt;/h1&gt;
+&lt;h2 id=&#34;objective-and-innovation&#34;&gt;Objective and Innovation:&lt;/h2&gt;
+&lt;p&gt;At the core of this endeavor was the ambition to construct a digital synthesizer capable of generating sine waves, with enhanced user control over amplitude and frequency modulation. The project&amp;rsquo;s cornerstone was the adept use of the 80C51F020 microcontroller, showcasing an astute application of digital-to-analog conversion techniques to engineer precise and adjustable electronic signals.&lt;/p&gt;
+&lt;h1 id=&#34;technical-mastery-and-application&#34;&gt;Technical Mastery and Application&lt;/h1&gt;
+&lt;h2 id=&#34;signal-range-and-modulation&#34;&gt;Signal Range and Modulation:&lt;/h2&gt;
+&lt;p&gt;The project&amp;rsquo;s specification to adjust signal frequencies between 1Hz to 100Hz, alongside amplitude variations from 0.3V to 3Vp-p, demonstrates a rigorous and calculated approach to electronic signal manipulation. This precision underscores the team&amp;rsquo;s dedication to creating adaptable and user-centric electronic solutions.&lt;/p&gt;
+&lt;h2 id=&#34;microcontroller-utilization&#34;&gt;Microcontroller Utilization:&lt;/h2&gt;
+&lt;p&gt;Employing the C8051F020&amp;rsquo;s 12-bit DAC was a strategic choice, spotlighting the project&amp;rsquo;s innovative use of microcontroller capabilities to ensure signal accuracy. This decision reflects a harmonious fusion of software-driven logic with the tangible dynamics of hardware execution.&lt;/p&gt;
+&lt;h1 id=&#34;convergence-of-hardware-and-software-design&#34;&gt;Convergence of Hardware and Software Design&lt;/h1&gt;
+&lt;h2 id=&#34;comprehensive-system-development&#34;&gt;Comprehensive System Development:&lt;/h2&gt;
+&lt;p&gt;The project narrative delineates the transition from conceptual circuit design to the practical assembly and detailed microcontroller software debugging. This extensive process underscores the team&amp;rsquo;s proficiency in electronic system realization, encompassing a broad spectrum of engineering skills.&lt;/p&gt;
+&lt;h2 id=&#34;advanced-signal-processing&#34;&gt;Advanced Signal Processing:&lt;/h2&gt;
+&lt;p&gt;Utilizing MATLAB for generating sine wave samples and their quantization for DAC implementation is indicative of an advanced approach to signal processing. This methodology bridges theoretical concepts with real-world technological applications, enriching the project&amp;rsquo;s technical depth.&lt;/p&gt;
+&lt;h1 id=&#34;design-requirements-function-and-indicator-description&#34;&gt;Design requirements (function and indicator description)&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Signal frequency range: 1Hz-100Hz; step: 1Hz; accuracy: +/-5% (the above indicators are measured at room temperature)&lt;/li&gt;
+&lt;li&gt;Signal amplitude: 0.3V-3Vp-p; step: 0.1V; accuracy: +/-10% (the above indicators are measured at room temperature)&lt;/li&gt;
+&lt;li&gt;Load capacity: can drive 10 ohm pure group load&lt;/li&gt;
+&lt;li&gt;Frequency and amplitude can be displayed through LED digital tube (can be displayed alternately through indicator lights)&lt;/li&gt;
+&lt;li&gt;Effective when the keyboard is raised&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;system-hardware-schematic-diagram&#34;&gt;System hardware schematic diagram&lt;/h1&gt;
+&lt;p&gt;The following figure shows the simulation schematic diagram on Tina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/O4shf9ECuUZPRji.jpg&#34; alt=&#34;9.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;key-technical-points-of-hardware-modules&#34;&gt;Key technical points of hardware modules&lt;/h1&gt;
+&lt;h2 id=&#34;dac-module&#34;&gt;DAC module&lt;/h2&gt;
+&lt;p&gt;This experiment uses C8051F020 built-in 12-bit voltage output DAC, which has the following main features:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The voltage reference of each DAC is provided at the VREFD or VREF pin.
+
+Each DAC has a flexible output update mechanism that allows seamless full-scale changes and supports jitter-free output updates.
+
+The data and control interface between the MCU and each comparator and DAC are implemented through special registers
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The main indicators of DAC: 12bit resolution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Output setup time: 10us
+
+Output voltage range: 0~VREF-1LSB
+
+Output short circuit current: 15mA
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And we tried to use Tina simulation software to build a DAC module that can output stepped sine waves, so that we can verify the feasibility of subsequent modules on the software, especially the quality of the filtering effect.&lt;/p&gt;
+&lt;h2 id=&#34;filter-module&#34;&gt;Filter module&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/bzpsqN2tVjuGJAP.jpg&#34; alt=&#34;10.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Generate a second-order Bessel low-pass filter through filter pro, and the parameter settings are as shown in the figure below.&lt;/p&gt;
+&lt;p&gt;This circuit module generates a clock signal, DACO generates a ladder signal, inputs an eighth-order ladder wave through DACO, and CLK inputs a clock signal of 100:1 (clock signal frequency: sinusoidal signal frequency) to achieve the function of the filter.&lt;/p&gt;
+&lt;p&gt;(1) The signal frequency is adjustable.
+The signal frequency is controlled by changing the frequency of the ladder signal generated by DACO and changing the frequency of the signal in the CLK generation formula through program control. The highest frequency output that can be achieved is 2000Hz, and it has stable frequency output.&lt;/p&gt;
+&lt;p&gt;(2) Signal phase modulation.&lt;/p&gt;
+&lt;p&gt;By selecting the DACO phase to output, digital phase modulation is achieved. The 0 phase is used when the number is 0 and the T phase is used when the number is 1.&lt;/p&gt;
+&lt;h2 id=&#34;power-amplifier-module&#34;&gt;Power amplifier module&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/hE6OuMApUNWHior.jpg&#34; alt=&#34;11.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+A DC-blocking capacitor C4 is added before the power amplifier module to prevent the filter module and the power amplifier from affecting each other. , in order to prevent the base current from being too large and burning the transistor due to too small resistance, a 40k protection resistor is connected in series. The static operating current is determined by adjusting the resistance of this series resistor.&lt;/p&gt;
+&lt;p&gt;The function of the C5 and C4 capacitors is to isolate the DC path and allow AC to pass. The signal amplified by the transistor is coupled to R5 and R7 through C5, where test points are set for output testing. Due to the presence of R5, there will be a certain emitter voltage.&lt;/p&gt;
+&lt;h2 id=&#34;single-power-supply&#34;&gt;Single power supply&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/YRwd5IVh1yurUHq.jpg&#34; alt=&#34;12.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Dual power supply is suitable for AC signals to pass through, while single power supply is more suitable for unipolar (DC). However, considering the laboratory facilities and other reasons, the following processing can make it suitable for AC signals.&lt;/p&gt;
+&lt;p&gt;R4 and R2 divide the voltage to obtain 1/2 V+. This voltage is added to the input terminal of the op amp. Since C1 is equivalent to an open circuit under DC conditions, this 1/2 V+ only obtains a single gain. The output terminal of the op amp That is, the same voltage is obtained. Capacitors are used at the output for AC coupling.&lt;/p&gt;
+&lt;p&gt;When an AC signal is input, the output of the op amp forms a corresponding AC signal with 1/2 V+ as the baseline, and this AC signal can gain gain.
+Therefore, the single-supply power supply tries to establish 1/2 of V+ to obtain a single gain from the DC, and uses capacitors at the output for AC coupling so that it can also be suitable for AC signals.&lt;/p&gt;
+&lt;h1 id=&#34;system-software-block-diagram-and-overview&#34;&gt;System software block diagram and overview&lt;/h1&gt;
+&lt;h2 id=&#34;software-flow-chart&#34;&gt;Software flow chart:&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/thJS1DaUprzZ3my.jpg&#34; alt=&#34;13.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;system-software-overview&#34;&gt;System software overview:&lt;/h2&gt;
+&lt;p&gt;This system is based on the signal waveform generator of the C8051F020 microcontroller. It uses the DAC0 of the microcontroller to control the output voltage. It uses timer 0, working mode 1, and a 16-bit timer. The count value of the timer is reloaded every time it is interrupted, and the timer is reloaded according to the advance settings. A certain sine wave sampling array is used to change the DAC0 output to obtain a sine waveform, and then the final waveform is obtained through hardware circuit filtering and power amplifier.&lt;/p&gt;
+&lt;p&gt;①Generate sine wave sampling array&lt;/p&gt;
+&lt;p&gt;We use MATLAB to obtain sine wave sampling data within a period. In order to normalize the amplitude, we first set the sine wave amplitude to 1V, sample 256 points, and then use MATLAB&amp;rsquo;s quantizer function to map the value to 0~4096. In this way, when changing the amplitude of the sine wave, multiply the array value by the voltage value to get the corresponding voltage amplitude. To change the frequency, you only need to set the corresponding timer period and output the array value after changing the voltage amplitude in sequence.&lt;/p&gt;
+&lt;p&gt;②System initialization&lt;/p&gt;
+&lt;p&gt;③Frequency, amplitude addition and subtraction step control and display&lt;/p&gt;
+&lt;p&gt;Since step control only requires 4 keys for frequency addition and subtraction and amplitude addition and subtraction, we only use the first row of the keyboard. The two on the left are for frequency addition and subtraction, and the two on the right are for amplitude addition and subtraction. The principle of changing the frequency and amplitude is to first change the flag bit, and then change the size according to the flag bit. This makes the code structure clearer, and can display the corresponding frequency amplitude according to the flag bit. The four-digit digital tube on the left displays the frequency, and the two on the right Bit display amplitude.&lt;/p&gt;
+&lt;p&gt;The more important part is the frequency change. Because of the limitations of the clock frequency and DAC settling time, different numbers of sampling points need to be set. We set it to 256 sampling points when the frequency is less than 100Hz. When the frequency is greater than 100Hz and less than 500Hz, There are 64 sampling points. When the frequency is greater than 500Hz, there are 32 sampling points. The specific algorithm is: timer count value = 65536 - clock frequency ÷ (number of sampling points × frequency size). For example, 1KHz, clock frequency is 2M, timer count value = 65536-200000÷(32×1000).&lt;/p&gt;
+&lt;p&gt;④Interrupt service routine&lt;/p&gt;
+&lt;p&gt;The interrupt service program is used to reload the timer count value regularly, take out the next sine wave sample value according to the frequency step parameter, change the DAC output voltage, and then scan a digital tube every ten interrupts.&lt;/p&gt;
+&lt;h1 id=&#34;epilogue&#34;&gt;Epilogue&lt;/h1&gt;
+&lt;p&gt;The Digital Signal Generator project exemplifies the seamless integration of theoretical knowledge and practical expertise in electronic system design. By navigating the complexities of signal generation, modulation, and the synthesis of hardware with software, the team not only underscored their engineering acumen but also embraced a philosophy of lifelong learning and innovation. This project serves not just as a showcase of applied electronic principles but as a testament to the ongoing journey of knowledge acquisition and application in the engineering realm, paving the way for future advancements in the field.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

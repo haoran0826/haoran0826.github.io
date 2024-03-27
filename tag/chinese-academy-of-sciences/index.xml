@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chinese Academy of Sciences | Academic</title>
-    <link>https://example.com/tag/chinese-academy-of-sciences/</link>
-      <atom:link href="https://example.com/tag/chinese-academy-of-sciences/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/chinese-academy-of-sciences/</link>
+      <atom:link href="http://localhost:1313/tag/chinese-academy-of-sciences/index.xml" rel="self" type="application/rss+xml" />
     <description>Chinese Academy of Sciences</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Chinese Academy of Sciences</title>
-      <link>https://example.com/tag/chinese-academy-of-sciences/</link>
+      <link>http://localhost:1313/tag/chinese-academy-of-sciences/</link>
     </image>
     
     <item>
       <title>a) Chinese Academy of Sciences</title>
-      <link>https://example.com/project/example/</link>
+      <link>http://localhost:1313/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
+      <guid>http://localhost:1313/project/example/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&amp;rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.&lt;/p&gt;
 </description>

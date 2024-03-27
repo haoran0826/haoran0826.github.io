@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Innovation &amp; Entrepreneurship Training Program for College Students | Academic</title>
-    <link>https://example.com/tag/innovation-entrepreneurship-training-program-for-college-students/</link>
-      <atom:link href="https://example.com/tag/innovation-entrepreneurship-training-program-for-college-students/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/innovation-entrepreneurship-training-program-for-college-students/</link>
+      <atom:link href="http://localhost:1313/tag/innovation-entrepreneurship-training-program-for-college-students/index.xml" rel="self" type="application/rss+xml" />
     <description>Innovation &amp; Entrepreneurship Training Program for College Students</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Innovation &amp; Entrepreneurship Training Program for College Students</title>
-      <link>https://example.com/tag/innovation-entrepreneurship-training-program-for-college-students/</link>
+      <link>http://localhost:1313/tag/innovation-entrepreneurship-training-program-for-college-students/</link>
     </image>
     
     <item>
       <title>b) Innovation &amp; Entrepreneurship Training Program for College Students</title>
-      <link>https://example.com/project/external-project/</link>
+      <link>http://localhost:1313/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project/</guid>
+      <guid>http://localhost:1313/project/external-project/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;p&gt;To enable blind people to perceive surrounding obstacles in real-time while traveling and improve the safety of blind people&amp;rsquo;s travel, traditional blind walking sticks have been modified. This article adopts the STM32f103zet6 microcontroller and uses embedded development design to add functions such as ultrasonic obstacle avoidance, GPS positioning, fall detection, fingerprint unlocking, and voice broadcasting to the traditional blind cane. This project utilizes the XFS5152CE chip to achieve voice broadcasting function, the AS608 optical fingerprint module to achieve fingerprint unlocking function, the ESP8266WiFi module to achieve interaction between mobile phones and intelligent guide canes, the ADXL345 module to detect the user&amp;rsquo;s status in real-time, and to achieve fall warning function. The ultrasonic obstacle avoidance module utilizes the principle of ultrasonic ranging. The GPS positioning module can receive and demodulate the broadcast C/A code signal of satellites, and achieve GPS positioning function by calculating the pseudo distance to each satellite and calculating parameters such as longitude and latitude. The feasibility of this scheme has been verified through experiments. Fingerprint unlocking, voice broadcasting, and GPS positioning functions can all operate normally. When the distance between the guide rod and the obstacle is less than 0.2m, or the forward acceleration in a certain direction of the guide rod is too large, the intelligent guide rod can send out a warning signal in a timely manner.&lt;/p&gt;
 &lt;h6 id=&#34;key-words-stm32-microcontroller-intelligent-blind-cane-ultrasonic-ranging-gps-embedded&#34;&gt;KEY WORDS: STM32 microcontroller, intelligent blind cane, ultrasonic ranging, GPS, embedded&lt;/h6&gt;

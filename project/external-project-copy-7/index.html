@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: March 26, 2024 --><html lang="en-us" >
+<!-- Last Published: March 27, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -1019,7 +1019,59 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.</p>
+      <h1 id="i-functionality">I. Functionality</h1>
+<h2 id="transmitter-side">Transmitter Side:</h2>
+<p>The user inputs the mathematical expression to be calculated through buttons.  The expression can include basic operations such as addition, subtraction, multiplication, and division (complex calculations can be added similarly). Then, the process of Encoding → Modulating → Sending is executed. After sending, the device immediately enters a waiting mode, awaiting a response from the receiver side.</p>
+<h2 id="receiver-side">Receiver Side:</h2>
+<p>The receiver side is in a waiting state from the start. Upon receiving a signal, it automatically performs demodulation, calculation, encoding, modulation, and then sends a response.</p>
+<h2 id="other-buttons">Other Buttons:</h2>
+<p>The &ldquo;Carrier 1&rdquo; and &ldquo;Carrier 2&rdquo; buttons can display the waveform of the carrier on the right side of the image. The processes of encoding, modulation, and reception will be shown on the waveform graph on the right side, displaying the time-domain waveform. The introduction button provides a simple explanation of the principles. The &ldquo;stop&rdquo; button is used to interrupt detection, and the &ldquo;out&rdquo; button is used to exit this window.</p>
+<h1 id="ii-principle-and-implementation">II. Principle and implementation</h1>
+<h2 id="encoding">Encoding</h2>
+<ol>
+<li>Source Encoding:</li>
+</ol>
+<p>As shown in Figure, the wireless calculator is designed with 16 input buttons, which is the 4th power of 2.</p>
+<ol start="2">
+<li>Channel Encoding:</li>
+</ol>
+<p>Why use Hamming encoding for the information bits? The answer is that Hamming encoding is an efficient linear block code capable of correcting single-bit errors. The 7,4 Hamming code adds three check bits to a group of 4-bit information bits and can correct minor errors through the calculation of syndromes or correction factors. This enhances the communication system&rsquo;s resistance to interference, as detailed in the textbook on page 261.</p>
+<ol start="3">
+<li>Frame Synchronization and Protection Codes:</li>
+</ol>
+<p>The purpose of frame synchronization is to determine the sampling moments for each bit. The frame synchronization code here is used to inform the receiving end when the valid information begins and to establish the starting moment for sampling. Barker codes, with their sharp autocorrelation peak, facilitate identification and minimize the likelihood of false synchronization. The receiver&rsquo;s identification method is also simple, hence the choice of Barker codes as the true synchronization codes.</p>
+<p>Given the variable length of the information bits transmitted in this system, the receiver cannot determine when to end sampling, so a Barker code is also added at the end to accurately extract the middle information bits. The role of the protection code is to</p>
+<p>provide energy variation for the receiver to detect energy changes, and to prevent the delay in calculation from omitting useful information bits, offering the computer a buffer time.</p>
+<h2 id="modulation">Modulation</h2>
+<p>The modulation method is 2FSK.</p>
+<ol>
+<li>
+<p>First, the sampling frequency needs to be determined. It is best if the sampling frequency is consistent with the MATLAB sound function, hence 8000Hz is chosen here.</p>
+</li>
+<li>
+<p>Next, determine the bit transmission rate RB. Generally, a lower transmission rate results in higher accuracy but lower efficiency. Thus, a compromise is chosen at 100Hz. Given a sampling frequency of 8000, this means
+fs=100Hz and each bit is expanded to 80 samples (8000/80 = 100Hz). The normalized frequency is 0.025π, and the time-domain waveform and spectrum of the transmitted bits are as follows:</p>
+</li>
+<li>
+<p>Then, determine the frequencies for carrier 1 and carrier 2. When selecting frequencies, it&rsquo;s important that the main lobes of the frequency spectra for carrier 1 and carrier 2 overlap as little as possible after modulation. The width of the lobes on either side is fs, so there should be a gap of 2fs between the two carrier frequencies. Considering phase continuity, the frequencies should have an even ratio to simplify calculations and programming without the need to consider phase discontinuities. Furthermore, they should be below half the sampling frequency to satisfy the sampling theorem, i.e., below 4000Hz. Hence, 1000Hz and 2000Hz are chosen, with normalized frequencies of 0.25π and 0.5π respectively.</p>
+</li>
+<li>
+<p>The modulation method involves modulating each bit (before expansion) into 80 points (corresponding to a sampling frequency of 8000, or 100Hz). If a bit is 1, then a 2000Hz sine wave repeating 20 times is used as the modulation waveform (2000/20=100Hz); if a bit is 0, then a 1000Hz sine wave repeating 10 times is used (1000/10=100Hz).</p>
+</li>
+</ol>
+<h2 id="reception-and-demodulation">Reception and Demodulation</h2>
+<p>It is important to note that the steps for demodulation are the reverse of those for modulation and correspond one-to-one.</p>
+<ol>
+<li>The reception uses an energy detection method, which is simply a process of multiplying corresponding elements of matrices and summing them up to check if they reach a threshold value.</li>
+<li>2FSK Non-coherent Demodulation</li>
+</ol>
+<p>The choice of non-coherent demodulation for 2FSK arises from the fact that coherent demodulation involves a multiplication process. At the selection stage, non-coherent demodulation was chosen because if it involves multiplication, the chance of coding errors increases significantly, whereas non-coherent demodulation is primarily determined by filters, making its implementation simpler. Thus, non-coherent demodulation was used.</p>
+<ol start="3">
+<li>Decode</li>
+</ol>
+<p>To decode, first locate the Barker codes at both ends and extract the data in between. This is done by comparing each received bit with the Barker code, using the XOR method to count the differences. If there are three or fewer differences from the Barker code, it is considered a match.</p>
+<p>The removal of the Barker codes is followed by 7,4 Hamming decoding, which includes error correction.</p>
+<p>The result represents a complete transmission process from the sender: encoding &ndash;&gt; modulation &ndash;&gt; transmission, and from the receiver: detection &ndash;&gt; demodulation &ndash;&gt; decoding. Afterwards, the receiver decodes the source information according to the bit information, calculates the result, and then performs encoding &ndash;&gt; modulation &ndash;&gt; transmission back to the sender. The process is generally the same as described above.</p>
 
     </div>
 
@@ -1031,7 +1083,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/demo2/">Demo2</a>
+  <a class="badge badge-light" href="/tag/electronic/">Electronic</a>
   
 </div>
 

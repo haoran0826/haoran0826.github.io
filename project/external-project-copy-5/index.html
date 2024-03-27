@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: March 26, 2024 --><html lang="en-us" >
+<!-- Last Published: March 27, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -279,7 +279,7 @@
 
   
 
-<meta name="description" content="Digital synthesized signal generator" />
+<meta name="description" content="Temperature and humidity alarm &amp; light intensity display" />
 
 
 
@@ -326,8 +326,8 @@
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Academic" />
 <meta property="og:url" content="https://example.com/project/external-project-copy-5/" />
-<meta property="og:title" content="g) Electronic system design | Academic" />
-<meta property="og:description" content="Digital synthesized signal generator" /><meta property="og:image" content="https://example.com/project/external-project-copy-5/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="g) Proteus electronic system design and simulation | Academic" />
+<meta property="og:description" content="Temperature and humidity alarm &amp; light intensity display" /><meta property="og:image" content="https://example.com/project/external-project-copy-5/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -362,7 +362,7 @@
     "@type": "WebPage",
     "@id": "https://example.com/project/external-project-copy-5/"
   },
-  "headline": "g) Electronic system design",
+  "headline": "g) Proteus electronic system design and simulation",
   
   "image": [
     "https://example.com/project/external-project-copy-5/featured.jpg"
@@ -384,7 +384,7 @@
       "url": "https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Digital synthesized signal generator"
+  "description": "Temperature and humidity alarm \u0026 light intensity display"
 }
 </script>
 
@@ -406,7 +406,7 @@
 
 
   
-  <title>g) Electronic system design | Academic</title>
+  <title>g) Proteus electronic system design and simulation | Academic</title>
 
   
   
@@ -923,7 +923,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>g) Electronic system design</h1>
+  <h1>g) Proteus electronic system design and simulation</h1>
 
   
 
@@ -1019,7 +1019,55 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.</p>
+      <h2 id="1-design-description">1. Design description:</h2>
+<p>The basic function of this design is to collect temperature and humidity, then collect light intensity (as the input signal part), and then display these three values on the digital tube (as the output signal part). Then set the upper limit value in the program, and the buzzer will alarm when the upper limit value is exceeded.</p>
+<p>In the simulation part, a light bulb and a photoresistor are used to simulate a light sensor. The voltage across the photoresistor is obtained to represent the light intensity. Then an operational amplifier is used to make the change in light intensity and voltage within a certain range have a linear relationship. At this time, the light obtained Strong is just an analog value, which is then input to the PF0 port of ATmega64 for the next step of analog-to-digital conversion; in addition, similar to the photosensitive part, the temperature sensitive part uses a light bulb plus a thermosensitive resistor to simulate the temperature sensor; the humidity part uses pulse voltage frequency simulation Humidity, the humidity value we obtain at this time is already a digital quantity, which can be directly input into the PD6 port of ATmega64. The quantities we input will be used for subsequent display on the LM016L and for alarming when the set threshold is exceeded.</p>
+<p>In addition, in the output part, we use LM016L for display, which displays digital quantities, and then switches the display and sets the alarm threshold through buttons.</p>
+<p>For the working voltage part, except the buzzer alarm which uses DC +12V voltage, the rest uses the DC +5V voltage output by LM7805. Then the working voltage of ATmega64 is 4.5V to 5.5V, the working voltage of temperature and humidity sensor is 5V, the maximum working voltage of photodiode is generally 10 to 50V, the best working voltage of LM016L module is 5V, whichever of the above devices can work The voltage is 5V as the supply voltage. And due to the limitations of the device LM016L, the operating current is 2mA.</p>
+<h2 id="2-electrical-schematic-diagram">2. Electrical schematic diagram:</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/1oRed6YiyKL5gED.jpg" alt="7.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="3-printed-board-diagram">3. Printed board diagram:</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://s2.loli.net/2024/03/27/Oj1hZHAzsKUfklv.jpg" alt="8.jpg" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
 
     </div>
 
@@ -1031,7 +1079,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/demo2/">Demo2</a>
+  <a class="badge badge-light" href="/tag/electronic/">Electronic</a>
   
 </div>
 
@@ -1054,7 +1102,7 @@
         
       
       <li>
-        <a href="mailto:?subject=g%29%20Electronic%20system%20design&amp;body=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-5%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=g%29%20Proteus%20electronic%20system%20design%20and%20simulation&amp;body=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-5%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1071,7 +1119,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-5%2F&amp;title=g%29&#43;Electronic&#43;system&#43;design" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fproject%2Fexternal-project-copy-5%2F&amp;title=g%29&#43;Proteus&#43;electronic&#43;system&#43;design&#43;and&#43;simulation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>

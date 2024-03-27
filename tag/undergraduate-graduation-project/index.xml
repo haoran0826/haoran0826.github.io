@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Undergraduate Graduation Project | Academic</title>
-    <link>https://example.com/tag/undergraduate-graduation-project/</link>
-      <atom:link href="https://example.com/tag/undergraduate-graduation-project/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/undergraduate-graduation-project/</link>
+      <atom:link href="http://localhost:1313/tag/undergraduate-graduation-project/index.xml" rel="self" type="application/rss+xml" />
     <description>Undergraduate Graduation Project</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Undergraduate Graduation Project</title>
-      <link>https://example.com/tag/undergraduate-graduation-project/</link>
+      <link>http://localhost:1313/tag/undergraduate-graduation-project/</link>
     </image>
     
     <item>
       <title>d) Undergraduate graduation project</title>
-      <link>https://example.com/project/external-project-copy-3/</link>
+      <link>http://localhost:1313/project/external-project-copy-3/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-3/</guid>
+      <guid>http://localhost:1313/project/external-project-copy-3/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;ABSTRACT&lt;/h1&gt;
 &lt;p&gt;The purpose of human motion detection is to provide a system for self-analysis of events in the video data and to understand the behaviour of a person. This is a key function of intelligent video surveillance systems with a wide range of applications. In this paper, we investigate a human action recognition system based on two steps of human feature extraction and human action classification. Quantification and model transplantation for the human feature extraction step are performed based on an artificial intelligence chip.&lt;/p&gt;
 &lt;p&gt;To complete the human feature extraction, a humanoid target detector is first built based on the YOLOv5s framework and DeepSORT tracking, and a pose estimation detector is built to extract human bone joint points using the Alphapose algorithm. The extracted features are then fed into the action classification detector based on convolution of spatio-temporal maps to complete the construction of the human motion recognition system.&lt;/p&gt;

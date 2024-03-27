@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication Principle | Academic</title>
+    <link>http://localhost:1313/tag/communication-principle/</link>
+      <atom:link href="http://localhost:1313/tag/communication-principle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Communication Principle</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Communication Principle</title>
+      <link>http://localhost:1313/tag/communication-principle/</link>
+    </image>
+    
+    <item>
+      <title>h) Communication Principle</title>
+      <link>http://localhost:1313/project/external-project-copy-7/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/external-project-copy-7/</guid>
+      <description>&lt;h1 id=&#34;i-functionality&#34;&gt;I. Functionality&lt;/h1&gt;
+&lt;h2 id=&#34;transmitter-side&#34;&gt;Transmitter Side:&lt;/h2&gt;
+&lt;p&gt;The user inputs the mathematical expression to be calculated through buttons.  The expression can include basic operations such as addition, subtraction, multiplication, and division (complex calculations can be added similarly). Then, the process of Encoding → Modulating → Sending is executed. After sending, the device immediately enters a waiting mode, awaiting a response from the receiver side.&lt;/p&gt;
+&lt;h2 id=&#34;receiver-side&#34;&gt;Receiver Side:&lt;/h2&gt;
+&lt;p&gt;The receiver side is in a waiting state from the start. Upon receiving a signal, it automatically performs demodulation, calculation, encoding, modulation, and then sends a response.&lt;/p&gt;
+&lt;h2 id=&#34;other-buttons&#34;&gt;Other Buttons:&lt;/h2&gt;
+&lt;p&gt;The &amp;ldquo;Carrier 1&amp;rdquo; and &amp;ldquo;Carrier 2&amp;rdquo; buttons can display the waveform of the carrier on the right side of the image. The processes of encoding, modulation, and reception will be shown on the waveform graph on the right side, displaying the time-domain waveform. The introduction button provides a simple explanation of the principles. The &amp;ldquo;stop&amp;rdquo; button is used to interrupt detection, and the &amp;ldquo;out&amp;rdquo; button is used to exit this window.&lt;/p&gt;
+&lt;h1 id=&#34;ii-principle-and-implementation&#34;&gt;II. Principle and implementation&lt;/h1&gt;
+&lt;h2 id=&#34;encoding&#34;&gt;Encoding&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Source Encoding:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As shown in Figure, the wireless calculator is designed with 16 input buttons, which is the 4th power of 2.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Channel Encoding:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Why use Hamming encoding for the information bits? The answer is that Hamming encoding is an efficient linear block code capable of correcting single-bit errors. The 7,4 Hamming code adds three check bits to a group of 4-bit information bits and can correct minor errors through the calculation of syndromes or correction factors. This enhances the communication system&amp;rsquo;s resistance to interference, as detailed in the textbook on page 261.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Frame Synchronization and Protection Codes:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The purpose of frame synchronization is to determine the sampling moments for each bit. The frame synchronization code here is used to inform the receiving end when the valid information begins and to establish the starting moment for sampling. Barker codes, with their sharp autocorrelation peak, facilitate identification and minimize the likelihood of false synchronization. The receiver&amp;rsquo;s identification method is also simple, hence the choice of Barker codes as the true synchronization codes.&lt;/p&gt;
+&lt;p&gt;Given the variable length of the information bits transmitted in this system, the receiver cannot determine when to end sampling, so a Barker code is also added at the end to accurately extract the middle information bits. The role of the protection code is to&lt;/p&gt;
+&lt;p&gt;provide energy variation for the receiver to detect energy changes, and to prevent the delay in calculation from omitting useful information bits, offering the computer a buffer time.&lt;/p&gt;
+&lt;h2 id=&#34;modulation&#34;&gt;Modulation&lt;/h2&gt;
+&lt;p&gt;The modulation method is 2FSK.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, the sampling frequency needs to be determined. It is best if the sampling frequency is consistent with the MATLAB sound function, hence 8000Hz is chosen here.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Next, determine the bit transmission rate RB. Generally, a lower transmission rate results in higher accuracy but lower efficiency. Thus, a compromise is chosen at 100Hz. Given a sampling frequency of 8000, this means
+fs=100Hz and each bit is expanded to 80 samples (8000/80 = 100Hz). The normalized frequency is 0.025π, and the time-domain waveform and spectrum of the transmitted bits are as follows:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then, determine the frequencies for carrier 1 and carrier 2. When selecting frequencies, it&amp;rsquo;s important that the main lobes of the frequency spectra for carrier 1 and carrier 2 overlap as little as possible after modulation. The width of the lobes on either side is fs, so there should be a gap of 2fs between the two carrier frequencies. Considering phase continuity, the frequencies should have an even ratio to simplify calculations and programming without the need to consider phase discontinuities. Furthermore, they should be below half the sampling frequency to satisfy the sampling theorem, i.e., below 4000Hz. Hence, 1000Hz and 2000Hz are chosen, with normalized frequencies of 0.25π and 0.5π respectively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The modulation method involves modulating each bit (before expansion) into 80 points (corresponding to a sampling frequency of 8000, or 100Hz). If a bit is 1, then a 2000Hz sine wave repeating 20 times is used as the modulation waveform (2000/20=100Hz); if a bit is 0, then a 1000Hz sine wave repeating 10 times is used (1000/10=100Hz).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;reception-and-demodulation&#34;&gt;Reception and Demodulation&lt;/h2&gt;
+&lt;p&gt;It is important to note that the steps for demodulation are the reverse of those for modulation and correspond one-to-one.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The reception uses an energy detection method, which is simply a process of multiplying corresponding elements of matrices and summing them up to check if they reach a threshold value.&lt;/li&gt;
+&lt;li&gt;2FSK Non-coherent Demodulation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The choice of non-coherent demodulation for 2FSK arises from the fact that coherent demodulation involves a multiplication process. At the selection stage, non-coherent demodulation was chosen because if it involves multiplication, the chance of coding errors increases significantly, whereas non-coherent demodulation is primarily determined by filters, making its implementation simpler. Thus, non-coherent demodulation was used.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Decode&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To decode, first locate the Barker codes at both ends and extract the data in between. This is done by comparing each received bit with the Barker code, using the XOR method to count the differences. If there are three or fewer differences from the Barker code, it is considered a match.&lt;/p&gt;
+&lt;p&gt;The removal of the Barker codes is followed by 7,4 Hamming decoding, which includes error correction.&lt;/p&gt;
+&lt;p&gt;The result represents a complete transmission process from the sender: encoding &amp;ndash;&amp;gt; modulation &amp;ndash;&amp;gt; transmission, and from the receiver: detection &amp;ndash;&amp;gt; demodulation &amp;ndash;&amp;gt; decoding. Afterwards, the receiver decodes the source information according to the bit information, calculates the result, and then performs encoding &amp;ndash;&amp;gt; modulation &amp;ndash;&amp;gt; transmission back to the sender. The process is generally the same as described above.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
