@@ -5,7 +5,7 @@
     <link>https://example.com/tag/electronic/</link>
       <atom:link href="https://example.com/tag/electronic/index.xml" rel="self" type="application/rss+xml" />
     <description>Electronic</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Electronic</title>
@@ -13,86 +13,9 @@
     </image>
     
     <item>
-      <title>f) Electronic system design</title>
-      <link>https://example.com/project/external-project-copy/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy/</guid>
-      <description>&lt;h3 id=&#34;project-background&#34;&gt;Project Background&lt;/h3&gt;
-&lt;p&gt;The intelligent vehicle, or wheeled mobile robot, integrates multiple functions such as environmental sensing, planning and decision-making, and autonomous driving into a comprehensive system. Aimed at enhancing future lifestyles with smarter solutions, this technology is applicable not only in military contexts but also in scientific research, intelligent rescue, and more. The vehicle&amp;rsquo;s mechanical structure comprises the body, wheels, speed sensors, rotational axles, equipped with a power driver and a camera module for environmental data collection.&lt;/p&gt;
-&lt;h3 id=&#34;design-scheme-overview&#34;&gt;Design Scheme Overview&lt;/h3&gt;
-&lt;p&gt;Employing a PID control algorithm and a CCD linear camera for black line guidance detection, processed by an LM393 comparator for microcontroller-based data collection and image recognition, this design enables path identification. Motor drive is facilitated by the PC33886 model, with speed measured by direct photoelectric sensors, and data displayed on an LCD screen. Four button keys are utilized for parameter settings, enhancing the user interface for onsite debugging. The project ingeniously incorporates a mix of photonic, mechanical, and wireless communication technologies.&lt;/p&gt;
-&lt;h3 id=&#34;structural-and-system-design&#34;&gt;Structural and System Design&lt;/h3&gt;
-&lt;p&gt;Based on the principles of autonomous guide robot systems, the intelligent car is capable of autonomously recognizing and following predetermined paths. The main control module uses the STC89C51 microcontroller, focusing on centralized control and modular design, incorporating infrared sensor line tracking and trajectory detection modules. The mechanical structure is designed to minimize external light interference, ensuring balanced and stable navigation.&lt;/p&gt;
-&lt;h3 id=&#34;hardware-system-construction&#34;&gt;Hardware System Construction&lt;/h3&gt;
-&lt;p&gt;The system&amp;rsquo;s hardware includes the STM32F103 microcontroller as the main control module, along with power, motor drive, infrared obstacle avoidance, control terminal, and wireless video monitoring modules. This setup ensures reliable power supply and effective control over the vehicle&amp;rsquo;s dynamic monitoring functions.&lt;/p&gt;
-&lt;h3 id=&#34;programming-challenges-and-solutions&#34;&gt;Programming Challenges and Solutions&lt;/h3&gt;
-&lt;p&gt;The report also delves into the learning process for programming the STM32 microcontroller, including clock initialization, mobility function implementation, PID algorithm development, steering functionality, Bluetooth serial port configuration, and PID debugging. By exploring sensor detection, PWM output for motor driving, speed detection, and serial communication, the project overcame various developmental challenges.&lt;/p&gt;
-&lt;h3 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h3&gt;
-&lt;p&gt;Through teamwork, we successfully assembled the intelligent car and achieved the line-tracking task. Throughout the project, we solved multiple technical problems, gaining an in-depth understanding of the working principles of intelligent cars and mastering STM32 related skills. This experience not only enhanced our practical abilities but also strengthened our team collaboration spirit. This course has provided us with invaluable and enriching learning, contributing significantly to our academic and practical growth.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>g) Proteus electronic system design and simulation</title>
-      <link>https://example.com/project/external-project-copy-5/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-5/</guid>
-      <description>&lt;h3 id=&#34;design-description&#34;&gt;Design description:&lt;/h3&gt;
-&lt;p&gt;The basic function of this design is to collect temperature and humidity, then collect light intensity (as the input signal part), and then display these three values on the digital tube (as the output signal part). Then set the upper limit value in the program, and the buzzer will alarm when the upper limit value is exceeded.&lt;/p&gt;
-&lt;p&gt;In the simulation part, a light bulb and a photoresistor are used to simulate a light sensor. The voltage across the photoresistor is obtained to represent the light intensity. Then an operational amplifier is used to make the change in light intensity and voltage within a certain range have a linear relationship. At this time, the light obtained Strong is just an analog value, which is then input to the PF0 port of ATmega64 for the next step of analog-to-digital conversion; in addition, similar to the photosensitive part, the temperature sensitive part uses a light bulb plus a thermosensitive resistor to simulate the temperature sensor; the humidity part uses pulse voltage frequency simulation Humidity, the humidity value we obtain at this time is already a digital quantity, which can be directly input into the PD6 port of ATmega64. The quantities we input will be used for subsequent display on the LM016L and for alarming when the set threshold is exceeded.&lt;/p&gt;
-&lt;p&gt;In addition, in the output part, we use LM016L for display, which displays digital quantities, and then switches the display and sets the alarm threshold through buttons.&lt;/p&gt;
-&lt;p&gt;For the working voltage part, except the buzzer alarm which uses DC +12V voltage, the rest uses the DC +5V voltage output by LM7805. Then the working voltage of ATmega64 is 4.5V to 5.5V, the working voltage of temperature and humidity sensor is 5V, the maximum working voltage of photodiode is generally 10 to 50V, the best working voltage of LM016L module is 5V, whichever of the above devices can work The voltage is 5V as the supply voltage. And due to the limitations of the device LM016L, the operating current is 2mA.&lt;/p&gt;
-&lt;h3 id=&#34;electrical-schematic-diagram&#34;&gt;Electrical schematic diagram:&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/1oRed6YiyKL5gED.jpg&#34; alt=&#34;7.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;printed-board-diagram&#34;&gt;Printed board diagram:&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/Oj1hZHAzsKUfklv.jpg&#34; alt=&#34;8.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>h) Communication Principle</title>
       <link>https://example.com/project/external-project-copy-7/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-7/</guid>
       <description>&lt;h3 id=&#34;i-functionality&#34;&gt;I. Functionality&lt;/h3&gt;
 &lt;h4 id=&#34;transmitter-side&#34;&gt;Transmitter Side:&lt;/h4&gt;
@@ -151,9 +74,66 @@ fs=100Hz and each bit is expanded to 80 samples (8000/80 = 100Hz). The normalize
     </item>
     
     <item>
+      <title>g) Proteus electronic system design and simulation</title>
+      <link>https://example.com/project/external-project-copy-5/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-5/</guid>
+      <description>&lt;h3 id=&#34;design-description&#34;&gt;Design description:&lt;/h3&gt;
+&lt;p&gt;The basic function of this design is to collect temperature and humidity, then collect light intensity (as the input signal part), and then display these three values on the digital tube (as the output signal part). Then set the upper limit value in the program, and the buzzer will alarm when the upper limit value is exceeded.&lt;/p&gt;
+&lt;p&gt;In the simulation part, a light bulb and a photoresistor are used to simulate a light sensor. The voltage across the photoresistor is obtained to represent the light intensity. Then an operational amplifier is used to make the change in light intensity and voltage within a certain range have a linear relationship. At this time, the light obtained Strong is just an analog value, which is then input to the PF0 port of ATmega64 for the next step of analog-to-digital conversion; in addition, similar to the photosensitive part, the temperature sensitive part uses a light bulb plus a thermosensitive resistor to simulate the temperature sensor; the humidity part uses pulse voltage frequency simulation Humidity, the humidity value we obtain at this time is already a digital quantity, which can be directly input into the PD6 port of ATmega64. The quantities we input will be used for subsequent display on the LM016L and for alarming when the set threshold is exceeded.&lt;/p&gt;
+&lt;p&gt;In addition, in the output part, we use LM016L for display, which displays digital quantities, and then switches the display and sets the alarm threshold through buttons.&lt;/p&gt;
+&lt;p&gt;For the working voltage part, except the buzzer alarm which uses DC +12V voltage, the rest uses the DC +5V voltage output by LM7805. Then the working voltage of ATmega64 is 4.5V to 5.5V, the working voltage of temperature and humidity sensor is 5V, the maximum working voltage of photodiode is generally 10 to 50V, the best working voltage of LM016L module is 5V, whichever of the above devices can work The voltage is 5V as the supply voltage. And due to the limitations of the device LM016L, the operating current is 2mA.&lt;/p&gt;
+&lt;h3 id=&#34;electrical-schematic-diagram&#34;&gt;Electrical schematic diagram:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/1oRed6YiyKL5gED.jpg&#34; alt=&#34;7.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;printed-board-diagram&#34;&gt;Printed board diagram:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/Oj1hZHAzsKUfklv.jpg&#34; alt=&#34;8.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>i) Electronic system design and simulation</title>
       <link>https://example.com/project/external-project-copy-9/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-9/</guid>
       <description>&lt;p&gt;I was particularly engaged by the electronic system design courses, since I could build up my practical capability and build on the theoretical. We also the used single chip microcomputer 80C51F020 to generate a digital sine wave that could control the amplitude and frequency changes via keyboard and output stable sine wave by 12-bit DAC. From the design and simulation of the hardware circuit, to the layout and welding of the circuit board, and then to the design and debugging of the software part of the MCU, we designed a digital synthesis signal device.&lt;/p&gt;
 &lt;h3 id=&#34;synopsis-of-digital-synthesizer-creation&#34;&gt;Synopsis of Digital Synthesizer Creation&lt;/h3&gt;
@@ -330,6 +310,26 @@ Therefore, the single-supply power supply tries to establish 1/2 of V+ to obtain
 &lt;p&gt;The interrupt service program is used to reload the timer count value regularly, take out the next sine wave sample value according to the frequency step parameter, change the DAC output voltage, and then scan a digital tube every ten interrupts.&lt;/p&gt;
 &lt;h3 id=&#34;epilogue&#34;&gt;Epilogue&lt;/h3&gt;
 &lt;p&gt;The Digital Signal Generator project exemplifies the seamless integration of theoretical knowledge and practical expertise in electronic system design. By navigating the complexities of signal generation, modulation, and the synthesis of hardware with software, the team not only underscored their engineering acumen but also embraced a philosophy of lifelong learning and innovation. This project serves not just as a showcase of applied electronic principles but as a testament to the ongoing journey of knowledge acquisition and application in the engineering realm, paving the way for future advancements in the field.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>f) Electronic system design</title>
+      <link>https://example.com/project/external-project-copy/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy/</guid>
+      <description>&lt;h3 id=&#34;project-background&#34;&gt;Project Background&lt;/h3&gt;
+&lt;p&gt;The intelligent vehicle, or wheeled mobile robot, integrates multiple functions such as environmental sensing, planning and decision-making, and autonomous driving into a comprehensive system. Aimed at enhancing future lifestyles with smarter solutions, this technology is applicable not only in military contexts but also in scientific research, intelligent rescue, and more. The vehicle&amp;rsquo;s mechanical structure comprises the body, wheels, speed sensors, rotational axles, equipped with a power driver and a camera module for environmental data collection.&lt;/p&gt;
+&lt;h3 id=&#34;design-scheme-overview&#34;&gt;Design Scheme Overview&lt;/h3&gt;
+&lt;p&gt;Employing a PID control algorithm and a CCD linear camera for black line guidance detection, processed by an LM393 comparator for microcontroller-based data collection and image recognition, this design enables path identification. Motor drive is facilitated by the PC33886 model, with speed measured by direct photoelectric sensors, and data displayed on an LCD screen. Four button keys are utilized for parameter settings, enhancing the user interface for onsite debugging. The project ingeniously incorporates a mix of photonic, mechanical, and wireless communication technologies.&lt;/p&gt;
+&lt;h3 id=&#34;structural-and-system-design&#34;&gt;Structural and System Design&lt;/h3&gt;
+&lt;p&gt;Based on the principles of autonomous guide robot systems, the intelligent car is capable of autonomously recognizing and following predetermined paths. The main control module uses the STC89C51 microcontroller, focusing on centralized control and modular design, incorporating infrared sensor line tracking and trajectory detection modules. The mechanical structure is designed to minimize external light interference, ensuring balanced and stable navigation.&lt;/p&gt;
+&lt;h3 id=&#34;hardware-system-construction&#34;&gt;Hardware System Construction&lt;/h3&gt;
+&lt;p&gt;The system&amp;rsquo;s hardware includes the STM32F103 microcontroller as the main control module, along with power, motor drive, infrared obstacle avoidance, control terminal, and wireless video monitoring modules. This setup ensures reliable power supply and effective control over the vehicle&amp;rsquo;s dynamic monitoring functions.&lt;/p&gt;
+&lt;h3 id=&#34;programming-challenges-and-solutions&#34;&gt;Programming Challenges and Solutions&lt;/h3&gt;
+&lt;p&gt;The report also delves into the learning process for programming the STM32 microcontroller, including clock initialization, mobility function implementation, PID algorithm development, steering functionality, Bluetooth serial port configuration, and PID debugging. By exploring sensor detection, PWM output for motor driving, speed detection, and serial communication, the project overcame various developmental challenges.&lt;/p&gt;
+&lt;h3 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h3&gt;
+&lt;p&gt;Through teamwork, we successfully assembled the intelligent car and achieved the line-tracking task. Throughout the project, we solved multiple technical problems, gaining an in-depth understanding of the working principles of intelligent cars and mastering STM32 related skills. This experience not only enhanced our practical abilities but also strengthened our team collaboration spirit. This course has provided us with invaluable and enriching learning, contributing significantly to our academic and practical growth.&lt;/p&gt;
 </description>
     </item>
     

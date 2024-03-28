@@ -5,7 +5,7 @@
     <link>https://example.com/tag/artificial-intelligence/</link>
       <atom:link href="https://example.com/tag/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <description>Artificial Intelligence</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Artificial Intelligence</title>
@@ -13,9 +13,41 @@
     </image>
     
     <item>
+      <title>d) Undergraduate graduation project</title>
+      <link>https://example.com/project/external-project-copy-3/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-3/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;ABSTRACT&lt;/h1&gt;
+&lt;p&gt;The purpose of human motion detection is to provide a system for self-analysis of events in the video data and to understand the behaviour of a person. This is a key function of intelligent video surveillance systems with a wide range of applications. In this paper, we investigate a human action recognition system based on two steps of human feature extraction and human action classification. Quantification and model transplantation for the human feature extraction step are performed based on an artificial intelligence chip.&lt;/p&gt;
+&lt;p&gt;To complete the human feature extraction, a humanoid target detector is first built based on the YOLOv5s framework and DeepSORT tracking, and a pose estimation detector is built to extract human bone joint points using the Alphapose algorithm. The extracted features are then fed into the action classification detector based on convolution of spatio-temporal maps to complete the construction of the human motion recognition system.&lt;/p&gt;
+&lt;p&gt;Due to the problems of aerial perspective and complex background of surveillance videos, this work does not use the current mainstream dataset, but uses several high-resolution surveillance cameras from the Experimental Teaching Center of Information and Communication Engineering, School of Electrical Automation and Information Engineering, Tianjin University to create a 15-hour dataset with 9 types of actions in 12 indoor and outdoor scenes to train and evaluate the model. In this work, the feasibility of this human motion recognition system is verified by experiment, and its average accuracy can reach 95%, and it meets the real-time requirements.&lt;/p&gt;
+&lt;p&gt;Finally, in this work, the embedded AR9341 chip is used as the model support to quantify and transplant the model to the human feature extraction phase, and the NPU module provided by the platform is used for acceleration, so that the human feature extraction system can have high accuracy, faster speed and a wider range of application scenarios.&lt;/p&gt;
+&lt;h5 id=&#34;key-words-object-detection-pose-estimation-action-recognition-artificial-intelligence-chip-model-quantization-and-transplantation&#34;&gt;KEY WORDS: Object detection, Pose estimation, Action recognition, Artificial intelligence chip, Model quantization and transplantation&lt;/h5&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>e) Machine learning and visual perception</title>
+      <link>https://example.com/project/external-project-copy-8/</link>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-8/</guid>
+      <description>&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;This project develops an efficient mask detection system using Python, designed to autonomously identify whether individuals are wearing masks. Originating from the global COVID-19 pandemic in 2019, the context highlights the necessity of mask-wearing in public areas and the urgent need for automated systems to reduce the burden on manual checks.&lt;/p&gt;
+&lt;h3 id=&#34;development-tools-and-technical-approach&#34;&gt;Development Tools and Technical Approach&lt;/h3&gt;
+&lt;p&gt;Utilizing the Python IDE PyCharm and the image annotation tool Labelme as primary development and data processing tools, the project employs machine learning algorithms—specifically, the MobileNet framework—for in-depth training and optimization. Experimental methods include data preprocessing, model training, and testing validation, ensuring the system&amp;rsquo;s accuracy and practicality.&lt;/p&gt;
+&lt;p&gt;Code Implementation and Performance Optimization
+The summary details the process from data set construction and model architecture establishment to the implementation of training strategies, emphasizing optimization measures taken during model training, such as dynamic learning rate adjustments and early stopping. These measures significantly enhance the model&amp;rsquo;s generalization ability and recognition accuracy.&lt;/p&gt;
+&lt;h3 id=&#34;results-display-and-application-value&#34;&gt;Results Display and Application Value&lt;/h3&gt;
+&lt;p&gt;Experimental outcomes demonstrate the system&amp;rsquo;s effective recognition of mask-wearing status in real-time video streams, validating the model&amp;rsquo;s effectiveness. The mask detection system not only achieves the technical objectives but also holds significant application potential in the field of public health management.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;This project showcases the powerful application capabilities of deep learning in the public health domain, particularly against the backdrop of the current global pandemic. The development of the mask detection system bears important social value and practical significance. With continuous technological advancement and optimization, the system is expected to play a larger role in a broader range of scenarios.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>b) Innovation &amp; Entrepreneurship Training Program for College Students</title>
       <link>https://example.com/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project/</guid>
       <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;To enable blind people to perceive surrounding obstacles in real-time while traveling and improve the safety of blind people&amp;rsquo;s travel, traditional blind walking sticks have been modified. This article adopts the STM32f103zet6 microcontroller and uses embedded development design to add functions such as ultrasonic obstacle avoidance, GPS positioning, fall detection, fingerprint unlocking, and voice broadcasting to the traditional blind cane. This project utilizes the XFS5152CE chip to achieve voice broadcasting function, the AS608 optical fingerprint module to achieve fingerprint unlocking function, the ESP8266WiFi module to achieve interaction between mobile phones and intelligent guide canes, the ADXL345 module to detect the user&amp;rsquo;s status in real-time, and to achieve fall warning function. The ultrasonic obstacle avoidance module utilizes the principle of ultrasonic ranging. The GPS positioning module can receive and demodulate the broadcast C/A code signal of satellites, and achieve GPS positioning function by calculating the pseudo distance to each satellite and calculating parameters such as longitude and latitude. The feasibility of this scheme has been verified through experiments. Fingerprint unlocking, voice broadcasting, and GPS positioning functions can all operate normally. When the distance between the guide rod and the obstacle is less than 0.2m, or the forward acceleration in a certain direction of the guide rod is too large, the intelligent guide rod can send out a warning signal in a timely manner.&lt;/p&gt;
@@ -202,96 +234,6 @@ Initially, it&amp;rsquo;s necessary to initialize the UART, delay functions, and
 &lt;p&gt;After the circuit was realized and set up, a series of simulated experiments were conducted. The corridor with classrooms on both sides was chosen as the experimental venue, with experimenters using a board as an obstacle. The experimenters, blindfolded and holding the guide cane, walked forward. The guide cane emitted corresponding voice warnings when the distance to an obstacle, either in front or at the bottom, was less than or equal to 1.5 meters. When the temperature sensor power was activated by the experimenters, the environmental temperature was voice broadcasted; deactivating the power stopped the broadcast. When water was sprinkled on the ground, there was no alarm for a small amount of water, but an alarm was triggered for water accumulation of 1cm or more. When experimenters placed their finger on the fingerprint recognition module, the guide cane was successfully unlocked. The mobile phone connected to the WIFI module could display the GPS positioning of the guide cane. If the experimenter fell to the ground and remained there for more than 5 minutes, the buzzer alarm was timely activated. The alarm could be canceled by pressing a button. The display screen on the guide cane could effectively show weather information and payment codes.&lt;/p&gt;
 &lt;h4 id=&#34;32-conclusions&#34;&gt;3.2 Conclusions&lt;/h4&gt;
 &lt;p&gt;The simulated experiments verified the practicality and operability of the guide cane, proving that it can effectively guide blind individuals to avoid obstacles both above and below, detect temperatures and the presence of water on the road, and promptly alarm. Additionally, the fingerprint module ensured the information security of the guide cane, while the display screen facilitated the daily life of the blind by showing payment codes. The voice broadcast greatly facilitated the travel of the blind.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>c) Master’s thesis project</title>
-      <link>https://example.com/project/external-project-copy-4/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-4/</guid>
-      <description>&lt;h1 id=&#34;project-specification&#34;&gt;Project Specification&lt;/h1&gt;
-&lt;p&gt;Cardiovascular disease (CVD) is well recognized as the leading cause of death and a significant danger to global public health. In 2016, the World Health Organization reported that CVD was responsible for 31% of all annual deaths, totaling over 18 million individuals, with a continuous increase each year [1]. Recently, the medical field has consistently worked to decrease the death rate from heart illness and enhance the diagnosis of cardiac conditions.&lt;/p&gt;
-&lt;p&gt;Mammalian models, including pigs, non-human primates, and rodents, have been primarily utilized to study the processes of heart disease. Conversely, there is a growing trend to decrease the utilization of mammals for research purposes and implement alternative models.
-Zebrafish have emerged as a robust model for investigating heart development and morphology based on recent advancements, because Zebrafish are tiny, easy to breed, reach sexual maturity early, and have external translucent embryo development for easy viewing [2]. The cardiovascular system of zebrafish is similar to that of mammals in terms of anatomy and physiological function. The heart of zebrafish is also composed of atria and ventricle, with the valve between the atria and the ventricle. The development and gene regulation mechanism of the heart are also similar to human [3]. Although the zebrafish heart is relatively simple compared to mammals, most specialized cell types and structures (e.g., pacemaker, atrioventricular valve, aortic valve, trabeculae, and coronary vessels) and contributing cell types (myocardium, endocardium, epicardium, cardiac neural crest, second heart field, and fibroblasts) are preserved [4].&lt;/p&gt;
-&lt;p&gt;At the same time, more advanced imaging methods in medical image can also promote the advancement of cardiovascular diagnosis and research. For example, with the help of advanced technologies such as light-sheet fluorescence microscopy (LSFM) (as shown in Figure 1(a)), medical researchers can obtain higher quality and resolution cardiac images. Unlike traditional epifluorescence microscopy (as shown in Figure 1(b)), LSFM uses orthogonal independent excitation and detection light paths to thinly illuminate the sample from the side, excite only the fluorescence in the sample, and then detect the image in the orthogonal direction [5]. This method effectively avoids the impact of out-of-focus background on image quality, improves imaging contrast, and makes in-depth research and accurate diagnosis of heart disease possible.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/yLUxDISadWnzYQK.jpg&#34; alt=&#34;6.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-The application of LSFM mainly focuses on three aspects: cell biology [7]‌, developmental biology [8] and neuroscience [9]. As the first functional organ formed during mammalian embryonic development, the heart is a key driving force for the development of other tissues and organs. In order to better understand cardiac morphogenesis and to more effectively treat cardiovascular diseases, many researchers use this microscope to study the heart. Yue et al. used light-sheet imaging technology to reconstruct the whole cell lineage with single-cell resolution and temporal continuity [10]. They reported for the first time a panoramic view of the cell lineage during the early development of the mammalian heart, revealing the process from the origin of the heart tube to the establishment of the ventricle, and then to a new mechanism of cellular dynamics of myotrabecular formation; Lovelace et al. used the HYBRiD tissue clearing method and high-resolution light sheet microscopy to observe the distribution of a large number of NPY2R VSN fibers in the ventricular wall, providing an intuitive experimental model for in-depth exploration of cardiac sensory neurons in physiological and pathological states [11].&lt;/p&gt;
-&lt;p&gt;Cardiac image segmentation is a critical step in processing cardiac images. With the continuous advancement of deep learning algorithms, it has become possible to divide images into anatomically meaningful regions and extract quantitative measurements from them. However, although deep learning has better feature recognition and extraction capabilities than traditional methods, medical image segmentation poses significant challenges due to the complexity of medical images, such as class imbalance, interference from neighboring organs, lack of high-quality annotations, and label noise. Over the years, segmentation algorithms based on models such as convolutional neural networks (CNN) [12] and fully convolutional networks (FCN) [13] have continued to advance.&lt;/p&gt;
-&lt;p&gt;This project aims to develop a data analysis pipeline to segment normal and pathological hearts based on their 3D morphological changes. First, this project will develop an image analysis method to reconstruct 2D time series into 4D data and robustly quantify the 3D morphology of the heart using the large 2D imaging data set collected by the Vermot Laboratory. Subsequently, the project will develop and train a segmentation network based on deep learning to identify cell nuclei and track position based on time changes, thereby achieving 3D image segmentation of large image stacks.&lt;/p&gt;
-&lt;p&gt;The project is based on several key assumptions:&lt;/p&gt;
-&lt;p&gt;It is assumed that a 4D representation of the endocardium can be accurately reconstructed from the available 2D data and that this 4D representation allows us to perform an analysis of endocardial deformation.&lt;/p&gt;
-&lt;p&gt;It is assumed that imaging conditions (e.g., light intensity, temperature, and sample handling) have been optimized and controlled not to affect the volume and movement of nuclei within cardiac tissue.&lt;/p&gt;
-&lt;p&gt;These basic assumptions will serve as the basis for this project.&lt;/p&gt;
-&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
-&lt;p&gt;[1] &lt;a href=&#34;https://www.who.int&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.who.int&lt;/a&gt;. (n.d.). Cardiovascular diseases (CVDs). [online] Available at: &lt;a href=&#34;https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-%28cvds%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)&lt;/a&gt;.‌&lt;/p&gt;
-&lt;p&gt;[2] Kemmler, C.L., Riemslagh, F.W., Moran, H.R. and Mosimann, C. (2021). From Stripes to a Beating Heart: Early Cardiac Development in Zebrafish. Journal of Cardiovascular Development and Disease, [online] 8(2), p.17. doi:https://doi.org/10.3390/jcdd8020017.&lt;/p&gt;
-&lt;p&gt;[3] Brown, D., Samsa, L., Qian, L. and Liu, J. (2016). Advances in the Study of Heart Development and Disease Using Zebrafish. Journal of Cardiovascular Development and Disease, [online] 3(2), p.13. doi:https://doi.org/10.3390/jcdd3020013.&lt;/p&gt;
-&lt;p&gt;[4] Bowley, G., Kugler, E., Wilkinson, R., Lawrie, A., Eeden, F., Chico, T.J.A., Evans, P.C., Noël, E.S. and Serbanovic‐Canic, J. (2021). Zebrafish as a tractable model of human cardiovascular disease. British Journal of Pharmacology, 179(5), pp.900–917. doi:https://doi.org/10.1111/bph.15473.‌&lt;/p&gt;
-&lt;p&gt;[5] Jianshu. (2017). Science Technology Review: Photoacoustic Imaging. [online] Available at: &lt;a href=&#34;https://www.jianshu.com/p/a1fae8c482fa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/p/a1fae8c482fa&lt;/a&gt; [Accessed 28 Feb. 2024].&lt;/p&gt;
-&lt;p&gt;[6] skltop.opt.ac.cn. (n.d.). [Cover] Yao Baoli: Long-term three-dimensional imaging of living samples—Light-sheet fluorescence microscopy—State Key Laboratory of Transient Optics and Photonics Technology. [online ] Available at: &lt;a href=&#34;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html&lt;/a&gt; [Accessed 24 Feb. 2024].‌&lt;/p&gt;
-&lt;p&gt;[7] Chen, B.-C., Legant, W.R., Wang, K., Shao, L., Milkie, D.E., Davidson, M.W., Janetopoulos, C., Wu, X.S., Hammer, J.A., Liu, Z., English, B.P., Mimori-Kiyosue, Y., Romero, D.P., Ritter, A.T., Lippincott-Schwartz, J., Fritz-Laylin, L., Mullins, R.D., Mitchell, D.M., Bembenek, J.N. and Reymann, A.-C. (2014). Lattice light-sheet microscopy: Imaging molecules to embryos at high spatiotemporal resolution. Science, 346(6208), p.1257998. doi:https://doi.org/10.1126/science.1257998.&lt;/p&gt;
-&lt;p&gt;[8] Stelzer, E.H.K. (2014). Light-sheet fluorescence microscopy for quantitative biology. Nature Methods, 12(1), pp.23–26. doi:https://doi.org/10.1038/nmeth.3219.&lt;/p&gt;
-&lt;p&gt;[9] Gao, R., Asano, S.M., Upadhyayula, S., Pisarev, I., Milkie, D.E., Liu, T.-L., Singh, V., Graves, A., Huynh, G.H., Zhao, Y., Bogovic, J., Colonell, J., Ott, C.M., Zugates, C., Tappan, S., Rodriguez, A., Mosaliganti, K.R., Sheu, S.-H., Pasolli, H.A. and Pang, S. (2019). Cortical column and whole-brain imaging with molecular contrast and nanoscale resolution. Science, 363(6424), p.eaau8302. doi:https://doi.org/10.1126/science.aau8302.&lt;/p&gt;
-&lt;p&gt;[10] Yue, Y., Zong, W., Li, X., Li, J., Zhang, Y., Wu, R., Liu, Y., Cui, J., Wang, Q., Bian, Y., Yu, X., Liu, Y., Tan, G., Zhang, Y., Zhao, G., Zhou, B., Chen, L., Xiao, W., Cheng, H. and He, A. (2020). Long-term, in toto live imaging of cardiomyocyte behaviour during mouse ventricle chamber formation at single-cell resolution. Nature Cell Biology, 22(3), pp.332–340. doi:https://doi.org/10.1038/s41556-020-0475-2.&lt;/p&gt;
-&lt;p&gt;[11] Lovelace, J.W., Ma, J., Yadav, S., Chhabria, K., Shen, H., Pang, Z., Qi, T., Sehgal, R., Zhang, Y., Bali, T., Vaissiere, T., Tan, S., Liu, Y., Rumbaugh, G., Ye, L., Kleinfeld, D., Stringer, C. and Augustine, V. (2023). Vagal sensory neurons mediate the Bezold–Jarisch reflex and induce syncope. Nature, [online] pp.1–10. doi:https://doi.org/10.1038/s41586-023-06680-7.&lt;/p&gt;
-&lt;p&gt;[12] Jaswal, D., V, S. and Soman, K.P. (2014). Image Classification Using Convolutional Neural Networks. International Journal of Scientific and Engineering Research, 5(6), pp.1661–1668. doi:https://doi.org/10.14299/ijser.2014.06.002‌&lt;/p&gt;
-&lt;p&gt;[13] Long, J., Shelhamer, E. and Darrell, T. (2015). Fully convolutional networks for semantic segmentation. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). [online] doi:https://doi.org/10.1109/cvpr.2015.7298965.&lt;/p&gt;
-&lt;p&gt;‌&lt;/p&gt;
-&lt;p&gt;‌
-‌&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>d) Undergraduate graduation project</title>
-      <link>https://example.com/project/external-project-copy-3/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-3/</guid>
-      <description>&lt;h1 id=&#34;abstract&#34;&gt;ABSTRACT&lt;/h1&gt;
-&lt;p&gt;The purpose of human motion detection is to provide a system for self-analysis of events in the video data and to understand the behaviour of a person. This is a key function of intelligent video surveillance systems with a wide range of applications. In this paper, we investigate a human action recognition system based on two steps of human feature extraction and human action classification. Quantification and model transplantation for the human feature extraction step are performed based on an artificial intelligence chip.&lt;/p&gt;
-&lt;p&gt;To complete the human feature extraction, a humanoid target detector is first built based on the YOLOv5s framework and DeepSORT tracking, and a pose estimation detector is built to extract human bone joint points using the Alphapose algorithm. The extracted features are then fed into the action classification detector based on convolution of spatio-temporal maps to complete the construction of the human motion recognition system.&lt;/p&gt;
-&lt;p&gt;Due to the problems of aerial perspective and complex background of surveillance videos, this work does not use the current mainstream dataset, but uses several high-resolution surveillance cameras from the Experimental Teaching Center of Information and Communication Engineering, School of Electrical Automation and Information Engineering, Tianjin University to create a 15-hour dataset with 9 types of actions in 12 indoor and outdoor scenes to train and evaluate the model. In this work, the feasibility of this human motion recognition system is verified by experiment, and its average accuracy can reach 95%, and it meets the real-time requirements.&lt;/p&gt;
-&lt;p&gt;Finally, in this work, the embedded AR9341 chip is used as the model support to quantify and transplant the model to the human feature extraction phase, and the NPU module provided by the platform is used for acceleration, so that the human feature extraction system can have high accuracy, faster speed and a wider range of application scenarios.&lt;/p&gt;
-&lt;h5 id=&#34;key-words-object-detection-pose-estimation-action-recognition-artificial-intelligence-chip-model-quantization-and-transplantation&#34;&gt;KEY WORDS: Object detection, Pose estimation, Action recognition, Artificial intelligence chip, Model quantization and transplantation&lt;/h5&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>e) Machine learning and visual perception</title>
-      <link>https://example.com/project/external-project-copy-8/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-8/</guid>
-      <description>&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
-&lt;p&gt;This project develops an efficient mask detection system using Python, designed to autonomously identify whether individuals are wearing masks. Originating from the global COVID-19 pandemic in 2019, the context highlights the necessity of mask-wearing in public areas and the urgent need for automated systems to reduce the burden on manual checks.&lt;/p&gt;
-&lt;h3 id=&#34;development-tools-and-technical-approach&#34;&gt;Development Tools and Technical Approach&lt;/h3&gt;
-&lt;p&gt;Utilizing the Python IDE PyCharm and the image annotation tool Labelme as primary development and data processing tools, the project employs machine learning algorithms—specifically, the MobileNet framework—for in-depth training and optimization. Experimental methods include data preprocessing, model training, and testing validation, ensuring the system&amp;rsquo;s accuracy and practicality.&lt;/p&gt;
-&lt;p&gt;Code Implementation and Performance Optimization
-The summary details the process from data set construction and model architecture establishment to the implementation of training strategies, emphasizing optimization measures taken during model training, such as dynamic learning rate adjustments and early stopping. These measures significantly enhance the model&amp;rsquo;s generalization ability and recognition accuracy.&lt;/p&gt;
-&lt;h3 id=&#34;results-display-and-application-value&#34;&gt;Results Display and Application Value&lt;/h3&gt;
-&lt;p&gt;Experimental outcomes demonstrate the system&amp;rsquo;s effective recognition of mask-wearing status in real-time video streams, validating the model&amp;rsquo;s effectiveness. The mask detection system not only achieves the technical objectives but also holds significant application potential in the field of public health management.&lt;/p&gt;
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;This project showcases the powerful application capabilities of deep learning in the public health domain, particularly against the backdrop of the current global pandemic. The development of the mask detection system bears important social value and practical significance. With continuous technological advancement and optimization, the system is expected to play a larger role in a broader range of scenarios.&lt;/p&gt;
 </description>
     </item>
     

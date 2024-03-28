@@ -51,11 +51,307 @@
     </item>
     
     <item>
+      <title>d) Undergraduate graduation project</title>
+      <link>https://example.com/project/external-project-copy-3/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-3/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;ABSTRACT&lt;/h1&gt;
+&lt;p&gt;The purpose of human motion detection is to provide a system for self-analysis of events in the video data and to understand the behaviour of a person. This is a key function of intelligent video surveillance systems with a wide range of applications. In this paper, we investigate a human action recognition system based on two steps of human feature extraction and human action classification. Quantification and model transplantation for the human feature extraction step are performed based on an artificial intelligence chip.&lt;/p&gt;
+&lt;p&gt;To complete the human feature extraction, a humanoid target detector is first built based on the YOLOv5s framework and DeepSORT tracking, and a pose estimation detector is built to extract human bone joint points using the Alphapose algorithm. The extracted features are then fed into the action classification detector based on convolution of spatio-temporal maps to complete the construction of the human motion recognition system.&lt;/p&gt;
+&lt;p&gt;Due to the problems of aerial perspective and complex background of surveillance videos, this work does not use the current mainstream dataset, but uses several high-resolution surveillance cameras from the Experimental Teaching Center of Information and Communication Engineering, School of Electrical Automation and Information Engineering, Tianjin University to create a 15-hour dataset with 9 types of actions in 12 indoor and outdoor scenes to train and evaluate the model. In this work, the feasibility of this human motion recognition system is verified by experiment, and its average accuracy can reach 95%, and it meets the real-time requirements.&lt;/p&gt;
+&lt;p&gt;Finally, in this work, the embedded AR9341 chip is used as the model support to quantify and transplant the model to the human feature extraction phase, and the NPU module provided by the platform is used for acceleration, so that the human feature extraction system can have high accuracy, faster speed and a wider range of application scenarios.&lt;/p&gt;
+&lt;h5 id=&#34;key-words-object-detection-pose-estimation-action-recognition-artificial-intelligence-chip-model-quantization-and-transplantation&#34;&gt;KEY WORDS: Object detection, Pose estimation, Action recognition, Artificial intelligence chip, Model quantization and transplantation&lt;/h5&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>e) Machine learning and visual perception</title>
+      <link>https://example.com/project/external-project-copy-8/</link>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-8/</guid>
+      <description>&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;This project develops an efficient mask detection system using Python, designed to autonomously identify whether individuals are wearing masks. Originating from the global COVID-19 pandemic in 2019, the context highlights the necessity of mask-wearing in public areas and the urgent need for automated systems to reduce the burden on manual checks.&lt;/p&gt;
+&lt;h3 id=&#34;development-tools-and-technical-approach&#34;&gt;Development Tools and Technical Approach&lt;/h3&gt;
+&lt;p&gt;Utilizing the Python IDE PyCharm and the image annotation tool Labelme as primary development and data processing tools, the project employs machine learning algorithms—specifically, the MobileNet framework—for in-depth training and optimization. Experimental methods include data preprocessing, model training, and testing validation, ensuring the system&amp;rsquo;s accuracy and practicality.&lt;/p&gt;
+&lt;p&gt;Code Implementation and Performance Optimization
+The summary details the process from data set construction and model architecture establishment to the implementation of training strategies, emphasizing optimization measures taken during model training, such as dynamic learning rate adjustments and early stopping. These measures significantly enhance the model&amp;rsquo;s generalization ability and recognition accuracy.&lt;/p&gt;
+&lt;h3 id=&#34;results-display-and-application-value&#34;&gt;Results Display and Application Value&lt;/h3&gt;
+&lt;p&gt;Experimental outcomes demonstrate the system&amp;rsquo;s effective recognition of mask-wearing status in real-time video streams, validating the model&amp;rsquo;s effectiveness. The mask detection system not only achieves the technical objectives but also holds significant application potential in the field of public health management.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;This project showcases the powerful application capabilities of deep learning in the public health domain, particularly against the backdrop of the current global pandemic. The development of the mask detection system bears important social value and practical significance. With continuous technological advancement and optimization, the system is expected to play a larger role in a broader range of scenarios.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Design and simulation of an upper limb rehabilitation exoskeleton robot</title>
       <link>https://example.com/publication/conference-paper/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/conference-paper/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>a) Chinese Academy of Sciences</title>
+      <link>https://example.com/project/example/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&amp;rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>b) Innovation &amp; Entrepreneurship Training Program for College Students</title>
+      <link>https://example.com/project/external-project/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;To enable blind people to perceive surrounding obstacles in real-time while traveling and improve the safety of blind people&amp;rsquo;s travel, traditional blind walking sticks have been modified. This article adopts the STM32f103zet6 microcontroller and uses embedded development design to add functions such as ultrasonic obstacle avoidance, GPS positioning, fall detection, fingerprint unlocking, and voice broadcasting to the traditional blind cane. This project utilizes the XFS5152CE chip to achieve voice broadcasting function, the AS608 optical fingerprint module to achieve fingerprint unlocking function, the ESP8266WiFi module to achieve interaction between mobile phones and intelligent guide canes, the ADXL345 module to detect the user&amp;rsquo;s status in real-time, and to achieve fall warning function. The ultrasonic obstacle avoidance module utilizes the principle of ultrasonic ranging. The GPS positioning module can receive and demodulate the broadcast C/A code signal of satellites, and achieve GPS positioning function by calculating the pseudo distance to each satellite and calculating parameters such as longitude and latitude. The feasibility of this scheme has been verified through experiments. Fingerprint unlocking, voice broadcasting, and GPS positioning functions can all operate normally. When the distance between the guide rod and the obstacle is less than 0.2m, or the forward acceleration in a certain direction of the guide rod is too large, the intelligent guide rod can send out a warning signal in a timely manner.&lt;/p&gt;
+&lt;h6 id=&#34;key-words-stm32-microcontroller-intelligent-blind-cane-ultrasonic-ranging-gps-embedded&#34;&gt;KEY WORDS: STM32 microcontroller, intelligent blind cane, ultrasonic ranging, GPS, embedded&lt;/h6&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;h4 id=&#34;11-project-overview&#34;&gt;1.1 Project Overview&lt;/h4&gt;
+&lt;p&gt;1.1.1 Introduction to the Project&lt;/p&gt;
+&lt;p&gt;As one of the assistive tools for mobility, guide canes are widely used among the blind community. In today&amp;rsquo;s technologically advanced world, the trend towards product intelligence is undeniable. Taking into consideration the overall environment of the pandemic and the daily mobility needs of the blind, this project is dedicated to designing an intelligent guide cane to further facilitate the mobility of the blind. By adding only a small amount of cost, the guide cane is equipped with an ultrasonic obstacle avoidance system, a GPS positioning system, a fall detection with one-click alarm feature, a display screen that can show personal health codes and payment codes, a voice broadcast for daily weather forecasts, and a fingerprint lock to protect important personal information such as health codes and payment codes.&lt;/p&gt;
+&lt;h4 id=&#34;12-project-plan&#34;&gt;1.2 Project Plan&lt;/h4&gt;
+&lt;p&gt;1.2.1 Background of the Project&lt;/p&gt;
+&lt;p&gt;According to statistics from the Ministry of Health, there are as many as 14 million blind people in China, making it the country with the highest number of blind individuals in the world. On average, there is one blind person in every 100 individuals. Every year, about 450,000 new cases of blindness and visually impaired individuals are reported in China, highlighting an urgent need to address their mobility issues. The factors affecting the lives of the blind mainly include the following:&lt;/p&gt;
+&lt;p&gt;First, the physical defects of the blind lead to many disadvantages in their lives;
+Second, due to mobility challenges, the blind find it difficult to interact with the outside world, lacking in entertainment and social interactions.
+Third, due to their physical disabilities, the blind face unequal treatment in social work and interpersonal interactions compared to sighted individuals.&lt;/p&gt;
+&lt;p&gt;Due to visual impairments, the blind community has developed a communication mode different from sighted individuals for perceiving the world and conveying information.&lt;/p&gt;
+&lt;p&gt;Surveys show that only 27% of blind individuals go out daily, 55% of them are unable to distinguish directions while traveling, and 34% worry about colliding with obstacles during their journeys. The survey concluded that the main reason for the low mobility of blind individuals is the lack of a comprehensive transportation system and friendly navigation devices, along with the low utilization rate of blind paths. There is a general desire among the blind for friendly mobility tools to ensure their safety, a dedicated transportation system for the blind, and the introduction of high-tech products for better navigation and assistance.&lt;/p&gt;
+&lt;p&gt;1.2.2 Significance of the Project&lt;/p&gt;
+&lt;p&gt;Firstly, the inability of the blind to easily venture outdoors hinders their interaction with the external world. Products such as blind navigators can facilitate their mobility, increase safety, and make their travels less tedious, thereby helping blind individuals integrate into modern intelligent life.&lt;/p&gt;
+&lt;p&gt;Secondly, in the context of big data, artificial intelligence, and 5G, relying on advanced scientific and technological means to solve the mobility issues of the blind is of great significance. The blind hope to be treated equally by others, to not be isolated, and to participate in social life and activities just like sighted people. Hence, there is a strong desire for optimized, companion-style mobility devices. Only by solving the issues of independent, unobstructed, and safe travel for the blind, and by providing convenient services to help them integrate into modern intelligent life, can blind individuals feel more dignified and achieve higher life satisfaction. Therefore, from a humanitarian perspective, designing more advanced mobility products for the blind is essential.&lt;/p&gt;
+&lt;p&gt;1.2.3 Existing Basis of the Project&lt;/p&gt;
+&lt;p&gt;The guide cane developed by Gao RX and others in the United States utilizes ultrasonic sensors to specifically detect obstacles within 5 meters in front of the user&amp;rsquo;s head; Mohapatra S and colleagues in India used three ultrasonic sensors to simultaneously detect obstacles directly ahead, underground in front, and slightly above in front; Hongping Ma and others from Tongji University developed an infrared detection guide cane with a dual voice alarm system using a buzzer and an MP3 module to guide blind people to walk quickly and safely; Kehua Zhang and others developed a guide system based on a single Kinect sensor (as shown in Figure 1), which can use depth image inversion algorithms and obstacle recognition algorithms to simultaneously detect all ground obstacles, pits, and hanging obstacles within a height of the blind person, a width of 1 meter, and a distance of 3 meters, and plan the best obstacle avoidance route within 3 meters based on the type and distance of each obstacle.&lt;/p&gt;
+&lt;p&gt;Therefore, after comprehensively evaluating the existing guide products on the market, we decided to use the intelligent guide cane as the carrier, linking traditional intelligent guide canes with intelligent terminals to create a guide cane with more powerful functions, more humanized design, and more conducive to improving the quality of life for people with visual impairments.&lt;/p&gt;
+&lt;h4 id=&#34;13-objectives-and-main-content-of-the-project&#34;&gt;1.3 Objectives and Main Content of the Project&lt;/h4&gt;
+&lt;p&gt;The main content of this research includes adding features such as weather forecasting, ultrasonic obstacle avoidance, GPS positioning, fall detection, fingerprint unlocking, and the display of health codes and payment codes to a standard guide cane. It also includes voice broadcasting of relevant information. The fall detection module uses sensing devices to detect the angle between the cane and the ground, and sends the corresponding angle information to the controller. The controller controls the module to signal and alert passersby to assist the blind person, thus achieving the function of fall alarm. Ultrasonic obstacle avoidance determines the presence and distance of obstacles by detecting the return of sound waves. The GPS positioning module can send a text message with location information to a family member&amp;rsquo;s mobile phone after obtaining the latitude and longitude. By entering STA mode, the WiFi module can connect to a router or mobile hotspot to upload data to the cloud platform. By opening the app associated with the cloud platform on a mobile phone, communication between the mobile phone and the intelligent guide cane can be achieved. Guide cane users can send requests to the mobile phone for weather forecasts, health codes, and payment codes. After receiving the request, the mobile end sends back corresponding health code, payment code screenshot data, and weather data. Upon receiving the data, the microprocessor on the cane side performs data processing work and then transmits the processed information to the corresponding information display device, such as a screen or the speaker of the voice synthesis module. Finally, to prevent personal information such as payment codes from being misused, the fingerprint recognition module sends the input fingerprint information to the microcontroller. The microcontroller matches the input fingerprint information with the fingerprint information previously recorded, thereby achieving the purpose of fingerprint verification.&lt;/p&gt;
+&lt;h4 id=&#34;14-summary-of-innovative-features-of-the-project&#34;&gt;1.4 Summary of Innovative Features of the Project&lt;/h4&gt;
+&lt;p&gt;The main achievements of this research utilize the STM32 microcontroller, embedded development design, signal processing, and other technologies to develop a new type of guide cane, which has certain technological innovation value. Our design connects the mobile phone with the guide cane, displaying health codes and payment codes on the guide cane, and cooperates with the voice module to broadcast during payment, facilitating the blind during the epidemic for convenience and payment security, with certain technological innovation and market value. This research is primarily aimed at individuals with visual impairments. Currently, blind people mainly rely on guide dogs and traditional guide canes for outdoor activities. The results of this research can enrich the mobility methods of blind people, greatly facilitate their lives, and have certain social innovation value.&lt;/p&gt;
+&lt;h3 id=&#34;theoretical-research&#34;&gt;Theoretical Research&lt;/h3&gt;
+&lt;h4 id=&#34;21-ultrasonic-obstacle-avoidance&#34;&gt;2.1 Ultrasonic Obstacle Avoidance&lt;/h4&gt;
+&lt;p&gt;2.1.1 Principle&lt;/p&gt;
+&lt;p&gt;The design idea of the ultrasonic obstacle avoidance program is based on the principle of ultrasonic ranging. Initially, the microcontroller sends a high-level signal lasting 20us to the Trig terminal of the ultrasonic module, followed by a low-level signal, activating the ultrasonic module. The module then emits eight 40Khz square wave pulses and waits for the signal to return. If a signal returns, the Echo terminal of the ultrasonic module outputs a high-level signal. The duration of the high-level signal reception equals the time taken for the ultrasonic waves to travel from emission to reception. The distance to the obstacle is calculated as (time of high-level signal reception * 340) / 2, measured in meters. By taking multiple measurements from different directions in front of the guide cane and performing multiple samplings, the data error is minimized. Finally, the microcontroller processes the data to prompt obstacle avoidance alerts. The HC-SR04 ultrasonic module, commonly used in robotics for obstacle avoidance, object measurement, liquid level detection, public security, and parking space detection, primarily consists of two general-purpose piezoelectric ceramic ultrasonic sensors with peripheral signal processing circuits.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/TmQu1pgL7nvVdNf.jpg&#34; alt=&#34;1.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The module has one sensor for emitting ultrasonic signals and another for receiving the ultrasonic signals that bounce back. Due to the weak nature of both the emitted and received signals, it&amp;rsquo;s necessary to use external signal amplifiers to enhance the power of the emitted signal and amplify the reflected signal for stable transmission to the microcontroller.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/YG5UuDeIC1TKx3V.jpg&#34; alt=&#34;2.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+2.1.2 Module Parameters&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/nkOfXGzWPdDwTbQ.jpg&#34; alt=&#34;3.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;2.1.3 Module Pins&lt;/p&gt;
+&lt;p&gt;The ultrasonic module has four pins: Vcc, Trig (control terminal), Echo (reception terminal), and GND. The VCC and GND are connected to a 5V power supply. The Trig (control terminal) controls the emission of ultrasonic waves, while the Echo (reception terminal) receives the reflected ultrasonic waves.&lt;/p&gt;
+&lt;p&gt;2.1.4 Implementation Effect of the Ultrasonic Module
+To evaluate the performance of the ultrasonic module, a series of experiments were conducted. These experiments tested the intelligent cane&amp;rsquo;s application scenarios, including its ability to recognize and alert against various obstacles. The module could accurately identify obstacles and, in conjunction with the voice broadcast module, alert the user, proving its reliability. The experiments showed that the ultrasonic module successfully ensured that users of the guide cane could avoid obstacles safely while walking, maintaining error within an acceptable range. This experiment applied the ultrasonic module to the guide cane, effectively detecting the environment and promptly identifying obstacles around the blind, providing a safeguard for their safe and rapid movement.&lt;/p&gt;
+&lt;h4 id=&#34;22-fingerprint-recognition-module&#34;&gt;2.2 Fingerprint Recognition Module&lt;/h4&gt;
+&lt;p&gt;2.2.1 Principle
+The fingerprint recognition module based on the STM32 microcontroller uses the AS608 optical fingerprint module, which operates at 3.3V. The default system password for the fingerprint module is 0, and its default address is 0Xffffffff, which can be modified through commands. It&amp;rsquo;s important to ensure that the address field in the data packet matches this address.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/fIxMsNm497eXqpb.jpg&#34; alt=&#34;4.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Initially, it&amp;rsquo;s necessary to initialize the UART, delay functions, and clock of the STM32, followed by interrupt priority grouping. After the STM32 and AS608 module handshake, establishing a connection between the STM32 and AS608, the connection result is displayed on the screen. Upon successful connection, the AS608&amp;rsquo;s library fingerprint numbers and relevant parameters are read. Successful reading triggers a command to record fingerprints. The status of PS_Sta is checked; if PS_Sta instruction equals 1, it indicates that a finger is pressed down, starting the fingerprint scanning process, and the display shows “Please press fingerprint.” Once pressed, AS608 generates a feature image stored in CharBuffer1 or CharBuffer2. This process is repeated for the second time. If the comparison fails, the input is requested again; if successful, it indicates that the fingerprint image generation is successful. The system then automatically assigns an ID to the fingerprint feature image for template storage. For unlocking with the fingerprint module, it&amp;rsquo;s only necessary to search the fingerprint database for a matching fingerprint to score, and if the score reaches the set standard value, the unlocking is successful.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/3rEcu9ih2UYL5Fa.jpg&#34; alt=&#34;5.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+2.2.2 Implementation Effect of the Fingerprint Recognition Module&lt;/p&gt;
+&lt;p&gt;To assess the performance of the fingerprint recognition module, several experiments were conducted. These experiments aimed at various application scenarios of the intelligent cane, including recognizing different individuals&amp;rsquo; fingerprints. The module could accurately identify the user&amp;rsquo;s fingerprint for unlocking, while non-user fingerprints triggered an alarm. The results showed that the fingerprint recognition module successfully ensured the information security of the guide cane users, with errors maintained within acceptable limits. This experiment applied the fingerprint recognition module to the guide cane, effectively detecting the user&amp;rsquo;s fingerprint, converting the fingerprint image into a digital signal, and comparing it with the fingerprint template stored in the database, achieving identity verification and recognition functions, effectively ensuring the safety of the guide cane use.&lt;/p&gt;
+&lt;h4 id=&#34;23-voice-broadcast-module&#34;&gt;2.3 Voice Broadcast Module&lt;/h4&gt;
+&lt;p&gt;2.3.1 Hardware Principle&lt;/p&gt;
+&lt;p&gt;This section employs the XFS5152CE chip produced by iFlytek, which utilizes a TTS (Text-to-Speech) voice module. Not only can this chip perform real-time voice broadcasting, but it also has the capability for voice recognition. However, since our product currently does not require voice recognition capabilities, we will focus solely on the voice broadcasting function. The XFS5152CE chip supports UART, I2C, and SPI interfaces for communication, allowing it to receive commands and data from a host device through UART, I2C, or SPI interfaces. The maximum length of data that can be sent is 4K bytes. During voice broadcasting, we use the UART interface for communication, ensuring the baud rate of the module&amp;rsquo;s communication matches that of the host device or the microcontroller (STM32f103zet6). The host device sends a start decoding command to the voice chip, which then decodes the received audio data and plays it in real-time.&lt;/p&gt;
+&lt;p&gt;2.3.2 Software Principle&lt;/p&gt;
+&lt;p&gt;The process begins with initializing the serial port, where the baud rate is set via a dip switch. Following this, output pins are initialized. The BSY pin indicates the current working status: a low level represents the Ready state, while a high level indicates Busy. By connecting one of the microcontroller&amp;rsquo;s GPIOs to this pin, we can read the input state of this IO to determine the module&amp;rsquo;s current operating status. Next, we encapsulate the voice broadcast function, where the control identifier needs to be sent in the format of voice synthesis commands, meaning the synthesis command comprises “frame header + data area length + synthesis command word + text encoding format + control marker text.” In coding, we encapsulate the required command words. The XFS5152CE chip&amp;rsquo;s voice synthesis function supports various text control markers, allowing users to set the voice, volume, speed, and tone. The format for text control markers typically involves lowercase letters and Arabic numerals within square brackets (i.e., &amp;ldquo;[]&amp;rdquo;).&lt;/p&gt;
+&lt;h4 id=&#34;24-fall-detection-module&#34;&gt;2.4 Fall Detection Module&lt;/h4&gt;
+&lt;p&gt;2.4.1 Hardware Principle&lt;/p&gt;
+&lt;p&gt;The design utilizes the ADXL345 module for real-time detection of the user&amp;rsquo;s status. This module can measure both static gravitational acceleration for tilt detection and dynamic acceleration caused by motion. It is capable of detecting tilt changes within 1 degree. The module includes features for activity/inactivity detection, tap detection, and free-fall detection. Coupled with a buzzer alarm system, it can detect falls and promptly sound an alarm, with a button to cancel false alarms if necessary. The ADXL supports standard I2C or SPI digital interfaces, features a 32-level FIFO buffer, and offers various motion detection and flexible interrupt modes. With a resolution of up to 13 bits and several measurement ranges, it&amp;rsquo;s highly sensitive, capable of measuring tilt changes less than 1°, and efficiently executes the fall detection function. The sensor&amp;rsquo;s low power consumption, at just 0.1μA in standby mode, and its small size (3mm5mm1mm LGA package) make it ideal for integration into the guide cane, minimizing packaging costs.&lt;/p&gt;
+&lt;p&gt;2.4.2 Software Principle&lt;/p&gt;
+&lt;p&gt;The ADXL345&amp;rsquo;s SCL, SDA, INT1, and INT2 pins are connected to the STM32&amp;rsquo;s PB6, PB7, PB10, and PB11 pins, respectively, facilitating communication via the I2C protocol. The focus is placed on initializing the ADXL345, setting high and low thresholds, and determining the condition based on the threshold and duration to autonomously judge the sensor&amp;rsquo;s state. Two modes are configured: one for detecting static events during motion, where the ADXL345 evaluates whether it&amp;rsquo;s below the low threshold for a specified duration, sending a pulse signal to the INT1 pin if detected, and another for detecting motion events when stationary, where the ADXL345 sends a pulse to the INT2 pin if acceleration in any direction exceeds the high threshold. External interrupts on rising edges are used to distinguish between the PB10 and PB11 pins, avoiding immediate entry into sleep mode to prevent potential wake-up issues. A low-power mode, stop mode, is employed to extend sensor standby time, halting the clock and core, with any external interrupt capable of awakening the mode.&lt;/p&gt;
+&lt;p&gt;2.4.3 Implementation Effect of the Fall Detection Module&lt;/p&gt;
+&lt;p&gt;A series of experiments were conducted to evaluate the fall detection module&amp;rsquo;s performance under various scenarios and angles, ensuring its accuracy and reliability. The module could correctly identify falls and promptly alert passersby, with errors maintained within an acceptable range. This application of the fall detection module in the guide cane significantly enhances user safety and accident prevention.&lt;/p&gt;
+&lt;h4 id=&#34;25-gps-module&#34;&gt;2.5 GPS Module&lt;/h4&gt;
+&lt;p&gt;2.5.1 Hardware Principle&lt;/p&gt;
+&lt;p&gt;Incorporating GPS technology into the intelligent cane as an assistive device offers precise positioning and navigation capabilities, enhancing the mobility experience for individuals with mobility impairments. This study aims to design a GPS module based on the STM32 microcontroller that achieves accurate positioning and navigation.&lt;/p&gt;
+&lt;p&gt;Initially, through meticulous hardware selection and design, a GPS module suitable for cane applications was chosen, alongside the design of connection interfaces and antenna circuits for the STM32 microcontroller. Following the GPS module&amp;rsquo;s operational principles and protocols, a driver program and data parsing algorithm were developed for the STM32. Various experiments confirmed the module&amp;rsquo;s performance and accuracy across different environments.&lt;/p&gt;
+&lt;p&gt;In hardware design, after evaluating available GPS modules for size, power consumption, and compatibility, a module was selected. It&amp;rsquo;s a standalone hardware device comprising an antenna and receiver, requiring connection to the STM32 via UART for data transmission. Based on the chosen GPS module, a power management circuit and signal transmission circuit were designed to ensure stable operation and accurate signal transmission. An excellent GPS antenna was selected and its layout optimized to enhance reception.&lt;/p&gt;
+&lt;p&gt;2.5.2 Software Principle&lt;/p&gt;
+&lt;p&gt;In software design, a driver program was developed to facilitate communication between the STM32 and the GPS module, ensuring smooth data transfer and communication. According to the GPS module&amp;rsquo;s output data format, a parsing algorithm was written to convert raw data into useful location information such as longitude, latitude, and altitude. To improve positioning accuracy and stability, filtering algorithms and data correction techniques were employed to process and optimize GPS data.&lt;/p&gt;
+&lt;p&gt;Using satellite signals, the STM32 can calculate the device&amp;rsquo;s geographical location through triangulation, measuring the time difference and signal propagation time from various satellites. The GPS module&amp;rsquo;s data, processed by the STM32, can be combined with other sensor data, such as obstacle detection, to provide more precise navigation and environmental awareness.&lt;/p&gt;
+&lt;p&gt;2.5.3 Implementation Effect of the GPS Module&lt;/p&gt;
+&lt;p&gt;Through a series of experiments testing the smart cane in different environments, including indoors and outdoors, the module demonstrated its ability to provide accurate positioning information within an acceptable error margin. By integrating GPS data with other sensor information, the cane can offer comprehensive navigation assistance.&lt;/p&gt;
+&lt;p&gt;The successful design and implementation of the STM32-based smart cane&amp;rsquo;s GPS module validate its effectiveness in providing accurate positioning and navigation capabilities. The experimental results underscore the module&amp;rsquo;s potential to enhance the mobility and safety of cane users. Future research could further optimize algorithms and technologies to increase the GPS module&amp;rsquo;s accuracy and robustness and expand the smart cane&amp;rsquo;s functionalities and application fields.&lt;/p&gt;
+&lt;h4 id=&#34;26-wifi-module&#34;&gt;2.6 WIFI Module&lt;/h4&gt;
+&lt;p&gt;2.6.1 Hardware Principle&lt;/p&gt;
+&lt;p&gt;Integrating a WiFi module into the intelligent cane as an assistive device enables wireless connectivity and data exchange, providing a smarter, more convenient mobility experience for people with mobility challenges. This section aims to design a WiFi module based on the STM32 microcontroller for efficient and reliable wireless communication.&lt;/p&gt;
+&lt;p&gt;After thorough hardware selection and design, a WiFi module fitting the smart cane&amp;rsquo;s requirements was chosen, with designed interfaces for STM32 microcontroller connectivity and antenna circuits. Following the WiFi module&amp;rsquo;s operational principles and protocols, a driver and communication protocol stack were developed for the STM32, ensuring data transfer reliability and connection management. Various tests were conducted in different scenarios to evaluate the module&amp;rsquo;s performance, stability, and reliability.&lt;/p&gt;
+&lt;p&gt;The hardware design involved analyzing and selecting a compact, low-power, and stable performance WiFi module from the market. The WiFi module, a standalone device with an antenna and transceiver, connects to the STM32 through serial communication interfaces like UART, SPI, or I2C. Adapting the module to the smart cane&amp;rsquo;s specific needs involved designing compatible interfaces and considering signal transmission stability and anti-interference capabilities. Additionally, an appropriate antenna was selected and optimally placed to achieve good signal coverage and sensitivity.&lt;/p&gt;
+&lt;p&gt;The WiFi module allows the smart cane to scan for and connect to nearby wireless networks. Users can input the desired WiFi network name and password through the cane&amp;rsquo;s interface (e.g., buttons, touch screen) to establish a connection.&lt;/p&gt;
+&lt;p&gt;2.6.2 Software Principle&lt;/p&gt;
+&lt;p&gt;The software design includes developing a driver for the STM32 to communicate and transfer data with the WiFi module. The communication protocol stack, including TCP/IP, UDP, and HTTP, was coded to ensure reliable data transfer and network connection management. Algorithms for error handling and correction were also developed to enhance data transmission stability and reliability. Through the WiFi module, the smart cane can transmit and communicate data over the internet, engaging in communication with remote servers to transfer location data, navigation instructions, health data, etc. Moreover, the WiFi module facilitates data exchange and communication within a local network with other devices (e.g., smartphones, computers). It also enables remote control capabilities. Users can operate the cane&amp;rsquo;s functions, such as navigation settings and alarm triggers, using mobile applications or other remote control devices. Additionally, the Wi-Fi module can connect to cloud services, enabling cloud storage, data synchronization, and remote updates. Security is a significant concern when establishing Wi-Fi connections. Appropriate security measures, such as encryption protocols (e.g., WPA2), authentication, and access control, should be implemented to ensure the confidentiality and integrity of wireless communications.&lt;/p&gt;
+&lt;p&gt;2.6.3 Implementation Effect of the Wi-Fi Module&lt;/p&gt;
+&lt;p&gt;To assess the performance of the Wi-Fi module in the STM32-based smart cane, a series of experiments were conducted. These experiments covered the wireless coverage range of the module, the speed of data transmission, and the reliability of the module under various environmental conditions. The results showed that the Wi-Fi module successfully established stable connections and provided reliable data transmission within the designated range, performing satisfactorily.&lt;/p&gt;
+&lt;p&gt;The design and implementation of the Wi-Fi module in the STM32-based smart cane demonstrate its effectiveness in providing wireless connectivity and supporting advanced functionalities. The experimental results confirm the module&amp;rsquo;s performance in terms of wireless coverage, data transmission speed, and reliability. Integrating the Wi-Fi module with the STM32 microcontroller enhances the smart cane&amp;rsquo;s functionality, enabling seamless data communication and interaction with other devices or cloud services. This module offers reliable wireless connectivity for smart cane users, facilitating more convenient and efficient data exchange and interaction experiences. Future research could further optimize the performance of the Wi-Fi module, expand its functionalities and application scenarios, and explore wireless collaboration with other intelligent devices to enhance the practicality and user experience of the smart cane.&lt;/p&gt;
+&lt;h3 id=&#34;experimental-results-and-conclusions&#34;&gt;Experimental Results and Conclusions&lt;/h3&gt;
+&lt;h4 id=&#34;31-experimental-results&#34;&gt;3.1 Experimental Results&lt;/h4&gt;
+&lt;p&gt;After the circuit was realized and set up, a series of simulated experiments were conducted. The corridor with classrooms on both sides was chosen as the experimental venue, with experimenters using a board as an obstacle. The experimenters, blindfolded and holding the guide cane, walked forward. The guide cane emitted corresponding voice warnings when the distance to an obstacle, either in front or at the bottom, was less than or equal to 1.5 meters. When the temperature sensor power was activated by the experimenters, the environmental temperature was voice broadcasted; deactivating the power stopped the broadcast. When water was sprinkled on the ground, there was no alarm for a small amount of water, but an alarm was triggered for water accumulation of 1cm or more. When experimenters placed their finger on the fingerprint recognition module, the guide cane was successfully unlocked. The mobile phone connected to the WIFI module could display the GPS positioning of the guide cane. If the experimenter fell to the ground and remained there for more than 5 minutes, the buzzer alarm was timely activated. The alarm could be canceled by pressing a button. The display screen on the guide cane could effectively show weather information and payment codes.&lt;/p&gt;
+&lt;h4 id=&#34;32-conclusions&#34;&gt;3.2 Conclusions&lt;/h4&gt;
+&lt;p&gt;The simulated experiments verified the practicality and operability of the guide cane, proving that it can effectively guide blind individuals to avoid obstacles both above and below, detect temperatures and the presence of water on the road, and promptly alarm. Additionally, the fingerprint module ensured the information security of the guide cane, while the display screen facilitated the daily life of the blind by showing payment codes. The voice broadcast greatly facilitated the travel of the blind.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>h) Communication Principle</title>
+      <link>https://example.com/project/external-project-copy-7/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-7/</guid>
+      <description>&lt;h3 id=&#34;i-functionality&#34;&gt;I. Functionality&lt;/h3&gt;
+&lt;h4 id=&#34;transmitter-side&#34;&gt;Transmitter Side:&lt;/h4&gt;
+&lt;p&gt;The user inputs the mathematical expression to be calculated through buttons.  The expression can include basic operations such as addition, subtraction, multiplication, and division (complex calculations can be added similarly). Then, the process of Encoding → Modulating → Sending is executed. After sending, the device immediately enters a waiting mode, awaiting a response from the receiver side.&lt;/p&gt;
+&lt;h4 id=&#34;receiver-side&#34;&gt;Receiver Side:&lt;/h4&gt;
+&lt;p&gt;The receiver side is in a waiting state from the start. Upon receiving a signal, it automatically performs demodulation, calculation, encoding, modulation, and then sends a response.&lt;/p&gt;
+&lt;h4 id=&#34;other-buttons&#34;&gt;Other Buttons:&lt;/h4&gt;
+&lt;p&gt;The &amp;ldquo;Carrier 1&amp;rdquo; and &amp;ldquo;Carrier 2&amp;rdquo; buttons can display the waveform of the carrier on the right side of the image. The processes of encoding, modulation, and reception will be shown on the waveform graph on the right side, displaying the time-domain waveform. The introduction button provides a simple explanation of the principles. The &amp;ldquo;stop&amp;rdquo; button is used to interrupt detection, and the &amp;ldquo;out&amp;rdquo; button is used to exit this window.&lt;/p&gt;
+&lt;h3 id=&#34;ii-principle-and-implementation&#34;&gt;II. Principle and implementation&lt;/h3&gt;
+&lt;h5 id=&#34;encoding&#34;&gt;Encoding&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Source Encoding:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As shown in Figure, the wireless calculator is designed with 16 input buttons, which is the 4th power of 2.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Channel Encoding:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Why use Hamming encoding for the information bits? The answer is that Hamming encoding is an efficient linear block code capable of correcting single-bit errors. The 7,4 Hamming code adds three check bits to a group of 4-bit information bits and can correct minor errors through the calculation of syndromes or correction factors. This enhances the communication system&amp;rsquo;s resistance to interference, as detailed in the textbook on page 261.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Frame Synchronization and Protection Codes:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The purpose of frame synchronization is to determine the sampling moments for each bit. The frame synchronization code here is used to inform the receiving end when the valid information begins and to establish the starting moment for sampling. Barker codes, with their sharp autocorrelation peak, facilitate identification and minimize the likelihood of false synchronization. The receiver&amp;rsquo;s identification method is also simple, hence the choice of Barker codes as the true synchronization codes.&lt;/p&gt;
+&lt;p&gt;Given the variable length of the information bits transmitted in this system, the receiver cannot determine when to end sampling, so a Barker code is also added at the end to accurately extract the middle information bits. The role of the protection code is to&lt;/p&gt;
+&lt;p&gt;provide energy variation for the receiver to detect energy changes, and to prevent the delay in calculation from omitting useful information bits, offering the computer a buffer time.&lt;/p&gt;
+&lt;h4 id=&#34;modulation&#34;&gt;Modulation&lt;/h4&gt;
+&lt;p&gt;The modulation method is 2FSK.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, the sampling frequency needs to be determined. It is best if the sampling frequency is consistent with the MATLAB sound function, hence 8000Hz is chosen here.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Next, determine the bit transmission rate RB. Generally, a lower transmission rate results in higher accuracy but lower efficiency. Thus, a compromise is chosen at 100Hz. Given a sampling frequency of 8000, this means
+fs=100Hz and each bit is expanded to 80 samples (8000/80 = 100Hz). The normalized frequency is 0.025π, and the time-domain waveform and spectrum of the transmitted bits are as follows:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then, determine the frequencies for carrier 1 and carrier 2. When selecting frequencies, it&amp;rsquo;s important that the main lobes of the frequency spectra for carrier 1 and carrier 2 overlap as little as possible after modulation. The width of the lobes on either side is fs, so there should be a gap of 2fs between the two carrier frequencies. Considering phase continuity, the frequencies should have an even ratio to simplify calculations and programming without the need to consider phase discontinuities. Furthermore, they should be below half the sampling frequency to satisfy the sampling theorem, i.e., below 4000Hz. Hence, 1000Hz and 2000Hz are chosen, with normalized frequencies of 0.25π and 0.5π respectively.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The modulation method involves modulating each bit (before expansion) into 80 points (corresponding to a sampling frequency of 8000, or 100Hz). If a bit is 1, then a 2000Hz sine wave repeating 20 times is used as the modulation waveform (2000/20=100Hz); if a bit is 0, then a 1000Hz sine wave repeating 10 times is used (1000/10=100Hz).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;reception-and-demodulation&#34;&gt;Reception and Demodulation&lt;/h4&gt;
+&lt;p&gt;It is important to note that the steps for demodulation are the reverse of those for modulation and correspond one-to-one.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The reception uses an energy detection method, which is simply a process of multiplying corresponding elements of matrices and summing them up to check if they reach a threshold value.&lt;/li&gt;
+&lt;li&gt;2FSK Non-coherent Demodulation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The choice of non-coherent demodulation for 2FSK arises from the fact that coherent demodulation involves a multiplication process. At the selection stage, non-coherent demodulation was chosen because if it involves multiplication, the chance of coding errors increases significantly, whereas non-coherent demodulation is primarily determined by filters, making its implementation simpler. Thus, non-coherent demodulation was used.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Decode&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To decode, first locate the Barker codes at both ends and extract the data in between. This is done by comparing each received bit with the Barker code, using the XOR method to count the differences. If there are three or fewer differences from the Barker code, it is considered a match.&lt;/p&gt;
+&lt;p&gt;The removal of the Barker codes is followed by 7,4 Hamming decoding, which includes error correction.&lt;/p&gt;
+&lt;p&gt;The result represents a complete transmission process from the sender: encoding &amp;ndash;&amp;gt; modulation &amp;ndash;&amp;gt; transmission, and from the receiver: detection &amp;ndash;&amp;gt; demodulation &amp;ndash;&amp;gt; decoding. Afterwards, the receiver decodes the source information according to the bit information, calculates the result, and then performs encoding &amp;ndash;&amp;gt; modulation &amp;ndash;&amp;gt; transmission back to the sender. The process is generally the same as described above.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -135,6 +431,266 @@
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>g) Proteus electronic system design and simulation</title>
+      <link>https://example.com/project/external-project-copy-5/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-5/</guid>
+      <description>&lt;h3 id=&#34;design-description&#34;&gt;Design description:&lt;/h3&gt;
+&lt;p&gt;The basic function of this design is to collect temperature and humidity, then collect light intensity (as the input signal part), and then display these three values on the digital tube (as the output signal part). Then set the upper limit value in the program, and the buzzer will alarm when the upper limit value is exceeded.&lt;/p&gt;
+&lt;p&gt;In the simulation part, a light bulb and a photoresistor are used to simulate a light sensor. The voltage across the photoresistor is obtained to represent the light intensity. Then an operational amplifier is used to make the change in light intensity and voltage within a certain range have a linear relationship. At this time, the light obtained Strong is just an analog value, which is then input to the PF0 port of ATmega64 for the next step of analog-to-digital conversion; in addition, similar to the photosensitive part, the temperature sensitive part uses a light bulb plus a thermosensitive resistor to simulate the temperature sensor; the humidity part uses pulse voltage frequency simulation Humidity, the humidity value we obtain at this time is already a digital quantity, which can be directly input into the PD6 port of ATmega64. The quantities we input will be used for subsequent display on the LM016L and for alarming when the set threshold is exceeded.&lt;/p&gt;
+&lt;p&gt;In addition, in the output part, we use LM016L for display, which displays digital quantities, and then switches the display and sets the alarm threshold through buttons.&lt;/p&gt;
+&lt;p&gt;For the working voltage part, except the buzzer alarm which uses DC +12V voltage, the rest uses the DC +5V voltage output by LM7805. Then the working voltage of ATmega64 is 4.5V to 5.5V, the working voltage of temperature and humidity sensor is 5V, the maximum working voltage of photodiode is generally 10 to 50V, the best working voltage of LM016L module is 5V, whichever of the above devices can work The voltage is 5V as the supply voltage. And due to the limitations of the device LM016L, the operating current is 2mA.&lt;/p&gt;
+&lt;h3 id=&#34;electrical-schematic-diagram&#34;&gt;Electrical schematic diagram:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/1oRed6YiyKL5gED.jpg&#34; alt=&#34;7.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;printed-board-diagram&#34;&gt;Printed board diagram:&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/Oj1hZHAzsKUfklv.jpg&#34; alt=&#34;8.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>i) Electronic system design and simulation</title>
+      <link>https://example.com/project/external-project-copy-9/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-9/</guid>
+      <description>&lt;p&gt;I was particularly engaged by the electronic system design courses, since I could build up my practical capability and build on the theoretical. We also the used single chip microcomputer 80C51F020 to generate a digital sine wave that could control the amplitude and frequency changes via keyboard and output stable sine wave by 12-bit DAC. From the design and simulation of the hardware circuit, to the layout and welding of the circuit board, and then to the design and debugging of the software part of the MCU, we designed a digital synthesis signal device.&lt;/p&gt;
+&lt;h3 id=&#34;synopsis-of-digital-synthesizer-creation&#34;&gt;Synopsis of Digital Synthesizer Creation&lt;/h3&gt;
+&lt;h4 id=&#34;objective-and-innovation&#34;&gt;Objective and Innovation:&lt;/h4&gt;
+&lt;p&gt;At the core of this endeavor was the ambition to construct a digital synthesizer capable of generating sine waves, with enhanced user control over amplitude and frequency modulation. The project&amp;rsquo;s cornerstone was the adept use of the 80C51F020 microcontroller, showcasing an astute application of digital-to-analog conversion techniques to engineer precise and adjustable electronic signals.&lt;/p&gt;
+&lt;h3 id=&#34;technical-mastery-and-application&#34;&gt;Technical Mastery and Application&lt;/h3&gt;
+&lt;h4 id=&#34;signal-range-and-modulation&#34;&gt;Signal Range and Modulation:&lt;/h4&gt;
+&lt;p&gt;The project&amp;rsquo;s specification to adjust signal frequencies between 1Hz to 100Hz, alongside amplitude variations from 0.3V to 3Vp-p, demonstrates a rigorous and calculated approach to electronic signal manipulation. This precision underscores the team&amp;rsquo;s dedication to creating adaptable and user-centric electronic solutions.&lt;/p&gt;
+&lt;h4 id=&#34;microcontroller-utilization&#34;&gt;Microcontroller Utilization:&lt;/h4&gt;
+&lt;p&gt;Employing the C8051F020&amp;rsquo;s 12-bit DAC was a strategic choice, spotlighting the project&amp;rsquo;s innovative use of microcontroller capabilities to ensure signal accuracy. This decision reflects a harmonious fusion of software-driven logic with the tangible dynamics of hardware execution.&lt;/p&gt;
+&lt;h3 id=&#34;convergence-of-hardware-and-software-design&#34;&gt;Convergence of Hardware and Software Design&lt;/h3&gt;
+&lt;h4 id=&#34;comprehensive-system-development&#34;&gt;Comprehensive System Development:&lt;/h4&gt;
+&lt;p&gt;The project narrative delineates the transition from conceptual circuit design to the practical assembly and detailed microcontroller software debugging. This extensive process underscores the team&amp;rsquo;s proficiency in electronic system realization, encompassing a broad spectrum of engineering skills.&lt;/p&gt;
+&lt;h4 id=&#34;advanced-signal-processing&#34;&gt;Advanced Signal Processing:&lt;/h4&gt;
+&lt;p&gt;Utilizing MATLAB for generating sine wave samples and their quantization for DAC implementation is indicative of an advanced approach to signal processing. This methodology bridges theoretical concepts with real-world technological applications, enriching the project&amp;rsquo;s technical depth.&lt;/p&gt;
+&lt;h3 id=&#34;design-requirements-function-and-indicator-description&#34;&gt;Design requirements (function and indicator description)&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Signal frequency range: 1Hz-100Hz; step: 1Hz; accuracy: +/-5% (the above indicators are measured at room temperature)&lt;/li&gt;
+&lt;li&gt;Signal amplitude: 0.3V-3Vp-p; step: 0.1V; accuracy: +/-10% (the above indicators are measured at room temperature)&lt;/li&gt;
+&lt;li&gt;Load capacity: can drive 10 ohm pure group load&lt;/li&gt;
+&lt;li&gt;Frequency and amplitude can be displayed through LED digital tube (can be displayed alternately through indicator lights)&lt;/li&gt;
+&lt;li&gt;Effective when the keyboard is raised&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;system-hardware-schematic-diagram&#34;&gt;System hardware schematic diagram&lt;/h3&gt;
+&lt;p&gt;The following figure shows the simulation schematic diagram on Tina
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/O4shf9ECuUZPRji.jpg&#34; alt=&#34;9.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;key-technical-points-of-hardware-modules&#34;&gt;Key technical points of hardware modules&lt;/h3&gt;
+&lt;h4 id=&#34;dac-module&#34;&gt;DAC module&lt;/h4&gt;
+&lt;p&gt;This experiment uses C8051F020 built-in 12-bit voltage output DAC, which has the following main features:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The voltage reference of each DAC is provided at the VREFD or VREF pin.
+
+Each DAC has a flexible output update mechanism that allows seamless full-scale changes and supports jitter-free output updates.
+
+The data and control interface between the MCU and each comparator and DAC are implemented through special registers
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The main indicators of DAC: 12bit resolution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Output setup time: 10us
+
+Output voltage range: 0~VREF-1LSB
+
+Output short circuit current: 15mA
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And we tried to use Tina simulation software to build a DAC module that can output stepped sine waves, so that we can verify the feasibility of subsequent modules on the software, especially the quality of the filtering effect.&lt;/p&gt;
+&lt;h4 id=&#34;filter-module&#34;&gt;Filter module&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/bzpsqN2tVjuGJAP.jpg&#34; alt=&#34;10.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Generate a second-order Bessel low-pass filter through filter pro, and the parameter settings are as shown in the figure below.&lt;/p&gt;
+&lt;p&gt;This circuit module generates a clock signal, DACO generates a ladder signal, inputs an eighth-order ladder wave through DACO, and CLK inputs a clock signal of 100:1 (clock signal frequency: sinusoidal signal frequency) to achieve the function of the filter.&lt;/p&gt;
+&lt;p&gt;(1) The signal frequency is adjustable.
+The signal frequency is controlled by changing the frequency of the ladder signal generated by DACO and changing the frequency of the signal in the CLK generation formula through program control. The highest frequency output that can be achieved is 2000Hz, and it has stable frequency output.&lt;/p&gt;
+&lt;p&gt;(2) Signal phase modulation.&lt;/p&gt;
+&lt;p&gt;By selecting the DACO phase to output, digital phase modulation is achieved. The 0 phase is used when the number is 0 and the T phase is used when the number is 1.&lt;/p&gt;
+&lt;h4 id=&#34;power-amplifier-module&#34;&gt;Power amplifier module&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/hE6OuMApUNWHior.jpg&#34; alt=&#34;11.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+A DC-blocking capacitor C4 is added before the power amplifier module to prevent the filter module and the power amplifier from affecting each other. , in order to prevent the base current from being too large and burning the transistor due to too small resistance, a 40k protection resistor is connected in series. The static operating current is determined by adjusting the resistance of this series resistor.&lt;/p&gt;
+&lt;p&gt;The function of the C5 and C4 capacitors is to isolate the DC path and allow AC to pass. The signal amplified by the transistor is coupled to R5 and R7 through C5, where test points are set for output testing. Due to the presence of R5, there will be a certain emitter voltage.&lt;/p&gt;
+&lt;h4 id=&#34;single-power-supply&#34;&gt;Single power supply&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/YRwd5IVh1yurUHq.jpg&#34; alt=&#34;12.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Dual power supply is suitable for AC signals to pass through, while single power supply is more suitable for unipolar (DC). However, considering the laboratory facilities and other reasons, the following processing can make it suitable for AC signals.&lt;/p&gt;
+&lt;p&gt;R4 and R2 divide the voltage to obtain 1/2 V+. This voltage is added to the input terminal of the op amp. Since C1 is equivalent to an open circuit under DC conditions, this 1/2 V+ only obtains a single gain. The output terminal of the op amp That is, the same voltage is obtained. Capacitors are used at the output for AC coupling.&lt;/p&gt;
+&lt;p&gt;When an AC signal is input, the output of the op amp forms a corresponding AC signal with 1/2 V+ as the baseline, and this AC signal can gain gain.
+Therefore, the single-supply power supply tries to establish 1/2 of V+ to obtain a single gain from the DC, and uses capacitors at the output for AC coupling so that it can also be suitable for AC signals.&lt;/p&gt;
+&lt;h3 id=&#34;system-software-block-diagram-and-overview&#34;&gt;System software block diagram and overview&lt;/h3&gt;
+&lt;h4 id=&#34;software-flow-chart&#34;&gt;Software flow chart:&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/thJS1DaUprzZ3my.jpg&#34; alt=&#34;13.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;system-software-overview&#34;&gt;System software overview:&lt;/h4&gt;
+&lt;p&gt;This system is based on the signal waveform generator of the C8051F020 microcontroller. It uses the DAC0 of the microcontroller to control the output voltage. It uses timer 0, working mode 1, and a 16-bit timer. The count value of the timer is reloaded every time it is interrupted, and the timer is reloaded according to the advance settings. A certain sine wave sampling array is used to change the DAC0 output to obtain a sine waveform, and then the final waveform is obtained through hardware circuit filtering and power amplifier.&lt;/p&gt;
+&lt;p&gt;①Generate sine wave sampling array&lt;/p&gt;
+&lt;p&gt;We use MATLAB to obtain sine wave sampling data within a period. In order to normalize the amplitude, we first set the sine wave amplitude to 1V, sample 256 points, and then use MATLAB&amp;rsquo;s quantizer function to map the value to 0~4096. In this way, when changing the amplitude of the sine wave, multiply the array value by the voltage value to get the corresponding voltage amplitude. To change the frequency, you only need to set the corresponding timer period and output the array value after changing the voltage amplitude in sequence.&lt;/p&gt;
+&lt;p&gt;②System initialization&lt;/p&gt;
+&lt;p&gt;③Frequency, amplitude addition and subtraction step control and display&lt;/p&gt;
+&lt;p&gt;Since step control only requires 4 keys for frequency addition and subtraction and amplitude addition and subtraction, we only use the first row of the keyboard. The two on the left are for frequency addition and subtraction, and the two on the right are for amplitude addition and subtraction. The principle of changing the frequency and amplitude is to first change the flag bit, and then change the size according to the flag bit. This makes the code structure clearer, and can display the corresponding frequency amplitude according to the flag bit. The four-digit digital tube on the left displays the frequency, and the two on the right Bit display amplitude.&lt;/p&gt;
+&lt;p&gt;The more important part is the frequency change. Because of the limitations of the clock frequency and DAC settling time, different numbers of sampling points need to be set. We set it to 256 sampling points when the frequency is less than 100Hz. When the frequency is greater than 100Hz and less than 500Hz, There are 64 sampling points. When the frequency is greater than 500Hz, there are 32 sampling points. The specific algorithm is: timer count value = 65536 - clock frequency ÷ (number of sampling points × frequency size). For example, 1KHz, clock frequency is 2M, timer count value = 65536-200000÷(32×1000).&lt;/p&gt;
+&lt;p&gt;④Interrupt service routine&lt;/p&gt;
+&lt;p&gt;The interrupt service program is used to reload the timer count value regularly, take out the next sine wave sample value according to the frequency step parameter, change the DAC output voltage, and then scan a digital tube every ten interrupts.&lt;/p&gt;
+&lt;h3 id=&#34;epilogue&#34;&gt;Epilogue&lt;/h3&gt;
+&lt;p&gt;The Digital Signal Generator project exemplifies the seamless integration of theoretical knowledge and practical expertise in electronic system design. By navigating the complexities of signal generation, modulation, and the synthesis of hardware with software, the team not only underscored their engineering acumen but also embraced a philosophy of lifelong learning and innovation. This project serves not just as a showcase of applied electronic principles but as a testament to the ongoing journey of knowledge acquisition and application in the engineering realm, paving the way for future advancements in the field.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>f) Electronic system design</title>
+      <link>https://example.com/project/external-project-copy/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy/</guid>
+      <description>&lt;h3 id=&#34;project-background&#34;&gt;Project Background&lt;/h3&gt;
+&lt;p&gt;The intelligent vehicle, or wheeled mobile robot, integrates multiple functions such as environmental sensing, planning and decision-making, and autonomous driving into a comprehensive system. Aimed at enhancing future lifestyles with smarter solutions, this technology is applicable not only in military contexts but also in scientific research, intelligent rescue, and more. The vehicle&amp;rsquo;s mechanical structure comprises the body, wheels, speed sensors, rotational axles, equipped with a power driver and a camera module for environmental data collection.&lt;/p&gt;
+&lt;h3 id=&#34;design-scheme-overview&#34;&gt;Design Scheme Overview&lt;/h3&gt;
+&lt;p&gt;Employing a PID control algorithm and a CCD linear camera for black line guidance detection, processed by an LM393 comparator for microcontroller-based data collection and image recognition, this design enables path identification. Motor drive is facilitated by the PC33886 model, with speed measured by direct photoelectric sensors, and data displayed on an LCD screen. Four button keys are utilized for parameter settings, enhancing the user interface for onsite debugging. The project ingeniously incorporates a mix of photonic, mechanical, and wireless communication technologies.&lt;/p&gt;
+&lt;h3 id=&#34;structural-and-system-design&#34;&gt;Structural and System Design&lt;/h3&gt;
+&lt;p&gt;Based on the principles of autonomous guide robot systems, the intelligent car is capable of autonomously recognizing and following predetermined paths. The main control module uses the STC89C51 microcontroller, focusing on centralized control and modular design, incorporating infrared sensor line tracking and trajectory detection modules. The mechanical structure is designed to minimize external light interference, ensuring balanced and stable navigation.&lt;/p&gt;
+&lt;h3 id=&#34;hardware-system-construction&#34;&gt;Hardware System Construction&lt;/h3&gt;
+&lt;p&gt;The system&amp;rsquo;s hardware includes the STM32F103 microcontroller as the main control module, along with power, motor drive, infrared obstacle avoidance, control terminal, and wireless video monitoring modules. This setup ensures reliable power supply and effective control over the vehicle&amp;rsquo;s dynamic monitoring functions.&lt;/p&gt;
+&lt;h3 id=&#34;programming-challenges-and-solutions&#34;&gt;Programming Challenges and Solutions&lt;/h3&gt;
+&lt;p&gt;The report also delves into the learning process for programming the STM32 microcontroller, including clock initialization, mobility function implementation, PID algorithm development, steering functionality, Bluetooth serial port configuration, and PID debugging. By exploring sensor detection, PWM output for motor driving, speed detection, and serial communication, the project overcame various developmental challenges.&lt;/p&gt;
+&lt;h3 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h3&gt;
+&lt;p&gt;Through teamwork, we successfully assembled the intelligent car and achieved the line-tracking task. Throughout the project, we solved multiple technical problems, gaining an in-depth understanding of the working principles of intelligent cars and mastering STM32 related skills. This experience not only enhanced our practical abilities but also strengthened our team collaboration spirit. This course has provided us with invaluable and enriching learning, contributing significantly to our academic and practical growth.&lt;/p&gt;
 </description>
     </item>
     
@@ -242,7 +798,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-179683245&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-856374912&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -252,7 +808,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-179683245&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-856374912&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -654,620 +1210,6 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>a) Chinese Academy of Sciences</title>
-      <link>https://example.com/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;This project aims to accelerate the upper limb rehabilitation speed for hemiplegia and disability caused by stroke and other diseases and designs an arm-assisted rehabilitation exoskeleton robot. According to the standard size of the human upper limb, the 3D model of the upper limb exoskeleton robot was designed in SolidWorks, and the DH parameters and kinematics equations of the robot were derived. By studying the arm posture of human upper limb movement, the state and data of each joint in the upper limb movement were analyzed. It was carried out in MATLAB to simulate the structure of the rehabilitation manipulator, analyze the motion trajectory planning, and verify the rationality of the robot&amp;rsquo;s joint movement. This paper combines the 3D model and the MATLAB simulation, the upper limb rehabilitation of the exoskeleton robot arm, lower arm, shoulder, elbow, and wrist joints working space, the kinematics, and the arm in various trajectory planning of posture were solved. It provides a theoretical basis and flexibility for improving the accuracy of upper limb rehabilitation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>b) Innovation &amp; Entrepreneurship Training Program for College Students</title>
-      <link>https://example.com/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project/</guid>
-      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;To enable blind people to perceive surrounding obstacles in real-time while traveling and improve the safety of blind people&amp;rsquo;s travel, traditional blind walking sticks have been modified. This article adopts the STM32f103zet6 microcontroller and uses embedded development design to add functions such as ultrasonic obstacle avoidance, GPS positioning, fall detection, fingerprint unlocking, and voice broadcasting to the traditional blind cane. This project utilizes the XFS5152CE chip to achieve voice broadcasting function, the AS608 optical fingerprint module to achieve fingerprint unlocking function, the ESP8266WiFi module to achieve interaction between mobile phones and intelligent guide canes, the ADXL345 module to detect the user&amp;rsquo;s status in real-time, and to achieve fall warning function. The ultrasonic obstacle avoidance module utilizes the principle of ultrasonic ranging. The GPS positioning module can receive and demodulate the broadcast C/A code signal of satellites, and achieve GPS positioning function by calculating the pseudo distance to each satellite and calculating parameters such as longitude and latitude. The feasibility of this scheme has been verified through experiments. Fingerprint unlocking, voice broadcasting, and GPS positioning functions can all operate normally. When the distance between the guide rod and the obstacle is less than 0.2m, or the forward acceleration in a certain direction of the guide rod is too large, the intelligent guide rod can send out a warning signal in a timely manner.&lt;/p&gt;
-&lt;h6 id=&#34;key-words-stm32-microcontroller-intelligent-blind-cane-ultrasonic-ranging-gps-embedded&#34;&gt;KEY WORDS: STM32 microcontroller, intelligent blind cane, ultrasonic ranging, GPS, embedded&lt;/h6&gt;
-&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
-&lt;h4 id=&#34;11-project-overview&#34;&gt;1.1 Project Overview&lt;/h4&gt;
-&lt;p&gt;1.1.1 Introduction to the Project&lt;/p&gt;
-&lt;p&gt;As one of the assistive tools for mobility, guide canes are widely used among the blind community. In today&amp;rsquo;s technologically advanced world, the trend towards product intelligence is undeniable. Taking into consideration the overall environment of the pandemic and the daily mobility needs of the blind, this project is dedicated to designing an intelligent guide cane to further facilitate the mobility of the blind. By adding only a small amount of cost, the guide cane is equipped with an ultrasonic obstacle avoidance system, a GPS positioning system, a fall detection with one-click alarm feature, a display screen that can show personal health codes and payment codes, a voice broadcast for daily weather forecasts, and a fingerprint lock to protect important personal information such as health codes and payment codes.&lt;/p&gt;
-&lt;h4 id=&#34;12-project-plan&#34;&gt;1.2 Project Plan&lt;/h4&gt;
-&lt;p&gt;1.2.1 Background of the Project&lt;/p&gt;
-&lt;p&gt;According to statistics from the Ministry of Health, there are as many as 14 million blind people in China, making it the country with the highest number of blind individuals in the world. On average, there is one blind person in every 100 individuals. Every year, about 450,000 new cases of blindness and visually impaired individuals are reported in China, highlighting an urgent need to address their mobility issues. The factors affecting the lives of the blind mainly include the following:&lt;/p&gt;
-&lt;p&gt;First, the physical defects of the blind lead to many disadvantages in their lives;
-Second, due to mobility challenges, the blind find it difficult to interact with the outside world, lacking in entertainment and social interactions.
-Third, due to their physical disabilities, the blind face unequal treatment in social work and interpersonal interactions compared to sighted individuals.&lt;/p&gt;
-&lt;p&gt;Due to visual impairments, the blind community has developed a communication mode different from sighted individuals for perceiving the world and conveying information.&lt;/p&gt;
-&lt;p&gt;Surveys show that only 27% of blind individuals go out daily, 55% of them are unable to distinguish directions while traveling, and 34% worry about colliding with obstacles during their journeys. The survey concluded that the main reason for the low mobility of blind individuals is the lack of a comprehensive transportation system and friendly navigation devices, along with the low utilization rate of blind paths. There is a general desire among the blind for friendly mobility tools to ensure their safety, a dedicated transportation system for the blind, and the introduction of high-tech products for better navigation and assistance.&lt;/p&gt;
-&lt;p&gt;1.2.2 Significance of the Project&lt;/p&gt;
-&lt;p&gt;Firstly, the inability of the blind to easily venture outdoors hinders their interaction with the external world. Products such as blind navigators can facilitate their mobility, increase safety, and make their travels less tedious, thereby helping blind individuals integrate into modern intelligent life.&lt;/p&gt;
-&lt;p&gt;Secondly, in the context of big data, artificial intelligence, and 5G, relying on advanced scientific and technological means to solve the mobility issues of the blind is of great significance. The blind hope to be treated equally by others, to not be isolated, and to participate in social life and activities just like sighted people. Hence, there is a strong desire for optimized, companion-style mobility devices. Only by solving the issues of independent, unobstructed, and safe travel for the blind, and by providing convenient services to help them integrate into modern intelligent life, can blind individuals feel more dignified and achieve higher life satisfaction. Therefore, from a humanitarian perspective, designing more advanced mobility products for the blind is essential.&lt;/p&gt;
-&lt;p&gt;1.2.3 Existing Basis of the Project&lt;/p&gt;
-&lt;p&gt;The guide cane developed by Gao RX and others in the United States utilizes ultrasonic sensors to specifically detect obstacles within 5 meters in front of the user&amp;rsquo;s head; Mohapatra S and colleagues in India used three ultrasonic sensors to simultaneously detect obstacles directly ahead, underground in front, and slightly above in front; Hongping Ma and others from Tongji University developed an infrared detection guide cane with a dual voice alarm system using a buzzer and an MP3 module to guide blind people to walk quickly and safely; Kehua Zhang and others developed a guide system based on a single Kinect sensor (as shown in Figure 1), which can use depth image inversion algorithms and obstacle recognition algorithms to simultaneously detect all ground obstacles, pits, and hanging obstacles within a height of the blind person, a width of 1 meter, and a distance of 3 meters, and plan the best obstacle avoidance route within 3 meters based on the type and distance of each obstacle.&lt;/p&gt;
-&lt;p&gt;Therefore, after comprehensively evaluating the existing guide products on the market, we decided to use the intelligent guide cane as the carrier, linking traditional intelligent guide canes with intelligent terminals to create a guide cane with more powerful functions, more humanized design, and more conducive to improving the quality of life for people with visual impairments.&lt;/p&gt;
-&lt;h4 id=&#34;13-objectives-and-main-content-of-the-project&#34;&gt;1.3 Objectives and Main Content of the Project&lt;/h4&gt;
-&lt;p&gt;The main content of this research includes adding features such as weather forecasting, ultrasonic obstacle avoidance, GPS positioning, fall detection, fingerprint unlocking, and the display of health codes and payment codes to a standard guide cane. It also includes voice broadcasting of relevant information. The fall detection module uses sensing devices to detect the angle between the cane and the ground, and sends the corresponding angle information to the controller. The controller controls the module to signal and alert passersby to assist the blind person, thus achieving the function of fall alarm. Ultrasonic obstacle avoidance determines the presence and distance of obstacles by detecting the return of sound waves. The GPS positioning module can send a text message with location information to a family member&amp;rsquo;s mobile phone after obtaining the latitude and longitude. By entering STA mode, the WiFi module can connect to a router or mobile hotspot to upload data to the cloud platform. By opening the app associated with the cloud platform on a mobile phone, communication between the mobile phone and the intelligent guide cane can be achieved. Guide cane users can send requests to the mobile phone for weather forecasts, health codes, and payment codes. After receiving the request, the mobile end sends back corresponding health code, payment code screenshot data, and weather data. Upon receiving the data, the microprocessor on the cane side performs data processing work and then transmits the processed information to the corresponding information display device, such as a screen or the speaker of the voice synthesis module. Finally, to prevent personal information such as payment codes from being misused, the fingerprint recognition module sends the input fingerprint information to the microcontroller. The microcontroller matches the input fingerprint information with the fingerprint information previously recorded, thereby achieving the purpose of fingerprint verification.&lt;/p&gt;
-&lt;h4 id=&#34;14-summary-of-innovative-features-of-the-project&#34;&gt;1.4 Summary of Innovative Features of the Project&lt;/h4&gt;
-&lt;p&gt;The main achievements of this research utilize the STM32 microcontroller, embedded development design, signal processing, and other technologies to develop a new type of guide cane, which has certain technological innovation value. Our design connects the mobile phone with the guide cane, displaying health codes and payment codes on the guide cane, and cooperates with the voice module to broadcast during payment, facilitating the blind during the epidemic for convenience and payment security, with certain technological innovation and market value. This research is primarily aimed at individuals with visual impairments. Currently, blind people mainly rely on guide dogs and traditional guide canes for outdoor activities. The results of this research can enrich the mobility methods of blind people, greatly facilitate their lives, and have certain social innovation value.&lt;/p&gt;
-&lt;h3 id=&#34;theoretical-research&#34;&gt;Theoretical Research&lt;/h3&gt;
-&lt;h4 id=&#34;21-ultrasonic-obstacle-avoidance&#34;&gt;2.1 Ultrasonic Obstacle Avoidance&lt;/h4&gt;
-&lt;p&gt;2.1.1 Principle&lt;/p&gt;
-&lt;p&gt;The design idea of the ultrasonic obstacle avoidance program is based on the principle of ultrasonic ranging. Initially, the microcontroller sends a high-level signal lasting 20us to the Trig terminal of the ultrasonic module, followed by a low-level signal, activating the ultrasonic module. The module then emits eight 40Khz square wave pulses and waits for the signal to return. If a signal returns, the Echo terminal of the ultrasonic module outputs a high-level signal. The duration of the high-level signal reception equals the time taken for the ultrasonic waves to travel from emission to reception. The distance to the obstacle is calculated as (time of high-level signal reception * 340) / 2, measured in meters. By taking multiple measurements from different directions in front of the guide cane and performing multiple samplings, the data error is minimized. Finally, the microcontroller processes the data to prompt obstacle avoidance alerts. The HC-SR04 ultrasonic module, commonly used in robotics for obstacle avoidance, object measurement, liquid level detection, public security, and parking space detection, primarily consists of two general-purpose piezoelectric ceramic ultrasonic sensors with peripheral signal processing circuits.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/TmQu1pgL7nvVdNf.jpg&#34; alt=&#34;1.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-The module has one sensor for emitting ultrasonic signals and another for receiving the ultrasonic signals that bounce back. Due to the weak nature of both the emitted and received signals, it&amp;rsquo;s necessary to use external signal amplifiers to enhance the power of the emitted signal and amplify the reflected signal for stable transmission to the microcontroller.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/YG5UuDeIC1TKx3V.jpg&#34; alt=&#34;2.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-2.1.2 Module Parameters&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/nkOfXGzWPdDwTbQ.jpg&#34; alt=&#34;3.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;2.1.3 Module Pins&lt;/p&gt;
-&lt;p&gt;The ultrasonic module has four pins: Vcc, Trig (control terminal), Echo (reception terminal), and GND. The VCC and GND are connected to a 5V power supply. The Trig (control terminal) controls the emission of ultrasonic waves, while the Echo (reception terminal) receives the reflected ultrasonic waves.&lt;/p&gt;
-&lt;p&gt;2.1.4 Implementation Effect of the Ultrasonic Module
-To evaluate the performance of the ultrasonic module, a series of experiments were conducted. These experiments tested the intelligent cane&amp;rsquo;s application scenarios, including its ability to recognize and alert against various obstacles. The module could accurately identify obstacles and, in conjunction with the voice broadcast module, alert the user, proving its reliability. The experiments showed that the ultrasonic module successfully ensured that users of the guide cane could avoid obstacles safely while walking, maintaining error within an acceptable range. This experiment applied the ultrasonic module to the guide cane, effectively detecting the environment and promptly identifying obstacles around the blind, providing a safeguard for their safe and rapid movement.&lt;/p&gt;
-&lt;h4 id=&#34;22-fingerprint-recognition-module&#34;&gt;2.2 Fingerprint Recognition Module&lt;/h4&gt;
-&lt;p&gt;2.2.1 Principle
-The fingerprint recognition module based on the STM32 microcontroller uses the AS608 optical fingerprint module, which operates at 3.3V. The default system password for the fingerprint module is 0, and its default address is 0Xffffffff, which can be modified through commands. It&amp;rsquo;s important to ensure that the address field in the data packet matches this address.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/fIxMsNm497eXqpb.jpg&#34; alt=&#34;4.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-Initially, it&amp;rsquo;s necessary to initialize the UART, delay functions, and clock of the STM32, followed by interrupt priority grouping. After the STM32 and AS608 module handshake, establishing a connection between the STM32 and AS608, the connection result is displayed on the screen. Upon successful connection, the AS608&amp;rsquo;s library fingerprint numbers and relevant parameters are read. Successful reading triggers a command to record fingerprints. The status of PS_Sta is checked; if PS_Sta instruction equals 1, it indicates that a finger is pressed down, starting the fingerprint scanning process, and the display shows “Please press fingerprint.” Once pressed, AS608 generates a feature image stored in CharBuffer1 or CharBuffer2. This process is repeated for the second time. If the comparison fails, the input is requested again; if successful, it indicates that the fingerprint image generation is successful. The system then automatically assigns an ID to the fingerprint feature image for template storage. For unlocking with the fingerprint module, it&amp;rsquo;s only necessary to search the fingerprint database for a matching fingerprint to score, and if the score reaches the set standard value, the unlocking is successful.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/3rEcu9ih2UYL5Fa.jpg&#34; alt=&#34;5.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-2.2.2 Implementation Effect of the Fingerprint Recognition Module&lt;/p&gt;
-&lt;p&gt;To assess the performance of the fingerprint recognition module, several experiments were conducted. These experiments aimed at various application scenarios of the intelligent cane, including recognizing different individuals&amp;rsquo; fingerprints. The module could accurately identify the user&amp;rsquo;s fingerprint for unlocking, while non-user fingerprints triggered an alarm. The results showed that the fingerprint recognition module successfully ensured the information security of the guide cane users, with errors maintained within acceptable limits. This experiment applied the fingerprint recognition module to the guide cane, effectively detecting the user&amp;rsquo;s fingerprint, converting the fingerprint image into a digital signal, and comparing it with the fingerprint template stored in the database, achieving identity verification and recognition functions, effectively ensuring the safety of the guide cane use.&lt;/p&gt;
-&lt;h4 id=&#34;23-voice-broadcast-module&#34;&gt;2.3 Voice Broadcast Module&lt;/h4&gt;
-&lt;p&gt;2.3.1 Hardware Principle&lt;/p&gt;
-&lt;p&gt;This section employs the XFS5152CE chip produced by iFlytek, which utilizes a TTS (Text-to-Speech) voice module. Not only can this chip perform real-time voice broadcasting, but it also has the capability for voice recognition. However, since our product currently does not require voice recognition capabilities, we will focus solely on the voice broadcasting function. The XFS5152CE chip supports UART, I2C, and SPI interfaces for communication, allowing it to receive commands and data from a host device through UART, I2C, or SPI interfaces. The maximum length of data that can be sent is 4K bytes. During voice broadcasting, we use the UART interface for communication, ensuring the baud rate of the module&amp;rsquo;s communication matches that of the host device or the microcontroller (STM32f103zet6). The host device sends a start decoding command to the voice chip, which then decodes the received audio data and plays it in real-time.&lt;/p&gt;
-&lt;p&gt;2.3.2 Software Principle&lt;/p&gt;
-&lt;p&gt;The process begins with initializing the serial port, where the baud rate is set via a dip switch. Following this, output pins are initialized. The BSY pin indicates the current working status: a low level represents the Ready state, while a high level indicates Busy. By connecting one of the microcontroller&amp;rsquo;s GPIOs to this pin, we can read the input state of this IO to determine the module&amp;rsquo;s current operating status. Next, we encapsulate the voice broadcast function, where the control identifier needs to be sent in the format of voice synthesis commands, meaning the synthesis command comprises “frame header + data area length + synthesis command word + text encoding format + control marker text.” In coding, we encapsulate the required command words. The XFS5152CE chip&amp;rsquo;s voice synthesis function supports various text control markers, allowing users to set the voice, volume, speed, and tone. The format for text control markers typically involves lowercase letters and Arabic numerals within square brackets (i.e., &amp;ldquo;[]&amp;rdquo;).&lt;/p&gt;
-&lt;h4 id=&#34;24-fall-detection-module&#34;&gt;2.4 Fall Detection Module&lt;/h4&gt;
-&lt;p&gt;2.4.1 Hardware Principle&lt;/p&gt;
-&lt;p&gt;The design utilizes the ADXL345 module for real-time detection of the user&amp;rsquo;s status. This module can measure both static gravitational acceleration for tilt detection and dynamic acceleration caused by motion. It is capable of detecting tilt changes within 1 degree. The module includes features for activity/inactivity detection, tap detection, and free-fall detection. Coupled with a buzzer alarm system, it can detect falls and promptly sound an alarm, with a button to cancel false alarms if necessary. The ADXL supports standard I2C or SPI digital interfaces, features a 32-level FIFO buffer, and offers various motion detection and flexible interrupt modes. With a resolution of up to 13 bits and several measurement ranges, it&amp;rsquo;s highly sensitive, capable of measuring tilt changes less than 1°, and efficiently executes the fall detection function. The sensor&amp;rsquo;s low power consumption, at just 0.1μA in standby mode, and its small size (3mm5mm1mm LGA package) make it ideal for integration into the guide cane, minimizing packaging costs.&lt;/p&gt;
-&lt;p&gt;2.4.2 Software Principle&lt;/p&gt;
-&lt;p&gt;The ADXL345&amp;rsquo;s SCL, SDA, INT1, and INT2 pins are connected to the STM32&amp;rsquo;s PB6, PB7, PB10, and PB11 pins, respectively, facilitating communication via the I2C protocol. The focus is placed on initializing the ADXL345, setting high and low thresholds, and determining the condition based on the threshold and duration to autonomously judge the sensor&amp;rsquo;s state. Two modes are configured: one for detecting static events during motion, where the ADXL345 evaluates whether it&amp;rsquo;s below the low threshold for a specified duration, sending a pulse signal to the INT1 pin if detected, and another for detecting motion events when stationary, where the ADXL345 sends a pulse to the INT2 pin if acceleration in any direction exceeds the high threshold. External interrupts on rising edges are used to distinguish between the PB10 and PB11 pins, avoiding immediate entry into sleep mode to prevent potential wake-up issues. A low-power mode, stop mode, is employed to extend sensor standby time, halting the clock and core, with any external interrupt capable of awakening the mode.&lt;/p&gt;
-&lt;p&gt;2.4.3 Implementation Effect of the Fall Detection Module&lt;/p&gt;
-&lt;p&gt;A series of experiments were conducted to evaluate the fall detection module&amp;rsquo;s performance under various scenarios and angles, ensuring its accuracy and reliability. The module could correctly identify falls and promptly alert passersby, with errors maintained within an acceptable range. This application of the fall detection module in the guide cane significantly enhances user safety and accident prevention.&lt;/p&gt;
-&lt;h4 id=&#34;25-gps-module&#34;&gt;2.5 GPS Module&lt;/h4&gt;
-&lt;p&gt;2.5.1 Hardware Principle&lt;/p&gt;
-&lt;p&gt;Incorporating GPS technology into the intelligent cane as an assistive device offers precise positioning and navigation capabilities, enhancing the mobility experience for individuals with mobility impairments. This study aims to design a GPS module based on the STM32 microcontroller that achieves accurate positioning and navigation.&lt;/p&gt;
-&lt;p&gt;Initially, through meticulous hardware selection and design, a GPS module suitable for cane applications was chosen, alongside the design of connection interfaces and antenna circuits for the STM32 microcontroller. Following the GPS module&amp;rsquo;s operational principles and protocols, a driver program and data parsing algorithm were developed for the STM32. Various experiments confirmed the module&amp;rsquo;s performance and accuracy across different environments.&lt;/p&gt;
-&lt;p&gt;In hardware design, after evaluating available GPS modules for size, power consumption, and compatibility, a module was selected. It&amp;rsquo;s a standalone hardware device comprising an antenna and receiver, requiring connection to the STM32 via UART for data transmission. Based on the chosen GPS module, a power management circuit and signal transmission circuit were designed to ensure stable operation and accurate signal transmission. An excellent GPS antenna was selected and its layout optimized to enhance reception.&lt;/p&gt;
-&lt;p&gt;2.5.2 Software Principle&lt;/p&gt;
-&lt;p&gt;In software design, a driver program was developed to facilitate communication between the STM32 and the GPS module, ensuring smooth data transfer and communication. According to the GPS module&amp;rsquo;s output data format, a parsing algorithm was written to convert raw data into useful location information such as longitude, latitude, and altitude. To improve positioning accuracy and stability, filtering algorithms and data correction techniques were employed to process and optimize GPS data.&lt;/p&gt;
-&lt;p&gt;Using satellite signals, the STM32 can calculate the device&amp;rsquo;s geographical location through triangulation, measuring the time difference and signal propagation time from various satellites. The GPS module&amp;rsquo;s data, processed by the STM32, can be combined with other sensor data, such as obstacle detection, to provide more precise navigation and environmental awareness.&lt;/p&gt;
-&lt;p&gt;2.5.3 Implementation Effect of the GPS Module&lt;/p&gt;
-&lt;p&gt;Through a series of experiments testing the smart cane in different environments, including indoors and outdoors, the module demonstrated its ability to provide accurate positioning information within an acceptable error margin. By integrating GPS data with other sensor information, the cane can offer comprehensive navigation assistance.&lt;/p&gt;
-&lt;p&gt;The successful design and implementation of the STM32-based smart cane&amp;rsquo;s GPS module validate its effectiveness in providing accurate positioning and navigation capabilities. The experimental results underscore the module&amp;rsquo;s potential to enhance the mobility and safety of cane users. Future research could further optimize algorithms and technologies to increase the GPS module&amp;rsquo;s accuracy and robustness and expand the smart cane&amp;rsquo;s functionalities and application fields.&lt;/p&gt;
-&lt;h4 id=&#34;26-wifi-module&#34;&gt;2.6 WIFI Module&lt;/h4&gt;
-&lt;p&gt;2.6.1 Hardware Principle&lt;/p&gt;
-&lt;p&gt;Integrating a WiFi module into the intelligent cane as an assistive device enables wireless connectivity and data exchange, providing a smarter, more convenient mobility experience for people with mobility challenges. This section aims to design a WiFi module based on the STM32 microcontroller for efficient and reliable wireless communication.&lt;/p&gt;
-&lt;p&gt;After thorough hardware selection and design, a WiFi module fitting the smart cane&amp;rsquo;s requirements was chosen, with designed interfaces for STM32 microcontroller connectivity and antenna circuits. Following the WiFi module&amp;rsquo;s operational principles and protocols, a driver and communication protocol stack were developed for the STM32, ensuring data transfer reliability and connection management. Various tests were conducted in different scenarios to evaluate the module&amp;rsquo;s performance, stability, and reliability.&lt;/p&gt;
-&lt;p&gt;The hardware design involved analyzing and selecting a compact, low-power, and stable performance WiFi module from the market. The WiFi module, a standalone device with an antenna and transceiver, connects to the STM32 through serial communication interfaces like UART, SPI, or I2C. Adapting the module to the smart cane&amp;rsquo;s specific needs involved designing compatible interfaces and considering signal transmission stability and anti-interference capabilities. Additionally, an appropriate antenna was selected and optimally placed to achieve good signal coverage and sensitivity.&lt;/p&gt;
-&lt;p&gt;The WiFi module allows the smart cane to scan for and connect to nearby wireless networks. Users can input the desired WiFi network name and password through the cane&amp;rsquo;s interface (e.g., buttons, touch screen) to establish a connection.&lt;/p&gt;
-&lt;p&gt;2.6.2 Software Principle&lt;/p&gt;
-&lt;p&gt;The software design includes developing a driver for the STM32 to communicate and transfer data with the WiFi module. The communication protocol stack, including TCP/IP, UDP, and HTTP, was coded to ensure reliable data transfer and network connection management. Algorithms for error handling and correction were also developed to enhance data transmission stability and reliability. Through the WiFi module, the smart cane can transmit and communicate data over the internet, engaging in communication with remote servers to transfer location data, navigation instructions, health data, etc. Moreover, the WiFi module facilitates data exchange and communication within a local network with other devices (e.g., smartphones, computers). It also enables remote control capabilities. Users can operate the cane&amp;rsquo;s functions, such as navigation settings and alarm triggers, using mobile applications or other remote control devices. Additionally, the Wi-Fi module can connect to cloud services, enabling cloud storage, data synchronization, and remote updates. Security is a significant concern when establishing Wi-Fi connections. Appropriate security measures, such as encryption protocols (e.g., WPA2), authentication, and access control, should be implemented to ensure the confidentiality and integrity of wireless communications.&lt;/p&gt;
-&lt;p&gt;2.6.3 Implementation Effect of the Wi-Fi Module&lt;/p&gt;
-&lt;p&gt;To assess the performance of the Wi-Fi module in the STM32-based smart cane, a series of experiments were conducted. These experiments covered the wireless coverage range of the module, the speed of data transmission, and the reliability of the module under various environmental conditions. The results showed that the Wi-Fi module successfully established stable connections and provided reliable data transmission within the designated range, performing satisfactorily.&lt;/p&gt;
-&lt;p&gt;The design and implementation of the Wi-Fi module in the STM32-based smart cane demonstrate its effectiveness in providing wireless connectivity and supporting advanced functionalities. The experimental results confirm the module&amp;rsquo;s performance in terms of wireless coverage, data transmission speed, and reliability. Integrating the Wi-Fi module with the STM32 microcontroller enhances the smart cane&amp;rsquo;s functionality, enabling seamless data communication and interaction with other devices or cloud services. This module offers reliable wireless connectivity for smart cane users, facilitating more convenient and efficient data exchange and interaction experiences. Future research could further optimize the performance of the Wi-Fi module, expand its functionalities and application scenarios, and explore wireless collaboration with other intelligent devices to enhance the practicality and user experience of the smart cane.&lt;/p&gt;
-&lt;h3 id=&#34;experimental-results-and-conclusions&#34;&gt;Experimental Results and Conclusions&lt;/h3&gt;
-&lt;h4 id=&#34;31-experimental-results&#34;&gt;3.1 Experimental Results&lt;/h4&gt;
-&lt;p&gt;After the circuit was realized and set up, a series of simulated experiments were conducted. The corridor with classrooms on both sides was chosen as the experimental venue, with experimenters using a board as an obstacle. The experimenters, blindfolded and holding the guide cane, walked forward. The guide cane emitted corresponding voice warnings when the distance to an obstacle, either in front or at the bottom, was less than or equal to 1.5 meters. When the temperature sensor power was activated by the experimenters, the environmental temperature was voice broadcasted; deactivating the power stopped the broadcast. When water was sprinkled on the ground, there was no alarm for a small amount of water, but an alarm was triggered for water accumulation of 1cm or more. When experimenters placed their finger on the fingerprint recognition module, the guide cane was successfully unlocked. The mobile phone connected to the WIFI module could display the GPS positioning of the guide cane. If the experimenter fell to the ground and remained there for more than 5 minutes, the buzzer alarm was timely activated. The alarm could be canceled by pressing a button. The display screen on the guide cane could effectively show weather information and payment codes.&lt;/p&gt;
-&lt;h4 id=&#34;32-conclusions&#34;&gt;3.2 Conclusions&lt;/h4&gt;
-&lt;p&gt;The simulated experiments verified the practicality and operability of the guide cane, proving that it can effectively guide blind individuals to avoid obstacles both above and below, detect temperatures and the presence of water on the road, and promptly alarm. Additionally, the fingerprint module ensured the information security of the guide cane, while the display screen facilitated the daily life of the blind by showing payment codes. The voice broadcast greatly facilitated the travel of the blind.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>c) Master’s thesis project</title>
-      <link>https://example.com/project/external-project-copy-4/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-4/</guid>
-      <description>&lt;h1 id=&#34;project-specification&#34;&gt;Project Specification&lt;/h1&gt;
-&lt;p&gt;Cardiovascular disease (CVD) is well recognized as the leading cause of death and a significant danger to global public health. In 2016, the World Health Organization reported that CVD was responsible for 31% of all annual deaths, totaling over 18 million individuals, with a continuous increase each year [1]. Recently, the medical field has consistently worked to decrease the death rate from heart illness and enhance the diagnosis of cardiac conditions.&lt;/p&gt;
-&lt;p&gt;Mammalian models, including pigs, non-human primates, and rodents, have been primarily utilized to study the processes of heart disease. Conversely, there is a growing trend to decrease the utilization of mammals for research purposes and implement alternative models.
-Zebrafish have emerged as a robust model for investigating heart development and morphology based on recent advancements, because Zebrafish are tiny, easy to breed, reach sexual maturity early, and have external translucent embryo development for easy viewing [2]. The cardiovascular system of zebrafish is similar to that of mammals in terms of anatomy and physiological function. The heart of zebrafish is also composed of atria and ventricle, with the valve between the atria and the ventricle. The development and gene regulation mechanism of the heart are also similar to human [3]. Although the zebrafish heart is relatively simple compared to mammals, most specialized cell types and structures (e.g., pacemaker, atrioventricular valve, aortic valve, trabeculae, and coronary vessels) and contributing cell types (myocardium, endocardium, epicardium, cardiac neural crest, second heart field, and fibroblasts) are preserved [4].&lt;/p&gt;
-&lt;p&gt;At the same time, more advanced imaging methods in medical image can also promote the advancement of cardiovascular diagnosis and research. For example, with the help of advanced technologies such as light-sheet fluorescence microscopy (LSFM) (as shown in Figure 1(a)), medical researchers can obtain higher quality and resolution cardiac images. Unlike traditional epifluorescence microscopy (as shown in Figure 1(b)), LSFM uses orthogonal independent excitation and detection light paths to thinly illuminate the sample from the side, excite only the fluorescence in the sample, and then detect the image in the orthogonal direction [5]. This method effectively avoids the impact of out-of-focus background on image quality, improves imaging contrast, and makes in-depth research and accurate diagnosis of heart disease possible.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/yLUxDISadWnzYQK.jpg&#34; alt=&#34;6.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-The application of LSFM mainly focuses on three aspects: cell biology [7]‌, developmental biology [8] and neuroscience [9]. As the first functional organ formed during mammalian embryonic development, the heart is a key driving force for the development of other tissues and organs. In order to better understand cardiac morphogenesis and to more effectively treat cardiovascular diseases, many researchers use this microscope to study the heart. Yue et al. used light-sheet imaging technology to reconstruct the whole cell lineage with single-cell resolution and temporal continuity [10]. They reported for the first time a panoramic view of the cell lineage during the early development of the mammalian heart, revealing the process from the origin of the heart tube to the establishment of the ventricle, and then to a new mechanism of cellular dynamics of myotrabecular formation; Lovelace et al. used the HYBRiD tissue clearing method and high-resolution light sheet microscopy to observe the distribution of a large number of NPY2R VSN fibers in the ventricular wall, providing an intuitive experimental model for in-depth exploration of cardiac sensory neurons in physiological and pathological states [11].&lt;/p&gt;
-&lt;p&gt;Cardiac image segmentation is a critical step in processing cardiac images. With the continuous advancement of deep learning algorithms, it has become possible to divide images into anatomically meaningful regions and extract quantitative measurements from them. However, although deep learning has better feature recognition and extraction capabilities than traditional methods, medical image segmentation poses significant challenges due to the complexity of medical images, such as class imbalance, interference from neighboring organs, lack of high-quality annotations, and label noise. Over the years, segmentation algorithms based on models such as convolutional neural networks (CNN) [12] and fully convolutional networks (FCN) [13] have continued to advance.&lt;/p&gt;
-&lt;p&gt;This project aims to develop a data analysis pipeline to segment normal and pathological hearts based on their 3D morphological changes. First, this project will develop an image analysis method to reconstruct 2D time series into 4D data and robustly quantify the 3D morphology of the heart using the large 2D imaging data set collected by the Vermot Laboratory. Subsequently, the project will develop and train a segmentation network based on deep learning to identify cell nuclei and track position based on time changes, thereby achieving 3D image segmentation of large image stacks.&lt;/p&gt;
-&lt;p&gt;The project is based on several key assumptions:&lt;/p&gt;
-&lt;p&gt;It is assumed that a 4D representation of the endocardium can be accurately reconstructed from the available 2D data and that this 4D representation allows us to perform an analysis of endocardial deformation.&lt;/p&gt;
-&lt;p&gt;It is assumed that imaging conditions (e.g., light intensity, temperature, and sample handling) have been optimized and controlled not to affect the volume and movement of nuclei within cardiac tissue.&lt;/p&gt;
-&lt;p&gt;These basic assumptions will serve as the basis for this project.&lt;/p&gt;
-&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
-&lt;p&gt;[1] &lt;a href=&#34;https://www.who.int&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.who.int&lt;/a&gt;. (n.d.). Cardiovascular diseases (CVDs). [online] Available at: &lt;a href=&#34;https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-%28cvds%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)&lt;/a&gt;.‌&lt;/p&gt;
-&lt;p&gt;[2] Kemmler, C.L., Riemslagh, F.W., Moran, H.R. and Mosimann, C. (2021). From Stripes to a Beating Heart: Early Cardiac Development in Zebrafish. Journal of Cardiovascular Development and Disease, [online] 8(2), p.17. doi:https://doi.org/10.3390/jcdd8020017.&lt;/p&gt;
-&lt;p&gt;[3] Brown, D., Samsa, L., Qian, L. and Liu, J. (2016). Advances in the Study of Heart Development and Disease Using Zebrafish. Journal of Cardiovascular Development and Disease, [online] 3(2), p.13. doi:https://doi.org/10.3390/jcdd3020013.&lt;/p&gt;
-&lt;p&gt;[4] Bowley, G., Kugler, E., Wilkinson, R., Lawrie, A., Eeden, F., Chico, T.J.A., Evans, P.C., Noël, E.S. and Serbanovic‐Canic, J. (2021). Zebrafish as a tractable model of human cardiovascular disease. British Journal of Pharmacology, 179(5), pp.900–917. doi:https://doi.org/10.1111/bph.15473.‌&lt;/p&gt;
-&lt;p&gt;[5] Jianshu. (2017). Science Technology Review: Photoacoustic Imaging. [online] Available at: &lt;a href=&#34;https://www.jianshu.com/p/a1fae8c482fa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/p/a1fae8c482fa&lt;/a&gt; [Accessed 28 Feb. 2024].&lt;/p&gt;
-&lt;p&gt;[6] skltop.opt.ac.cn. (n.d.). [Cover] Yao Baoli: Long-term three-dimensional imaging of living samples—Light-sheet fluorescence microscopy—State Key Laboratory of Transient Optics and Photonics Technology. [online ] Available at: &lt;a href=&#34;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html&lt;/a&gt; [Accessed 24 Feb. 2024].‌&lt;/p&gt;
-&lt;p&gt;[7] Chen, B.-C., Legant, W.R., Wang, K., Shao, L., Milkie, D.E., Davidson, M.W., Janetopoulos, C., Wu, X.S., Hammer, J.A., Liu, Z., English, B.P., Mimori-Kiyosue, Y., Romero, D.P., Ritter, A.T., Lippincott-Schwartz, J., Fritz-Laylin, L., Mullins, R.D., Mitchell, D.M., Bembenek, J.N. and Reymann, A.-C. (2014). Lattice light-sheet microscopy: Imaging molecules to embryos at high spatiotemporal resolution. Science, 346(6208), p.1257998. doi:https://doi.org/10.1126/science.1257998.&lt;/p&gt;
-&lt;p&gt;[8] Stelzer, E.H.K. (2014). Light-sheet fluorescence microscopy for quantitative biology. Nature Methods, 12(1), pp.23–26. doi:https://doi.org/10.1038/nmeth.3219.&lt;/p&gt;
-&lt;p&gt;[9] Gao, R., Asano, S.M., Upadhyayula, S., Pisarev, I., Milkie, D.E., Liu, T.-L., Singh, V., Graves, A., Huynh, G.H., Zhao, Y., Bogovic, J., Colonell, J., Ott, C.M., Zugates, C., Tappan, S., Rodriguez, A., Mosaliganti, K.R., Sheu, S.-H., Pasolli, H.A. and Pang, S. (2019). Cortical column and whole-brain imaging with molecular contrast and nanoscale resolution. Science, 363(6424), p.eaau8302. doi:https://doi.org/10.1126/science.aau8302.&lt;/p&gt;
-&lt;p&gt;[10] Yue, Y., Zong, W., Li, X., Li, J., Zhang, Y., Wu, R., Liu, Y., Cui, J., Wang, Q., Bian, Y., Yu, X., Liu, Y., Tan, G., Zhang, Y., Zhao, G., Zhou, B., Chen, L., Xiao, W., Cheng, H. and He, A. (2020). Long-term, in toto live imaging of cardiomyocyte behaviour during mouse ventricle chamber formation at single-cell resolution. Nature Cell Biology, 22(3), pp.332–340. doi:https://doi.org/10.1038/s41556-020-0475-2.&lt;/p&gt;
-&lt;p&gt;[11] Lovelace, J.W., Ma, J., Yadav, S., Chhabria, K., Shen, H., Pang, Z., Qi, T., Sehgal, R., Zhang, Y., Bali, T., Vaissiere, T., Tan, S., Liu, Y., Rumbaugh, G., Ye, L., Kleinfeld, D., Stringer, C. and Augustine, V. (2023). Vagal sensory neurons mediate the Bezold–Jarisch reflex and induce syncope. Nature, [online] pp.1–10. doi:https://doi.org/10.1038/s41586-023-06680-7.&lt;/p&gt;
-&lt;p&gt;[12] Jaswal, D., V, S. and Soman, K.P. (2014). Image Classification Using Convolutional Neural Networks. International Journal of Scientific and Engineering Research, 5(6), pp.1661–1668. doi:https://doi.org/10.14299/ijser.2014.06.002‌&lt;/p&gt;
-&lt;p&gt;[13] Long, J., Shelhamer, E. and Darrell, T. (2015). Fully convolutional networks for semantic segmentation. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). [online] doi:https://doi.org/10.1109/cvpr.2015.7298965.&lt;/p&gt;
-&lt;p&gt;‌&lt;/p&gt;
-&lt;p&gt;‌
-‌&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>d) Undergraduate graduation project</title>
-      <link>https://example.com/project/external-project-copy-3/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-3/</guid>
-      <description>&lt;h1 id=&#34;abstract&#34;&gt;ABSTRACT&lt;/h1&gt;
-&lt;p&gt;The purpose of human motion detection is to provide a system for self-analysis of events in the video data and to understand the behaviour of a person. This is a key function of intelligent video surveillance systems with a wide range of applications. In this paper, we investigate a human action recognition system based on two steps of human feature extraction and human action classification. Quantification and model transplantation for the human feature extraction step are performed based on an artificial intelligence chip.&lt;/p&gt;
-&lt;p&gt;To complete the human feature extraction, a humanoid target detector is first built based on the YOLOv5s framework and DeepSORT tracking, and a pose estimation detector is built to extract human bone joint points using the Alphapose algorithm. The extracted features are then fed into the action classification detector based on convolution of spatio-temporal maps to complete the construction of the human motion recognition system.&lt;/p&gt;
-&lt;p&gt;Due to the problems of aerial perspective and complex background of surveillance videos, this work does not use the current mainstream dataset, but uses several high-resolution surveillance cameras from the Experimental Teaching Center of Information and Communication Engineering, School of Electrical Automation and Information Engineering, Tianjin University to create a 15-hour dataset with 9 types of actions in 12 indoor and outdoor scenes to train and evaluate the model. In this work, the feasibility of this human motion recognition system is verified by experiment, and its average accuracy can reach 95%, and it meets the real-time requirements.&lt;/p&gt;
-&lt;p&gt;Finally, in this work, the embedded AR9341 chip is used as the model support to quantify and transplant the model to the human feature extraction phase, and the NPU module provided by the platform is used for acceleration, so that the human feature extraction system can have high accuracy, faster speed and a wider range of application scenarios.&lt;/p&gt;
-&lt;h5 id=&#34;key-words-object-detection-pose-estimation-action-recognition-artificial-intelligence-chip-model-quantization-and-transplantation&#34;&gt;KEY WORDS: Object detection, Pose estimation, Action recognition, Artificial intelligence chip, Model quantization and transplantation&lt;/h5&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>e) Machine learning and visual perception</title>
-      <link>https://example.com/project/external-project-copy-8/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-8/</guid>
-      <description>&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
-&lt;p&gt;This project develops an efficient mask detection system using Python, designed to autonomously identify whether individuals are wearing masks. Originating from the global COVID-19 pandemic in 2019, the context highlights the necessity of mask-wearing in public areas and the urgent need for automated systems to reduce the burden on manual checks.&lt;/p&gt;
-&lt;h3 id=&#34;development-tools-and-technical-approach&#34;&gt;Development Tools and Technical Approach&lt;/h3&gt;
-&lt;p&gt;Utilizing the Python IDE PyCharm and the image annotation tool Labelme as primary development and data processing tools, the project employs machine learning algorithms—specifically, the MobileNet framework—for in-depth training and optimization. Experimental methods include data preprocessing, model training, and testing validation, ensuring the system&amp;rsquo;s accuracy and practicality.&lt;/p&gt;
-&lt;p&gt;Code Implementation and Performance Optimization
-The summary details the process from data set construction and model architecture establishment to the implementation of training strategies, emphasizing optimization measures taken during model training, such as dynamic learning rate adjustments and early stopping. These measures significantly enhance the model&amp;rsquo;s generalization ability and recognition accuracy.&lt;/p&gt;
-&lt;h3 id=&#34;results-display-and-application-value&#34;&gt;Results Display and Application Value&lt;/h3&gt;
-&lt;p&gt;Experimental outcomes demonstrate the system&amp;rsquo;s effective recognition of mask-wearing status in real-time video streams, validating the model&amp;rsquo;s effectiveness. The mask detection system not only achieves the technical objectives but also holds significant application potential in the field of public health management.&lt;/p&gt;
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;This project showcases the powerful application capabilities of deep learning in the public health domain, particularly against the backdrop of the current global pandemic. The development of the mask detection system bears important social value and practical significance. With continuous technological advancement and optimization, the system is expected to play a larger role in a broader range of scenarios.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>f) Electronic system design</title>
-      <link>https://example.com/project/external-project-copy/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy/</guid>
-      <description>&lt;h3 id=&#34;project-background&#34;&gt;Project Background&lt;/h3&gt;
-&lt;p&gt;The intelligent vehicle, or wheeled mobile robot, integrates multiple functions such as environmental sensing, planning and decision-making, and autonomous driving into a comprehensive system. Aimed at enhancing future lifestyles with smarter solutions, this technology is applicable not only in military contexts but also in scientific research, intelligent rescue, and more. The vehicle&amp;rsquo;s mechanical structure comprises the body, wheels, speed sensors, rotational axles, equipped with a power driver and a camera module for environmental data collection.&lt;/p&gt;
-&lt;h3 id=&#34;design-scheme-overview&#34;&gt;Design Scheme Overview&lt;/h3&gt;
-&lt;p&gt;Employing a PID control algorithm and a CCD linear camera for black line guidance detection, processed by an LM393 comparator for microcontroller-based data collection and image recognition, this design enables path identification. Motor drive is facilitated by the PC33886 model, with speed measured by direct photoelectric sensors, and data displayed on an LCD screen. Four button keys are utilized for parameter settings, enhancing the user interface for onsite debugging. The project ingeniously incorporates a mix of photonic, mechanical, and wireless communication technologies.&lt;/p&gt;
-&lt;h3 id=&#34;structural-and-system-design&#34;&gt;Structural and System Design&lt;/h3&gt;
-&lt;p&gt;Based on the principles of autonomous guide robot systems, the intelligent car is capable of autonomously recognizing and following predetermined paths. The main control module uses the STC89C51 microcontroller, focusing on centralized control and modular design, incorporating infrared sensor line tracking and trajectory detection modules. The mechanical structure is designed to minimize external light interference, ensuring balanced and stable navigation.&lt;/p&gt;
-&lt;h3 id=&#34;hardware-system-construction&#34;&gt;Hardware System Construction&lt;/h3&gt;
-&lt;p&gt;The system&amp;rsquo;s hardware includes the STM32F103 microcontroller as the main control module, along with power, motor drive, infrared obstacle avoidance, control terminal, and wireless video monitoring modules. This setup ensures reliable power supply and effective control over the vehicle&amp;rsquo;s dynamic monitoring functions.&lt;/p&gt;
-&lt;h3 id=&#34;programming-challenges-and-solutions&#34;&gt;Programming Challenges and Solutions&lt;/h3&gt;
-&lt;p&gt;The report also delves into the learning process for programming the STM32 microcontroller, including clock initialization, mobility function implementation, PID algorithm development, steering functionality, Bluetooth serial port configuration, and PID debugging. By exploring sensor detection, PWM output for motor driving, speed detection, and serial communication, the project overcame various developmental challenges.&lt;/p&gt;
-&lt;h3 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h3&gt;
-&lt;p&gt;Through teamwork, we successfully assembled the intelligent car and achieved the line-tracking task. Throughout the project, we solved multiple technical problems, gaining an in-depth understanding of the working principles of intelligent cars and mastering STM32 related skills. This experience not only enhanced our practical abilities but also strengthened our team collaboration spirit. This course has provided us with invaluable and enriching learning, contributing significantly to our academic and practical growth.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>g) Proteus electronic system design and simulation</title>
-      <link>https://example.com/project/external-project-copy-5/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-5/</guid>
-      <description>&lt;h3 id=&#34;design-description&#34;&gt;Design description:&lt;/h3&gt;
-&lt;p&gt;The basic function of this design is to collect temperature and humidity, then collect light intensity (as the input signal part), and then display these three values on the digital tube (as the output signal part). Then set the upper limit value in the program, and the buzzer will alarm when the upper limit value is exceeded.&lt;/p&gt;
-&lt;p&gt;In the simulation part, a light bulb and a photoresistor are used to simulate a light sensor. The voltage across the photoresistor is obtained to represent the light intensity. Then an operational amplifier is used to make the change in light intensity and voltage within a certain range have a linear relationship. At this time, the light obtained Strong is just an analog value, which is then input to the PF0 port of ATmega64 for the next step of analog-to-digital conversion; in addition, similar to the photosensitive part, the temperature sensitive part uses a light bulb plus a thermosensitive resistor to simulate the temperature sensor; the humidity part uses pulse voltage frequency simulation Humidity, the humidity value we obtain at this time is already a digital quantity, which can be directly input into the PD6 port of ATmega64. The quantities we input will be used for subsequent display on the LM016L and for alarming when the set threshold is exceeded.&lt;/p&gt;
-&lt;p&gt;In addition, in the output part, we use LM016L for display, which displays digital quantities, and then switches the display and sets the alarm threshold through buttons.&lt;/p&gt;
-&lt;p&gt;For the working voltage part, except the buzzer alarm which uses DC +12V voltage, the rest uses the DC +5V voltage output by LM7805. Then the working voltage of ATmega64 is 4.5V to 5.5V, the working voltage of temperature and humidity sensor is 5V, the maximum working voltage of photodiode is generally 10 to 50V, the best working voltage of LM016L module is 5V, whichever of the above devices can work The voltage is 5V as the supply voltage. And due to the limitations of the device LM016L, the operating current is 2mA.&lt;/p&gt;
-&lt;h3 id=&#34;electrical-schematic-diagram&#34;&gt;Electrical schematic diagram:&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/1oRed6YiyKL5gED.jpg&#34; alt=&#34;7.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;printed-board-diagram&#34;&gt;Printed board diagram:&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/Oj1hZHAzsKUfklv.jpg&#34; alt=&#34;8.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>h) Communication Principle</title>
-      <link>https://example.com/project/external-project-copy-7/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-7/</guid>
-      <description>&lt;h3 id=&#34;i-functionality&#34;&gt;I. Functionality&lt;/h3&gt;
-&lt;h4 id=&#34;transmitter-side&#34;&gt;Transmitter Side:&lt;/h4&gt;
-&lt;p&gt;The user inputs the mathematical expression to be calculated through buttons.  The expression can include basic operations such as addition, subtraction, multiplication, and division (complex calculations can be added similarly). Then, the process of Encoding → Modulating → Sending is executed. After sending, the device immediately enters a waiting mode, awaiting a response from the receiver side.&lt;/p&gt;
-&lt;h4 id=&#34;receiver-side&#34;&gt;Receiver Side:&lt;/h4&gt;
-&lt;p&gt;The receiver side is in a waiting state from the start. Upon receiving a signal, it automatically performs demodulation, calculation, encoding, modulation, and then sends a response.&lt;/p&gt;
-&lt;h4 id=&#34;other-buttons&#34;&gt;Other Buttons:&lt;/h4&gt;
-&lt;p&gt;The &amp;ldquo;Carrier 1&amp;rdquo; and &amp;ldquo;Carrier 2&amp;rdquo; buttons can display the waveform of the carrier on the right side of the image. The processes of encoding, modulation, and reception will be shown on the waveform graph on the right side, displaying the time-domain waveform. The introduction button provides a simple explanation of the principles. The &amp;ldquo;stop&amp;rdquo; button is used to interrupt detection, and the &amp;ldquo;out&amp;rdquo; button is used to exit this window.&lt;/p&gt;
-&lt;h3 id=&#34;ii-principle-and-implementation&#34;&gt;II. Principle and implementation&lt;/h3&gt;
-&lt;h5 id=&#34;encoding&#34;&gt;Encoding&lt;/h5&gt;
-&lt;ol&gt;
-&lt;li&gt;Source Encoding:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;As shown in Figure, the wireless calculator is designed with 16 input buttons, which is the 4th power of 2.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Channel Encoding:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Why use Hamming encoding for the information bits? The answer is that Hamming encoding is an efficient linear block code capable of correcting single-bit errors. The 7,4 Hamming code adds three check bits to a group of 4-bit information bits and can correct minor errors through the calculation of syndromes or correction factors. This enhances the communication system&amp;rsquo;s resistance to interference, as detailed in the textbook on page 261.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Frame Synchronization and Protection Codes:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The purpose of frame synchronization is to determine the sampling moments for each bit. The frame synchronization code here is used to inform the receiving end when the valid information begins and to establish the starting moment for sampling. Barker codes, with their sharp autocorrelation peak, facilitate identification and minimize the likelihood of false synchronization. The receiver&amp;rsquo;s identification method is also simple, hence the choice of Barker codes as the true synchronization codes.&lt;/p&gt;
-&lt;p&gt;Given the variable length of the information bits transmitted in this system, the receiver cannot determine when to end sampling, so a Barker code is also added at the end to accurately extract the middle information bits. The role of the protection code is to&lt;/p&gt;
-&lt;p&gt;provide energy variation for the receiver to detect energy changes, and to prevent the delay in calculation from omitting useful information bits, offering the computer a buffer time.&lt;/p&gt;
-&lt;h4 id=&#34;modulation&#34;&gt;Modulation&lt;/h4&gt;
-&lt;p&gt;The modulation method is 2FSK.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;First, the sampling frequency needs to be determined. It is best if the sampling frequency is consistent with the MATLAB sound function, hence 8000Hz is chosen here.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Next, determine the bit transmission rate RB. Generally, a lower transmission rate results in higher accuracy but lower efficiency. Thus, a compromise is chosen at 100Hz. Given a sampling frequency of 8000, this means
-fs=100Hz and each bit is expanded to 80 samples (8000/80 = 100Hz). The normalized frequency is 0.025π, and the time-domain waveform and spectrum of the transmitted bits are as follows:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Then, determine the frequencies for carrier 1 and carrier 2. When selecting frequencies, it&amp;rsquo;s important that the main lobes of the frequency spectra for carrier 1 and carrier 2 overlap as little as possible after modulation. The width of the lobes on either side is fs, so there should be a gap of 2fs between the two carrier frequencies. Considering phase continuity, the frequencies should have an even ratio to simplify calculations and programming without the need to consider phase discontinuities. Furthermore, they should be below half the sampling frequency to satisfy the sampling theorem, i.e., below 4000Hz. Hence, 1000Hz and 2000Hz are chosen, with normalized frequencies of 0.25π and 0.5π respectively.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The modulation method involves modulating each bit (before expansion) into 80 points (corresponding to a sampling frequency of 8000, or 100Hz). If a bit is 1, then a 2000Hz sine wave repeating 20 times is used as the modulation waveform (2000/20=100Hz); if a bit is 0, then a 1000Hz sine wave repeating 10 times is used (1000/10=100Hz).&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;reception-and-demodulation&#34;&gt;Reception and Demodulation&lt;/h4&gt;
-&lt;p&gt;It is important to note that the steps for demodulation are the reverse of those for modulation and correspond one-to-one.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The reception uses an energy detection method, which is simply a process of multiplying corresponding elements of matrices and summing them up to check if they reach a threshold value.&lt;/li&gt;
-&lt;li&gt;2FSK Non-coherent Demodulation&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The choice of non-coherent demodulation for 2FSK arises from the fact that coherent demodulation involves a multiplication process. At the selection stage, non-coherent demodulation was chosen because if it involves multiplication, the chance of coding errors increases significantly, whereas non-coherent demodulation is primarily determined by filters, making its implementation simpler. Thus, non-coherent demodulation was used.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Decode&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;To decode, first locate the Barker codes at both ends and extract the data in between. This is done by comparing each received bit with the Barker code, using the XOR method to count the differences. If there are three or fewer differences from the Barker code, it is considered a match.&lt;/p&gt;
-&lt;p&gt;The removal of the Barker codes is followed by 7,4 Hamming decoding, which includes error correction.&lt;/p&gt;
-&lt;p&gt;The result represents a complete transmission process from the sender: encoding &amp;ndash;&amp;gt; modulation &amp;ndash;&amp;gt; transmission, and from the receiver: detection &amp;ndash;&amp;gt; demodulation &amp;ndash;&amp;gt; decoding. Afterwards, the receiver decodes the source information according to the bit information, calculates the result, and then performs encoding &amp;ndash;&amp;gt; modulation &amp;ndash;&amp;gt; transmission back to the sender. The process is generally the same as described above.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>i) Electronic system design and simulation</title>
-      <link>https://example.com/project/external-project-copy-9/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/external-project-copy-9/</guid>
-      <description>&lt;p&gt;I was particularly engaged by the electronic system design courses, since I could build up my practical capability and build on the theoretical. We also the used single chip microcomputer 80C51F020 to generate a digital sine wave that could control the amplitude and frequency changes via keyboard and output stable sine wave by 12-bit DAC. From the design and simulation of the hardware circuit, to the layout and welding of the circuit board, and then to the design and debugging of the software part of the MCU, we designed a digital synthesis signal device.&lt;/p&gt;
-&lt;h3 id=&#34;synopsis-of-digital-synthesizer-creation&#34;&gt;Synopsis of Digital Synthesizer Creation&lt;/h3&gt;
-&lt;h4 id=&#34;objective-and-innovation&#34;&gt;Objective and Innovation:&lt;/h4&gt;
-&lt;p&gt;At the core of this endeavor was the ambition to construct a digital synthesizer capable of generating sine waves, with enhanced user control over amplitude and frequency modulation. The project&amp;rsquo;s cornerstone was the adept use of the 80C51F020 microcontroller, showcasing an astute application of digital-to-analog conversion techniques to engineer precise and adjustable electronic signals.&lt;/p&gt;
-&lt;h3 id=&#34;technical-mastery-and-application&#34;&gt;Technical Mastery and Application&lt;/h3&gt;
-&lt;h4 id=&#34;signal-range-and-modulation&#34;&gt;Signal Range and Modulation:&lt;/h4&gt;
-&lt;p&gt;The project&amp;rsquo;s specification to adjust signal frequencies between 1Hz to 100Hz, alongside amplitude variations from 0.3V to 3Vp-p, demonstrates a rigorous and calculated approach to electronic signal manipulation. This precision underscores the team&amp;rsquo;s dedication to creating adaptable and user-centric electronic solutions.&lt;/p&gt;
-&lt;h4 id=&#34;microcontroller-utilization&#34;&gt;Microcontroller Utilization:&lt;/h4&gt;
-&lt;p&gt;Employing the C8051F020&amp;rsquo;s 12-bit DAC was a strategic choice, spotlighting the project&amp;rsquo;s innovative use of microcontroller capabilities to ensure signal accuracy. This decision reflects a harmonious fusion of software-driven logic with the tangible dynamics of hardware execution.&lt;/p&gt;
-&lt;h3 id=&#34;convergence-of-hardware-and-software-design&#34;&gt;Convergence of Hardware and Software Design&lt;/h3&gt;
-&lt;h4 id=&#34;comprehensive-system-development&#34;&gt;Comprehensive System Development:&lt;/h4&gt;
-&lt;p&gt;The project narrative delineates the transition from conceptual circuit design to the practical assembly and detailed microcontroller software debugging. This extensive process underscores the team&amp;rsquo;s proficiency in electronic system realization, encompassing a broad spectrum of engineering skills.&lt;/p&gt;
-&lt;h4 id=&#34;advanced-signal-processing&#34;&gt;Advanced Signal Processing:&lt;/h4&gt;
-&lt;p&gt;Utilizing MATLAB for generating sine wave samples and their quantization for DAC implementation is indicative of an advanced approach to signal processing. This methodology bridges theoretical concepts with real-world technological applications, enriching the project&amp;rsquo;s technical depth.&lt;/p&gt;
-&lt;h3 id=&#34;design-requirements-function-and-indicator-description&#34;&gt;Design requirements (function and indicator description)&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Signal frequency range: 1Hz-100Hz; step: 1Hz; accuracy: +/-5% (the above indicators are measured at room temperature)&lt;/li&gt;
-&lt;li&gt;Signal amplitude: 0.3V-3Vp-p; step: 0.1V; accuracy: +/-10% (the above indicators are measured at room temperature)&lt;/li&gt;
-&lt;li&gt;Load capacity: can drive 10 ohm pure group load&lt;/li&gt;
-&lt;li&gt;Frequency and amplitude can be displayed through LED digital tube (can be displayed alternately through indicator lights)&lt;/li&gt;
-&lt;li&gt;Effective when the keyboard is raised&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;system-hardware-schematic-diagram&#34;&gt;System hardware schematic diagram&lt;/h3&gt;
-&lt;p&gt;The following figure shows the simulation schematic diagram on Tina
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/O4shf9ECuUZPRji.jpg&#34; alt=&#34;9.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h3 id=&#34;key-technical-points-of-hardware-modules&#34;&gt;Key technical points of hardware modules&lt;/h3&gt;
-&lt;h4 id=&#34;dac-module&#34;&gt;DAC module&lt;/h4&gt;
-&lt;p&gt;This experiment uses C8051F020 built-in 12-bit voltage output DAC, which has the following main features:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;The voltage reference of each DAC is provided at the VREFD or VREF pin.
-
-Each DAC has a flexible output update mechanism that allows seamless full-scale changes and supports jitter-free output updates.
-
-The data and control interface between the MCU and each comparator and DAC are implemented through special registers
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The main indicators of DAC: 12bit resolution:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Output setup time: 10us
-
-Output voltage range: 0~VREF-1LSB
-
-Output short circuit current: 15mA
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And we tried to use Tina simulation software to build a DAC module that can output stepped sine waves, so that we can verify the feasibility of subsequent modules on the software, especially the quality of the filtering effect.&lt;/p&gt;
-&lt;h4 id=&#34;filter-module&#34;&gt;Filter module&lt;/h4&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/bzpsqN2tVjuGJAP.jpg&#34; alt=&#34;10.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-Generate a second-order Bessel low-pass filter through filter pro, and the parameter settings are as shown in the figure below.&lt;/p&gt;
-&lt;p&gt;This circuit module generates a clock signal, DACO generates a ladder signal, inputs an eighth-order ladder wave through DACO, and CLK inputs a clock signal of 100:1 (clock signal frequency: sinusoidal signal frequency) to achieve the function of the filter.&lt;/p&gt;
-&lt;p&gt;(1) The signal frequency is adjustable.
-The signal frequency is controlled by changing the frequency of the ladder signal generated by DACO and changing the frequency of the signal in the CLK generation formula through program control. The highest frequency output that can be achieved is 2000Hz, and it has stable frequency output.&lt;/p&gt;
-&lt;p&gt;(2) Signal phase modulation.&lt;/p&gt;
-&lt;p&gt;By selecting the DACO phase to output, digital phase modulation is achieved. The 0 phase is used when the number is 0 and the T phase is used when the number is 1.&lt;/p&gt;
-&lt;h4 id=&#34;power-amplifier-module&#34;&gt;Power amplifier module&lt;/h4&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/hE6OuMApUNWHior.jpg&#34; alt=&#34;11.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-A DC-blocking capacitor C4 is added before the power amplifier module to prevent the filter module and the power amplifier from affecting each other. , in order to prevent the base current from being too large and burning the transistor due to too small resistance, a 40k protection resistor is connected in series. The static operating current is determined by adjusting the resistance of this series resistor.&lt;/p&gt;
-&lt;p&gt;The function of the C5 and C4 capacitors is to isolate the DC path and allow AC to pass. The signal amplified by the transistor is coupled to R5 and R7 through C5, where test points are set for output testing. Due to the presence of R5, there will be a certain emitter voltage.&lt;/p&gt;
-&lt;h4 id=&#34;single-power-supply&#34;&gt;Single power supply&lt;/h4&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/YRwd5IVh1yurUHq.jpg&#34; alt=&#34;12.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-Dual power supply is suitable for AC signals to pass through, while single power supply is more suitable for unipolar (DC). However, considering the laboratory facilities and other reasons, the following processing can make it suitable for AC signals.&lt;/p&gt;
-&lt;p&gt;R4 and R2 divide the voltage to obtain 1/2 V+. This voltage is added to the input terminal of the op amp. Since C1 is equivalent to an open circuit under DC conditions, this 1/2 V+ only obtains a single gain. The output terminal of the op amp That is, the same voltage is obtained. Capacitors are used at the output for AC coupling.&lt;/p&gt;
-&lt;p&gt;When an AC signal is input, the output of the op amp forms a corresponding AC signal with 1/2 V+ as the baseline, and this AC signal can gain gain.
-Therefore, the single-supply power supply tries to establish 1/2 of V+ to obtain a single gain from the DC, and uses capacitors at the output for AC coupling so that it can also be suitable for AC signals.&lt;/p&gt;
-&lt;h3 id=&#34;system-software-block-diagram-and-overview&#34;&gt;System software block diagram and overview&lt;/h3&gt;
-&lt;h4 id=&#34;software-flow-chart&#34;&gt;Software flow chart:&lt;/h4&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/thJS1DaUprzZ3my.jpg&#34; alt=&#34;13.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h4 id=&#34;system-software-overview&#34;&gt;System software overview:&lt;/h4&gt;
-&lt;p&gt;This system is based on the signal waveform generator of the C8051F020 microcontroller. It uses the DAC0 of the microcontroller to control the output voltage. It uses timer 0, working mode 1, and a 16-bit timer. The count value of the timer is reloaded every time it is interrupted, and the timer is reloaded according to the advance settings. A certain sine wave sampling array is used to change the DAC0 output to obtain a sine waveform, and then the final waveform is obtained through hardware circuit filtering and power amplifier.&lt;/p&gt;
-&lt;p&gt;①Generate sine wave sampling array&lt;/p&gt;
-&lt;p&gt;We use MATLAB to obtain sine wave sampling data within a period. In order to normalize the amplitude, we first set the sine wave amplitude to 1V, sample 256 points, and then use MATLAB&amp;rsquo;s quantizer function to map the value to 0~4096. In this way, when changing the amplitude of the sine wave, multiply the array value by the voltage value to get the corresponding voltage amplitude. To change the frequency, you only need to set the corresponding timer period and output the array value after changing the voltage amplitude in sequence.&lt;/p&gt;
-&lt;p&gt;②System initialization&lt;/p&gt;
-&lt;p&gt;③Frequency, amplitude addition and subtraction step control and display&lt;/p&gt;
-&lt;p&gt;Since step control only requires 4 keys for frequency addition and subtraction and amplitude addition and subtraction, we only use the first row of the keyboard. The two on the left are for frequency addition and subtraction, and the two on the right are for amplitude addition and subtraction. The principle of changing the frequency and amplitude is to first change the flag bit, and then change the size according to the flag bit. This makes the code structure clearer, and can display the corresponding frequency amplitude according to the flag bit. The four-digit digital tube on the left displays the frequency, and the two on the right Bit display amplitude.&lt;/p&gt;
-&lt;p&gt;The more important part is the frequency change. Because of the limitations of the clock frequency and DAC settling time, different numbers of sampling points need to be set. We set it to 256 sampling points when the frequency is less than 100Hz. When the frequency is greater than 100Hz and less than 500Hz, There are 64 sampling points. When the frequency is greater than 500Hz, there are 32 sampling points. The specific algorithm is: timer count value = 65536 - clock frequency ÷ (number of sampling points × frequency size). For example, 1KHz, clock frequency is 2M, timer count value = 65536-200000÷(32×1000).&lt;/p&gt;
-&lt;p&gt;④Interrupt service routine&lt;/p&gt;
-&lt;p&gt;The interrupt service program is used to reload the timer count value regularly, take out the next sine wave sample value according to the frequency step parameter, change the DAC output voltage, and then scan a digital tube every ten interrupts.&lt;/p&gt;
-&lt;h3 id=&#34;epilogue&#34;&gt;Epilogue&lt;/h3&gt;
-&lt;p&gt;The Digital Signal Generator project exemplifies the seamless integration of theoretical knowledge and practical expertise in electronic system design. By navigating the complexities of signal generation, modulation, and the synthesis of hardware with software, the team not only underscored their engineering acumen but also embraced a philosophy of lifelong learning and innovation. This project serves not just as a showcase of applied electronic principles but as a testament to the ongoing journey of knowledge acquisition and application in the engineering realm, paving the way for future advancements in the field.&lt;/p&gt;
 </description>
     </item>
     
