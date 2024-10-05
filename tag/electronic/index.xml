@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Electronic system design</title>
+      <title>Develop a tracking and obstacle avoidance car based on STM32</title>
       <link>https://example.com/project/external-project-copy/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy/</guid>
@@ -33,7 +33,7 @@
     </item>
     
     <item>
-      <title>Proteus electronic system design and simulation</title>
+      <title>Temperature and humidity alarm &amp; light intensity display</title>
       <link>https://example.com/project/external-project-copy-5/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-5/</guid>
@@ -90,7 +90,7 @@
     </item>
     
     <item>
-      <title>Communication Principle</title>
+      <title>Wireless calculator design</title>
       <link>https://example.com/project/external-project-copy-7/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-7/</guid>
@@ -151,7 +151,7 @@ fs=100Hz and each bit is expanded to 80 samples (8000/80 = 100Hz). The normalize
     </item>
     
     <item>
-      <title>Electronic system design and simulation</title>
+      <title>Digital Synthesizer</title>
       <link>https://example.com/project/external-project-copy-9/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-9/</guid>

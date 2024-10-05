@@ -3,19 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/tag/artificial-intelligence/</loc>
-    <lastmod>2024-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/project/external-project-copy-4/</loc>
-    <lastmod>2024-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/project/</loc>
-    <lastmod>2024-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2024-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/project/external-project-copy-6/</loc>
+    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/project/external-project-copy-10/</loc>
+    <lastmod>2024-06-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/preprint/</loc>
@@ -58,11 +66,11 @@
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/electronic/</loc>
+    <loc>https://example.com/project/external-project-copy/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/external-project-copy/</loc>
+    <loc>https://example.com/tag/electronic/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

@@ -5,7 +5,7 @@
     <link>https://example.com/tag/artificial-intelligence/</link>
       <atom:link href="https://example.com/tag/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <description>Artificial Intelligence</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Artificial Intelligence</title>
@@ -13,15 +13,15 @@
     </image>
     
     <item>
-      <title>Master’s thesis project</title>
+      <title>Machine learning for 3D segmentation of large datasets to detect normal and pathological hearts</title>
       <link>https://example.com/project/external-project-copy-4/</link>
-      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-4/</guid>
-      <description>&lt;h1 id=&#34;project-specification&#34;&gt;Project Specification&lt;/h1&gt;
-&lt;p&gt;Cardiovascular disease (CVD) is well recognized as the leading cause of death and a significant danger to global public health. In 2016, the World Health Organization reported that CVD was responsible for 31% of all annual deaths, totaling over 18 million individuals, with a continuous increase each year [1]. Recently, the medical field has consistently worked to decrease the death rate from heart illness and enhance the diagnosis of cardiac conditions.&lt;/p&gt;
-&lt;p&gt;Mammalian models, including pigs, non-human primates, and rodents, have been primarily utilized to study the processes of heart disease. Conversely, there is a growing trend to decrease the utilization of mammals for research purposes and implement alternative models.
-Zebrafish have emerged as a robust model for investigating heart development and morphology based on recent advancements, because Zebrafish are tiny, easy to breed, reach sexual maturity early, and have external translucent embryo development for easy viewing [2]. The cardiovascular system of zebrafish is similar to that of mammals in terms of anatomy and physiological function. The heart of zebrafish is also composed of atria and ventricle, with the valve between the atria and the ventricle. The development and gene regulation mechanism of the heart are also similar to human [3]. Although the zebrafish heart is relatively simple compared to mammals, most specialized cell types and structures (e.g., pacemaker, atrioventricular valve, aortic valve, trabeculae, and coronary vessels) and contributing cell types (myocardium, endocardium, epicardium, cardiac neural crest, second heart field, and fibroblasts) are preserved [4].&lt;/p&gt;
-&lt;p&gt;At the same time, more advanced imaging methods in medical image can also promote the advancement of cardiovascular diagnosis and research. For example, with the help of advanced technologies such as light-sheet fluorescence microscopy (LSFM) (as shown in Figure 1(a)), medical researchers can obtain higher quality and resolution cardiac images. Unlike traditional epifluorescence microscopy (as shown in Figure 1(b)), LSFM uses orthogonal independent excitation and detection light paths to thinly illuminate the sample from the side, excite only the fluorescence in the sample, and then detect the image in the orthogonal direction [5]. This method effectively avoids the impact of out-of-focus background on image quality, improves imaging contrast, and makes in-depth research and accurate diagnosis of heart disease possible.
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Single-cell analysis helps to detect pathological tissue in biological images, which relies heavily on accurate 3D segmentation. However, current algorithms show unstable performance on variable data and specific imaging methods, e.g., Light-Sheet Fluorescence Microscopy (LSFM). This study presents a workflow from 4D reconstruction to 3D segmentation and single-cell analysis, with datasets of 48-hour post-fertilization (hpf) zebrafish embryonic hearts. Contributions conclude two innovative segmentation backbones: one integrates 3D U-Net with Kolmogorov-Arnold Networks (KANs), named 3D U-KANs; the other develops a 3D ResNet50 Encoder, achieving accuracy improvements of 2 and 4 percentage points, respectively, suited for LSFM especially. Precise segmentation results enable single-cell tracking and analysis, making sense for pathological assessments and promising insights to represent functional changes and regional biomechanics during cardiac development and regeneration.&lt;/p&gt;
+&lt;h5 id=&#34;key-words-machine-learning-4d-reconstruction-segmentation-tracking-zebrafish-single-cell-analysis&#34;&gt;KEY WORDS: Machine Learning, 4D Reconstruction, Segmentation, Tracking, Zebrafish, Single-cell Analysis&lt;/h5&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Cardiac structure and function rely on the coordination between cells [1]. Therefore, investigating the movement and mechanical properties at the single-cell level [2] is crucial for assessing normal and pathological hearts. Zebrafish has been widely used in cardiovascular research, serving as an excellent model to dissect the genetic and developmental underpinnings due to its transparency, genetic similarities and tractability [3]. Advanced imaging systems, such as Light-Sheet Fluorescence Microscopy (LSFM), further facilitate cardiovascular research. LSFM, as shown in Fig.1 (A), enables multi-scale imaging with high temporal resolution and low phototoxicity [4], making it ideal for capturing dynamic behavior in living hearts.
 
 
 
@@ -40,30 +40,280 @@ Zebrafish have emerged as a robust model for investigating heart development and
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/03/27/yLUxDISadWnzYQK.jpg&#34; alt=&#34;6.jpg&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/tdaFSO5czMx8emX.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
-The application of LSFM mainly focuses on three aspects: cell biology [7]‌, developmental biology [8] and neuroscience [9]. As the first functional organ formed during mammalian embryonic development, the heart is a key driving force for the development of other tissues and organs. In order to better understand cardiac morphogenesis and to more effectively treat cardiovascular diseases, many researchers use this microscope to study the heart. Yue et al. used light-sheet imaging technology to reconstruct the whole cell lineage with single-cell resolution and temporal continuity [10]. They reported for the first time a panoramic view of the cell lineage during the early development of the mammalian heart, revealing the process from the origin of the heart tube to the establishment of the ventricle, and then to a new mechanism of cellular dynamics of myotrabecular formation; Lovelace et al. used the HYBRiD tissue clearing method and high-resolution light sheet microscopy to observe the distribution of a large number of NPY2R VSN fibers in the ventricular wall, providing an intuitive experimental model for in-depth exploration of cardiac sensory neurons in physiological and pathological states [11].&lt;/p&gt;
-&lt;p&gt;Cardiac image segmentation is a critical step in processing cardiac images. With the continuous advancement of deep learning algorithms, it has become possible to divide images into anatomically meaningful regions and extract quantitative measurements from them. However, although deep learning has better feature recognition and extraction capabilities than traditional methods, medical image segmentation poses significant challenges due to the complexity of medical images, such as class imbalance, interference from neighboring organs, lack of high-quality annotations, and label noise. Over the years, segmentation algorithms based on models such as convolutional neural networks (CNN) [12] and fully convolutional networks (FCN) [13] have continued to advance.&lt;/p&gt;
-&lt;p&gt;This project aims to develop a data analysis pipeline to segment normal and pathological hearts based on their 3D morphological changes. First, this project will develop an image analysis method to reconstruct 2D time series into 4D data and robustly quantify the 3D morphology of the heart using the large 2D imaging data set collected by the Vermot Laboratory. Subsequently, the project will develop and train a segmentation network based on deep learning to identify cell nuclei and track position based on time changes, thereby achieving 3D image segmentation of large image stacks.&lt;/p&gt;
-&lt;p&gt;The project is based on several key assumptions:&lt;/p&gt;
-&lt;p&gt;It is assumed that a 4D representation of the endocardium can be accurately reconstructed from the available 2D data and that this 4D representation allows us to perform an analysis of endocardial deformation.&lt;/p&gt;
-&lt;p&gt;It is assumed that imaging conditions (e.g., light intensity, temperature, and sample handling) have been optimized and controlled not to affect the volume and movement of nuclei within cardiac tissue.&lt;/p&gt;
-&lt;p&gt;These basic assumptions will serve as the basis for this project.&lt;/p&gt;
+Recent studies on LSFM demonstrate its utility in 4D (3D plus time series, 3D+T) reconstruction, providing powerful tools to quantify and analyze intricate dynamics of the living hearts [6]. Taylor et al. [7] introduced an adaptive prospective optical gating technique, which can continuously capture embryonic zebrafish heart images throughout the day. Liebling et al. [8] developed a post-acquisition synchronization technique that can reconstruct cardiac dynamics from ungated slice sequences, while Mickoleit et al. [9] demonstrated how high-resolution reconstruction can reveal the micro-architecture and functionality of zebrafish hearts.&lt;/p&gt;
+&lt;p&gt;With in vivo imaging advancements, numerous analytical tools are designed to explore cellular dynamics within 3D volumes. DeepCell 2.0 [10], 3DeeCellTracker [11], and Cellpose [12] are automated pipelines for cell segmentation and tracking. Frameworks like FlowNet [13] and FlowNet 2.0 [14] also provide robust tracking, specifically designed for rapid and irregular cellular movements. These methods are all comprehensive toolkits developed for dynamic analysis at the single-cell level, suited for cardiac development and function research.&lt;/p&gt;
+&lt;p&gt;However, densely packed and rapidly moving cells severely challenge this single-cell analysis in 3D+T images, which relies heavily on accurate 3D segmentation. The U-Net [15] has become the cornerstone of medical segmentation since 2015, which leverages an encoder-decoder structure to capture local features and reconstruct them into precise segmentation maps. However, traditional convolution shows significant limitations [16] when facing difficulties [17], such as complex shapes of organs and tissues, highly nonlinear relationships between anatomical regions, and the noise introduced by imaging processes and sample motion, especially for modeling among 3D volumes. Additionally, preparing training data is challenging [18], especially for specific imaging conditions, and parameter optimization is often inevitable for different samples [11], even within the same optical system.&lt;/p&gt;
+&lt;p&gt;To address the gap and match LSFM characteristics, this study introduces two innovative segmentation backbones. The first integrates Kolmogorov-Arnold Networks (KANs) [19] into a 3D U-Net [20], forming a new architecture named 3D U-KANs. The second develops a 3D ResNet50 [21] Encoder to extract features. Both are trained on the self-constructed dataset, specifically for the LSFM imaging system.&lt;/p&gt;
+&lt;p&gt;The main contributions of this study are summarized as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;3D U-KANs is the first network to integrate KANs into U-Net architecture for 3D medical image segmentation; 3D ResNet50 Encoder replaces the traditional downsampling and upsampling process, reducing the network complexity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Accuracy tests on multi-sample datasets show performance improvement with 2 percentage points for 3D U-KANs and 4 points for 3D ResNet50 Encoder, and great generalization, especially for the LSFM system. Tracking and single-cell analysis based on the segmented volumes further verify their effectiveness and application value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The study implements a pipeline, integrating high-dimensional data reconstruction, advanced segmentation algorithms, and quantitative analysis. The workflow facilitates dynamics analysis at the single-cell level and provides insights into functional changes and regional biomechanics during cardiac development and regeneration, as well as cardiovascular disease research.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;figures-and-tables&#34;&gt;Figures and Tables&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/qhs9bYcjp2EIxiM.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/ZDVmbh7iXRGc5w8.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/RXebVO1s8gWhkKw.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/aqCKnPXsWyYvf5E.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/ZLX52HwFmDVWepU.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/WghXfl4DELzjbPd.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/Ik3bxBMHWt1mJK8.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/BJ7eIPCDGZqHSdQ.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/6tWPVFSqMJg97Eb.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/mrXz6v9poIud7BU.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://s2.loli.net/2024/10/05/zE7imeT5DIwfonA.png&#34; alt=&#34;image.png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
-&lt;p&gt;[1] &lt;a href=&#34;https://www.who.int&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.who.int&lt;/a&gt;. (n.d.). Cardiovascular diseases (CVDs). [online] Available at: &lt;a href=&#34;https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-%28cvds%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.who.int/zh/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)&lt;/a&gt;.‌&lt;/p&gt;
-&lt;p&gt;[2] Kemmler, C.L., Riemslagh, F.W., Moran, H.R. and Mosimann, C. (2021). From Stripes to a Beating Heart: Early Cardiac Development in Zebrafish. Journal of Cardiovascular Development and Disease, [online] 8(2), p.17. doi:https://doi.org/10.3390/jcdd8020017.&lt;/p&gt;
-&lt;p&gt;[3] Brown, D., Samsa, L., Qian, L. and Liu, J. (2016). Advances in the Study of Heart Development and Disease Using Zebrafish. Journal of Cardiovascular Development and Disease, [online] 3(2), p.13. doi:https://doi.org/10.3390/jcdd3020013.&lt;/p&gt;
-&lt;p&gt;[4] Bowley, G., Kugler, E., Wilkinson, R., Lawrie, A., Eeden, F., Chico, T.J.A., Evans, P.C., Noël, E.S. and Serbanovic‐Canic, J. (2021). Zebrafish as a tractable model of human cardiovascular disease. British Journal of Pharmacology, 179(5), pp.900–917. doi:https://doi.org/10.1111/bph.15473.‌&lt;/p&gt;
-&lt;p&gt;[5] Jianshu. (2017). Science Technology Review: Photoacoustic Imaging. [online] Available at: &lt;a href=&#34;https://www.jianshu.com/p/a1fae8c482fa&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/p/a1fae8c482fa&lt;/a&gt; [Accessed 28 Feb. 2024].&lt;/p&gt;
-&lt;p&gt;[6] skltop.opt.ac.cn. (n.d.). [Cover] Yao Baoli: Long-term three-dimensional imaging of living samples—Light-sheet fluorescence microscopy—State Key Laboratory of Transient Optics and Photonics Technology. [online ] Available at: &lt;a href=&#34;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529_562245.html&lt;/a&gt; [Accessed 24 Feb. 2024].‌&lt;/p&gt;
-&lt;p&gt;[7] Chen, B.-C., Legant, W.R., Wang, K., Shao, L., Milkie, D.E., Davidson, M.W., Janetopoulos, C., Wu, X.S., Hammer, J.A., Liu, Z., English, B.P., Mimori-Kiyosue, Y., Romero, D.P., Ritter, A.T., Lippincott-Schwartz, J., Fritz-Laylin, L., Mullins, R.D., Mitchell, D.M., Bembenek, J.N. and Reymann, A.-C. (2014). Lattice light-sheet microscopy: Imaging molecules to embryos at high spatiotemporal resolution. Science, 346(6208), p.1257998. doi:https://doi.org/10.1126/science.1257998.&lt;/p&gt;
-&lt;p&gt;[8] Stelzer, E.H.K. (2014). Light-sheet fluorescence microscopy for quantitative biology. Nature Methods, 12(1), pp.23–26. doi:https://doi.org/10.1038/nmeth.3219.&lt;/p&gt;
-&lt;p&gt;[9] Gao, R., Asano, S.M., Upadhyayula, S., Pisarev, I., Milkie, D.E., Liu, T.-L., Singh, V., Graves, A., Huynh, G.H., Zhao, Y., Bogovic, J., Colonell, J., Ott, C.M., Zugates, C., Tappan, S., Rodriguez, A., Mosaliganti, K.R., Sheu, S.-H., Pasolli, H.A. and Pang, S. (2019). Cortical column and whole-brain imaging with molecular contrast and nanoscale resolution. Science, 363(6424), p.eaau8302. doi:https://doi.org/10.1126/science.aau8302.&lt;/p&gt;
-&lt;p&gt;[10] Yue, Y., Zong, W., Li, X., Li, J., Zhang, Y., Wu, R., Liu, Y., Cui, J., Wang, Q., Bian, Y., Yu, X., Liu, Y., Tan, G., Zhang, Y., Zhao, G., Zhou, B., Chen, L., Xiao, W., Cheng, H. and He, A. (2020). Long-term, in toto live imaging of cardiomyocyte behaviour during mouse ventricle chamber formation at single-cell resolution. Nature Cell Biology, 22(3), pp.332–340. doi:https://doi.org/10.1038/s41556-020-0475-2.&lt;/p&gt;
-&lt;p&gt;[11] Lovelace, J.W., Ma, J., Yadav, S., Chhabria, K., Shen, H., Pang, Z., Qi, T., Sehgal, R., Zhang, Y., Bali, T., Vaissiere, T., Tan, S., Liu, Y., Rumbaugh, G., Ye, L., Kleinfeld, D., Stringer, C. and Augustine, V. (2023). Vagal sensory neurons mediate the Bezold–Jarisch reflex and induce syncope. Nature, [online] pp.1–10. doi:https://doi.org/10.1038/s41586-023-06680-7.&lt;/p&gt;
-&lt;p&gt;[12] Jaswal, D., V, S. and Soman, K.P. (2014). Image Classification Using Convolutional Neural Networks. International Journal of Scientific and Engineering Research, 5(6), pp.1661–1668. doi:https://doi.org/10.14299/ijser.2014.06.002‌&lt;/p&gt;
-&lt;p&gt;[13] Long, J., Shelhamer, E. and Darrell, T. (2015). Fully convolutional networks for semantic segmentation. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). [online] doi:https://doi.org/10.1109/cvpr.2015.7298965.&lt;/p&gt;
+&lt;p&gt;[1] De Mello, W.C.: Heart failure: how important is cellular sequestration? the role of the renin–angiotensin–aldosterone system. Journal of molecular and cellular cardiology 37(2), 431–438 (2004)&lt;/p&gt;
+&lt;p&gt;[2] Miranda, A.M., Janbandhu, V., Maatz, H., Kanemaru, K., Cranley, J., Teichmann, S.A., H¨ubner, N., Schneider, M.D., Harvey, R.P., Noseda, M.: Single-cell transcriptomics for the assessment of cardiac disease. Nature Reviews Cardiology 20(5), 289–308 (2023)&lt;/p&gt;
+&lt;p&gt;[3] Liu, J., Stainier, D.Y.: Zebrafish in the study of early cardiac development. Circulation research 110(6), 870–874 (2012)&lt;/p&gt;
+&lt;p&gt;[4] Weber, M., Huisken, J.: In vivo imaging of cardiac development and function in zebrafish using light sheet microscopy. Swiss medical weekly 145(5152), 14227–14227 (2015)&lt;/p&gt;
+&lt;p&gt;[5] Baoli, Y.: Long-term three-dimensional imaging of living samples—Light-sheet fluo- rescence microscopy—State Key Laboratory of Transient Optics and Photonics Technology. [Online]. &lt;a href=&#34;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529&lt;/a&gt; 562245.html&lt;/p&gt;
+&lt;p&gt;[6] Vedula, V., Lee, J., Xu, H., Kuo, C.-C.J., Hsiai, T.K., Marsden, A.L.: A method to quantify mechanobiologic forces during zebrafish cardiac development using 4-d light sheet imaging and computational modeling. PLoS computational biology 13(10), 1005828 (2017)&lt;/p&gt;
+&lt;p&gt;[7] Taylor, J.M., Nelson, C.J., Bruton, F.A., Kaveh, A., Buckley, C., Tucker, C.S., Rossi, A.G., Mullins, J.J., Denvir, M.A.: Adaptive prospective optical gating enables day-long 3d time-lapse imaging of the beating embryonic zebrafish heart. Nature communications 10(1), 5173 (2019)&lt;/p&gt;
+&lt;p&gt;[8] Liebling, M., Forouhar, A., Gharib, M., Fraser, S., Dickinson, M.: Four-dimensional cardiac imaging in living embryos via postacquisition synchronization of nongated slice sequences. Journal of biomedical optics 10, 054001 (2005)&lt;/p&gt;
+&lt;p&gt;[9] Mickoleit, M., Schmid, B., Weber, M., Fahrbach, F.O., Hombach, S., Reischauer, S., Huisken, J.: High-resolution reconstruction of the beating zebrafish heart. Nature methods 11(9), 919–922 (2014)&lt;/p&gt;
+&lt;p&gt;[10] Bannon, D., Moen, E., Borba, E., Ho, A., Camplisson, I., Chang, B., Osterman, E., Graf, W., Van Valen, D.: Deepcell 2.0: Automated cloud deployment of deep learning models for large-scale cellular image analysis. BioRxiv 12, 505032 (2018)&lt;/p&gt;
+&lt;p&gt;[11] Wen, C., Miura, T., Voleti, V., Yamaguchi, K., Tsutsumi, M., Yamamoto, K., Otomo, K., Fujie, Y., Teramoto, T., Ishihara, T., et al.: 3deecelltracker, a deep learning-based pipeline for segmenting and tracking cells in 3d time lapse images. Elife 10, 59187 (2021)&lt;/p&gt;
+&lt;p&gt;[12] Stringer, C., Wang, T., Michaelos, M., Pachitariu, M.: Cellpose: a generalist algorithm for cellular segmentation. Nature methods 18(1), 100–106 (2021)&lt;/p&gt;
+&lt;p&gt;[13] Dosovitskiy, A., Fischer, P., Ilg, E., Hausser, P., Hazirbas, C., Golkov, V., Van Der Smagt, P., Cremers, D., Brox, T.: Flownet: Learning optical flow with convolutional networks. In: Proceedings of the IEEE International Conference on Computer Vision,
+pp. 2758–2766 (2015)&lt;/p&gt;
+&lt;p&gt;[14] Ilg, E., Mayer, N., Saikia, T., Keuper, M., Dosovitskiy, A., Brox, T.: Flownet 2.0: Evolution of optical flow estimation with deep networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2462–2470 (2017)&lt;/p&gt;
+&lt;p&gt;[15] Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolutional networks for biomedical image segmentation. In: Medical Image Computing and Computer-assisted intervention–MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18, pp. 234–241 (2015). Springer&lt;/p&gt;
+&lt;p&gt;[16] Chen, J., Lu, Y., Yu, Q., Luo, X., Adeli, E., Wang, Y., Lu, L., Yuille, A.L., Zhou, Y.: Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306 (2021)&lt;/p&gt;
+&lt;p&gt;[17] Ma, Z., Tavares, J.M.R., Jorge, R.N.: A review on the current segmentation algorithms for medical images. In: International Conference on Imaging Theory and Applications, vol. 1, pp. 135–140 (2009). SciTePress&lt;/p&gt;
+&lt;p&gt;[18] Zheng, H., Zhang, Y., Yang, L., Wang, C., Chen, D.Z.: An annotation sparsification strategy for 3d medical image segmentation via representative selection and self-training. In: Proceedings of the AAAI Conference on Artificial Intelligence, vol. 34, pp. 6925–6932 (2020)&lt;/p&gt;
+&lt;p&gt;[19] Liu, Z., Wang, Y., Vaidya, S., Ruehle, F., Halverson, J., Soljaˇci´c, M., Hou, T.Y., Tegmark, M.: Kan: Kolmogorov-arnold networks. arXiv preprint arXiv:2404.19756 (2024)&lt;/p&gt;
+&lt;p&gt;[20] C¸ ic¸ek, ¨O., Abdulkadir, A., Lienkamp, S.S., Brox, T., Ronneberger, O.: 3d u-net: learning dense volumetric segmentation from sparse annotation. In: Medical Image Computing and Computer-Assisted Intervention–MICCAI 2016: 19th International Conference, Athens, Greece, October 17-21, 2016, Proceedings, Part II 19, pp. 424–432 (2016). Springer&lt;/p&gt;
+&lt;p&gt;[21] Mukti, I.Z., Biswas, D.: Transfer learning based plant diseases detection using resnet50. In: 2019 4th International Conference on Electrical Information and Communication Technology (EICT), pp. 1–6 (2019). IEEE&lt;/p&gt;
 &lt;p&gt;‌&lt;/p&gt;
 &lt;p&gt;‌
 ‌&lt;/p&gt;
@@ -71,7 +321,35 @@ The application of LSFM mainly focuses on three aspects: cell biology [7]‌, de
     </item>
     
     <item>
-      <title>Undergraduate graduation project</title>
+      <title>Multimodal Model for Esophageal Cancer Diagnosis</title>
+      <link>https://example.com/project/external-project-copy-6/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-6/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Multidisciplinary treatment (MDT) integrates experts across fields to deliver comprehensive, personalized treatment plans, particularly enhancing cancer care by improving diagnostic precision and treatment strategies. Its growing adoption underscores its value, forecasting wider implementation in future healthcare. This approach also analyzes the integration of multi-modal data, presenting new challenges and opportunities for AI-assisted diagnosis and treatment, with multitask models emerging as a response to evolving medical needs. In clinical practice, accurate tumor segmentation—providing essential data on tumor size, shape, and volume—is vital for staging and assessing progression, while recurrence and prognosis assessments are crucial for tailoring treatments to patient-specific risks, thus enhancing outcomes and survival rates. Currently, there&amp;rsquo;s a gap in models capable of simultaneously handling multiple tasks, especially in esophageal cancer diagnosis and treatment, where interactions between tasks lack thorough exploration. Addressing this, our study introduces a multi-task prediction model for esophageal cancer, combining segmentation with risk recurrence and survival analysis through a dual attention mechanism. This model leverages task interactivity to enhance performance, offering significant clinical benefits in diagnosing and treating esophageal cancer.&lt;/p&gt;
+&lt;h5 id=&#34;key-words-esophageal-cancer-image-segmentation-prediction-multi-modal-model-multi-task-model&#34;&gt;KEY WORDS: Esophageal Cancer, Image Segmentation, Prediction, Multi-modal Model, Multi-task Model.&lt;/h5&gt;
+&lt;p&gt;‌&lt;/p&gt;
+&lt;p&gt;‌
+‌&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of Biochips for Genetic Diagnosis</title>
+      <link>https://example.com/project/external-project-copy-10/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project-copy-10/</guid>
+      <description>&lt;h1 id=&#34;project-specification&#34;&gt;Project Specification&lt;/h1&gt;
+&lt;p&gt;This project utilizes advanced Microfluidic Integration Systems (MFIS) and Surface Enhanced Raman Scattering (SERS) technology, integrated into a single biochip, which enables the excitation and detection of specific biomarkers at various wavelengths, significantly enhancing detection sensitivity. Moreover, the project has developed an innovative gene sequencing technology that can directly and quickly identify and classify hundreds of pathogens and genetic mutations from DNA samples on the chip.&lt;/p&gt;
+&lt;p&gt;The core goal of the project is to develop an efficient gene detection biochip, combined with a large-scale data analysis platform, to achieve in-depth interpretation of genetic data. The chip is responsible for collecting and initially processing gene locus information, while complex data analysis tasks, such as gene mutation identification, gene association analysis, and disease prediction, are handled by the backend big data platform. We optimize these analysis processes using deep learning algorithms to ensure real-time processing and feedback of data transmitted from the chip. The platform not only supports general genetic data analysis but can also develop customized diagnostic and predictive models for specific diseases. This architectural design allows the chip to focus on efficient gene detection, with data processing handled by the backend platform, ensuring system flexibility and scalability.&lt;/p&gt;
+&lt;p&gt;‌&lt;/p&gt;
+&lt;p&gt;‌
+‌&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human Action Recognition Module Design and Embedded AI Transplantation in Video Surveillance Systems</title>
       <link>https://example.com/project/external-project-copy-3/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-3/</guid>
@@ -85,7 +363,7 @@ The application of LSFM mainly focuses on three aspects: cell biology [7]‌, de
     </item>
     
     <item>
-      <title>Innovation &amp; Entrepreneurship Training Program for College Students</title>
+      <title>Development of Intelligent Crutch Based on STM 32</title>
       <link>https://example.com/project/external-project/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project/</guid>
@@ -278,7 +556,7 @@ Initially, it&amp;rsquo;s necessary to initialize the UART, delay functions, and
     </item>
     
     <item>
-      <title>Machine learning and visual perception</title>
+      <title>Epidemic prevention and control system for elevators</title>
       <link>https://example.com/project/external-project-copy-8/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/external-project-copy-8/</guid>
