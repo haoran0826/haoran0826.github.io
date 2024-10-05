@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
+    <title>Haoran Hou</title>
     <link>https://example.com/</link>
       <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <description>Haoran Hou</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hua5f2bc1be94a27fc4b0ce6fbdb9af4d8_18144_512x512_fill_lanczos_center_3.png</url>
-      <title>Academic</title>
+      <title>Haoran Hou</title>
       <link>https://example.com/</link>
     </image>
     
@@ -1123,7 +1123,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-287351649&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-156723489&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1133,7 +1133,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-287351649&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-156723489&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
