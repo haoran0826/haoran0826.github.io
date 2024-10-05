@@ -296,7 +296,7 @@ Recent studies on LSFM demonstrate its utility in 4D (3D plus time series, 3D+T)
 &lt;p&gt;[2] Miranda, A.M., Janbandhu, V., Maatz, H., Kanemaru, K., Cranley, J., Teichmann, S.A., H¨ubner, N., Schneider, M.D., Harvey, R.P., Noseda, M.: Single-cell transcriptomics for the assessment of cardiac disease. Nature Reviews Cardiology 20(5), 289–308 (2023)&lt;/p&gt;
 &lt;p&gt;[3] Liu, J., Stainier, D.Y.: Zebrafish in the study of early cardiac development. Circulation research 110(6), 870–874 (2012)&lt;/p&gt;
 &lt;p&gt;[4] Weber, M., Huisken, J.: In vivo imaging of cardiac development and function in zebrafish using light sheet microscopy. Swiss medical weekly 145(5152), 14227–14227 (2015)&lt;/p&gt;
-&lt;p&gt;[5] Baoli, Y.: Long-term three-dimensional imaging of living samples—Light-sheet fluo- rescence microscopy—State Key Laboratory of Transient Optics and Photonics Technology. [Online]. &lt;a href=&#34;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529&lt;/a&gt; 562245.html&lt;/p&gt;
+&lt;p&gt;[5] Baoli, Y.: Long-term three-dimensional imaging of living samples—Light-sheet fluo- rescence microscopy—State Key Laboratory of Transient Optics and Photonics Technology. [Online]. &lt;a href=&#34;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529562245.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://skltop.opt.ac.cn/kycg/kyjz/202005/t20200529562245.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[6] Vedula, V., Lee, J., Xu, H., Kuo, C.-C.J., Hsiai, T.K., Marsden, A.L.: A method to quantify mechanobiologic forces during zebrafish cardiac development using 4-d light sheet imaging and computational modeling. PLoS computational biology 13(10), 1005828 (2017)&lt;/p&gt;
 &lt;p&gt;[7] Taylor, J.M., Nelson, C.J., Bruton, F.A., Kaveh, A., Buckley, C., Tucker, C.S., Rossi, A.G., Mullins, J.J., Denvir, M.A.: Adaptive prospective optical gating enables day-long 3d time-lapse imaging of the beating embryonic zebrafish heart. Nature communications 10(1), 5173 (2019)&lt;/p&gt;
 &lt;p&gt;[8] Liebling, M., Forouhar, A., Gharib, M., Fraser, S., Dickinson, M.: Four-dimensional cardiac imaging in living embryos via postacquisition synchronization of nongated slice sequences. Journal of biomedical optics 10, 054001 (2005)&lt;/p&gt;
@@ -1123,7 +1123,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-175682943&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-256839174&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1133,7 +1133,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-175682943&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-256839174&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
